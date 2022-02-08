@@ -1,0 +1,19 @@
+<!--
+################################################
+# xDevStudio Project - xdev@kssoftware.com.br  #
+# Created @ 04/08/2012 16:12:46                #
+#                                              #
+### Standard xDev TagList - Layout v1.5 ########
+-->
+<taglist>
+   <tag filename="C:\PRJ\PrjxH\CFE\cfe.prg" name="Xchar_asc" args=" " scope="STATIC" type="ptFunction" line="304">
+   <tag filename="C:\PRJ\PrjxH\CFE\cfe.prg" name="CFEVersao" args=" " scope="PUBLIC" type="ptFunction" line="299">
+   <tag filename="C:\PRJ\PrjxH\CFE\cfe.prg" name="Chk1NatOper" args=" " scope="PUBLIC" type="ptFunction" line="230">
+   <tag filename="C:\PRJ\PrjxH\CFE\cfe.prg" name="GDFPSAGS" args=" " scope="PUBLIC" type="ptFunction" line="225">
+   <tag filename="C:\PRJ\PrjxH\CFE\cfe.prg" name="GDFPSAGE" args=" " scope="PUBLIC" type="ptFunction" line="221">
+   <tag filename="C:\PRJ\PrjxH\CFE\cfe.prg" name="ProgVersao" args=" " scope="PUBLIC" type="ptFunction" line="216">
+   <tag filename="C:\PRJ\PrjxH\CFE\cfe.prg" name="LOGVER" args="<P1> " scope="PUBLIC" type="ptFunction" line="204">
+   <tag filename="C:\PRJ\PrjxH\CFE\cfe.prg" name="main" args=" " scope="PUBLIC" type="ptFunction" line="20">
+   <tag filename="C:\PRJ\PrjxH\CFE\cfe.prg" name="VERSAO" args=" " scope="STATIC" type="ptConstant" line="15">
+   <tag filename="C:\PRJ\PrjxH\CFE\cfe.prg" name="nSemCount" args=" " scope="STATIC" type="ptConstant" line="4">
+</taglist>

@@ -1,0 +1,1 @@
+A   9A   2N10         1C   16ASSOCIADO       A   2N10         2C   16N/ ASSOCIADO    A   2N10         3C   16Varejista       A   2N10         4C   16Ambulante       A   2N10         5C   16                A   2N10         6C   16                A   2N10         7C   16                A   2N10         8C   16                A   2N10         9C   16Outros          

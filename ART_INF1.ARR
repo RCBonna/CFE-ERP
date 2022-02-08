@@ -1,0 +1,1 @@
+A  18N 836420576N 8  115303N 6  1296C   35LUIZ PRONER                        C   20TECNICO AGRICOLA    C   1011530-3   C   40SAO ROQUE                               C   20INTERIOR            C   20LACERDOPOLIS        C    2SCC   1138506580900C   11           C   20                    C   20                    N 8   0.000C    3HA C    989600000 N 2 0

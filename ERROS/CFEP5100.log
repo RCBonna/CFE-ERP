@@ -1,0 +1,169 @@
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 11/08/2015
+Time...............: 09:48:42
+
+Application name...: M:\Inffhox\CFE\cfe.exe
+Workstation name...: RECEBIMENTO
+Available memory...: 3036984
+Current disk.......: M
+Current directory..: Inffhox\CFE
+Free disk space....: 235486658560
+
+Operating system...: Windows  Windows Vista Professional 6.01.7601 Service Pack 1
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/G,N/W*,N/N,N/N,W+/G,W/B,N/R
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEP5100.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: BASE
+System Code .......: 1002
+Default Status ....: .F.
+Description .......: Alias n∆o existe
+Operation .........: UNIDADE
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+(b)CFEP4200T          :     169 in Module: CFEP4200.PRG
+FN_CODIGO             :      48 in Module: CFEPFUNC.PRG
+(b)CFEP4200T          :     169 in Module: CFEP4200.PRG
+HBGETLIST:GETPOSTVALI :     721 in Module: source\rtl\tgetlist.prg
+HBGETLIST:READER      :     220 in Module: source\rtl\tgetlist.prg
+READMODAL             :     141 in Module: source\rtl\getsys.prg
+CFEP4200T             :     215 in Module: CFEP4200.PRG
+(b)FN_CODPR           :      31 in Module: FN_CODPR.PRG
+FN_TECLAX             :      70 in Module: fn_tecla.prg
+(b)DBEDIT             :     386 in Module: source\rtl\dbedit.prg
+DBE_CALLUDF           :     577 in Module: source\rtl\dbedit.prg
+DBEDIT                :     458 in Module: source\rtl\dbedit.prg
+FN_CODPR              :      35 in Module: FN_CODPR.PRG
+(b)CFEP5110           :      39 in Module: CFEP5110.PRG
+HBGETLIST:GETPOSTVALI :     721 in Module: source\rtl\tgetlist.prg
+HBGETLIST:READER      :     220 in Module: source\rtl\tgetlist.prg
+READMODAL             :     141 in Module: source\rtl\getsys.prg
+CFEP5110              :      50 in Module: CFEP5110.PRG
+CFEP5101              :     146 in Module: CFEP5100.PRG
+PB_DBEDIT2            :      72 in Module: pb_db.prg
+(b)DBEDIT             :     386 in Module: source\rtl\dbedit.prg
+DBE_CALLUDF           :     577 in Module: source\rtl\dbedit.prg
+DBEDIT                :     458 in Module: source\rtl\dbedit.prg
+CFEP5100              :      53 in Module: CFEP5100.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|Called from : HBGETLIST:GETPOSTVALIDATE(721) in Module: source\rtl\tgetlist.prg≥|
+|Called from : HBGETLIST:READER(220) in Module: source\rtl\tgetlist.prg    0,00 ≥|
+|Called from : READMODAL(141) in Module: source\rtl\getsys.prg.Venda:      0,00 ≥|
+|Called from : CFEP4200T(215) in Module: CFEP4200.PRG                           ≥|
+|Called from : (b)FN_CODPR(31) in Module: FN_CODPR.PRG                          ≥|
+|Called from : FN_TECLAX(70) in Module: fn_tecla.prg                            ≥|
+|Called from : (b)DBEDIT(386) in Module: source\rtl\dbedit.prg 0  TpAssinat:  0 ≥|
+|Called from : DBE_CALLUDF(577) in Module: source\rtl\dbedit.prgƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒŸ|
+|Called from : DBEDIT(458) in Module: source\rtl\dbedit.prg                      |
+|Called from : FN_CODPR(35) in Module: FN_CODPR.PRGProduto                       |
+|Called from : (b)CFEP5110(39) in Module: CFEP5110.PRG                           |
+|Called from : HBGETLIST:GETPOSTVALIDATE(721) in Module: source\rtl\tgetlist.prg |
+|Called from : HBGETLIST:READER(220) in Module: source\rtl\tgetlist.prg          |
+|Called from : READMODAL(141) in Module: source\rtl\getsys.prg                   |
+|Called from : CFEP5110(50) in Module: CFEP5110.PRG                              |
+|Called from : CFEP5101(146) in Module: CFEP5100.PRG                             |
+|Called from : PB_DBEDIT2(72) in Module: pb_db.prg                               |
+|Called from : (b)DBEDIT(386) in Module: source\rtl\dbedit.prg                   |
+|Called from : DBE_CALLUDF(577) in Module: source\rtl\dbedit.prg                 |
+|Called from : DBEDIT(458) in Module: source\rtl\dbedit.prg                      |
+|Called from : CFEP5100(53) in Module: CFEP5100.PRG                              |
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(191) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+

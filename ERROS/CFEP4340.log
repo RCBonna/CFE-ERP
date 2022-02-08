@@ -1,0 +1,447 @@
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 02/05/2018
+Time...............: 16:02:50
+
+Application name...: M:\Inffhox\CFE\cfe.exe
+Workstation name...: RECEBIMENTO
+Available memory...: 2921188
+Current disk.......: M
+Current directory..: Inffhox\CFE
+Free disk space....: 219736608768
+
+Operating system...: Windows  Windows Vista Professional 6.01.7601 Service Pack 1
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/B,B/W,N/N,N/N,W+/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEP4340.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: LPT1
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: TERM
+System Code .......: 2014
+Default Status ....: .T.
+Description .......: Erro de cria‡Æo
+Operation .........: LPT1.prn
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 2
+
+ Trace Through:
+----------------
+SET                   :       0 in Module: 
+PB_LIGAIMP            :      78 in Module: impress.prg
+CFEP4340              :      70 in Module: CFEP4340.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     213 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|º         ³2-CadasÚ[Selecione]ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿|
+|º         ³3-Movim³ Impr Resumo Movto? S                                       ³|
+|º         ³4-Lista³ Selec.Prod/Grupo.: P                                       ³|
+|º         ³6-Rec Ú³ Produto Inicial..:   48294-TENIS COCA COLA FEM C1376       ³|
+|º F1 =AjudÀÄÄÄÄÄÄ³³ Produto Final....:   48294-TENIS COCA COLA FEM C1376       ³|
+|º F3 =Cons.Fornec³³                                                            ³|
+|º F4 =Cons.Client³³ Grupo Inicial....:  1.00.00                                ³|
+|º F5 =Cons.Produt³³ Grupo Final......:  4.00.00                                ³|
+|º F7 =Cons.Parcel³³                                                            ³|
+|º F6 =Calculadora³³ Data Inicial.....: 01/01/2017 Final.......: 02/05/2018     ³|
+|º F9 =Sel Impress³³ Serie Inicial....:            Final.: ZZZ                  ³|
+|º F11=Calendario ³³ Docto Inicial....:        0   Final.: 99999999             ³|
+|º                ³³ Tipo Movimento...: IESAFT                                  ³|
+|ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÀÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ|
+|                               M¢dulo de Estoques                               |
+|Error TERM/2014  Erro de cria‡Æo: LPT1.prn Arguments: () (DOS Error 2)ETE  <T>R |
+|                                                                                |
+|Error at ...: SET(0) in Module:                                                 |
+|Called from : PB_LIGAIMP(78) in Module: impress.prg                             |
+|Called from : CFEP4340(70) in Module: CFEP4340.PRG                              |
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prg                                |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(213) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 19/10/2017
+Time...............: 11:19:02
+
+Application name...: M:\Inffhox\CFE\cfe.exe
+Workstation name...: RECEBIMENTO
+Available memory...: 2734188
+Current disk.......: M
+Current directory..: Inffhox\CFE
+Free disk space....: 219965734912
+
+Operating system...: Windows  Windows Vista Professional 6.01.7601 Service Pack 1
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/B,B/W,N/N,N/N,W+/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEP4340.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: LPT1
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: TERM
+System Code .......: 2014
+Default Status ....: .T.
+Description .......: Erro de cria‡Æo
+Operation .........: LPT1.prn
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 2
+
+ Trace Through:
+----------------
+SET                   :       0 in Module: 
+PB_LIGAIMP            :      78 in Module: impress.prg
+CFEP4340              :      70 in Module: CFEP4340.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     213 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|º         ³2-CadasÚ[Selecione]ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿|
+|º         ³3-Movim³ Impr Resumo Movto? S                                       ³|
+|º         ³4-Lista³ Selec.Prod/Grupo.: P                                       ³|
+|º         ³6-Rec Ú³ Produto Inicial..:   32538-SANDALIA PIMPOLHO 0019938C 1/4  ³|
+|º F1 =AjudÀÄÄÄÄÄÄ³³ Produto Final....:   32538-SANDALIA PIMPOLHO 0019938C 1/4  ³|
+|º F3 =Cons.Fornec³³                                                            ³|
+|º F4 =Cons.Client³³ Grupo Inicial....:  1.00.00                                ³|
+|º F5 =Cons.Produt³³ Grupo Final......:  4.00.00                                ³|
+|º F7 =Cons.Parcel³³                                                            ³|
+|º F6 =Calculadora³³ Data Inicial.....: 01/10/2017 Final.......: 19/10/2017     ³|
+|º F9 =Sel Impress³³ Serie Inicial....: 1          Final.: ZZZ                  ³|
+|º F11=Calendario ³³ Docto Inicial....:        0   Final.: 99999999             ³|
+|º                ³³ Tipo Movimento...: IESAFT                                  ³|
+|ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÀÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ|
+|                               M¢dulo de Estoques                               |
+|Error TERM/2014  Erro de cria‡Æo: LPT1.prn Arguments: () (DOS Error 2)ETE  <T>R |
+|                                                                                |
+|Error at ...: SET(0) in Module:                                                 |
+|Called from : PB_LIGAIMP(78) in Module: impress.prg                             |
+|Called from : CFEP4340(70) in Module: CFEP4340.PRG                              |
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prg                                |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(213) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 26/06/2014
+Time...............: 10:07:49
+
+Application name...: C:\Inffhox\CFE\cfe.exe
+Workstation name...: SERVIDOR
+Available memory...: 4194303
+Current disk.......: C
+Current directory..: Inffhox\CFE
+Free disk space....: 235933577216
+
+Operating system...: Windows  Windows Vista Professional 6.01.7601 Service Pack 1
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/B,B/W,N/N,N/N,W+/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEP4340.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: LPT1
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: TERM
+System Code .......: 2014
+Default Status ....: .T.
+Description .......: Erro de cria‡Æo
+Operation .........: LPT1.prn
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 2
+
+ Trace Through:
+----------------
+SET                   :       0 in Module: 
+PB_LIGAIMP            :      78 in Module: impress.prg
+CFEP4340              :      55 in Module: CFEP4340.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|º         ³3-Movimenta‡„o...³                                                  º|
+|º         ³4-Listagens...   ³                                                  º|
+|º         ÀÄÄÄÄÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿                                                º|
+|º              ³3-Etiquetas...³                                                º|
+|º F1 =Ajuda    ³4-Ú[Selecione]ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿|
+|º F3 =Cons.FornÀÄÄ³ Impr Resumo Movto? S                                       ³|
+|º F4 =Cons.Cliente³ Produto Inicial..:       1-CAMISETA QNUI 27038 ADULTO ML   ³|
+|º F5 =Cons.Produto³ Produto Final....:   36055-TENIS FILA 51J407X STRIKING W F ³|
+|º F7 =Cons.Parcela³                                                            ³|
+|º F6 =Calculadora ³ Data Inicial.....: 26/06/2014      Final.......: 26/06/2014³|
+|º F9 =Sel Impresso³ Serie Inicial....:                 Final.: ZZZ             ³|
+|º F11=Calendario  ³ Docto Inicial....:        0        Final.: 99999999        ³|
+|º                 ³ Tipo Movimento...: E                                       ³|
+|ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ|
+|                               M¢dulo de Estoques                               |
+|Error TERM/2014  Erro de cria‡Æo: LPT1.prn Arguments: () (DOS Error 2)ETE  <T>R |
+|                                                                                |
+|Error at ...: SET(0) in Module:                                                 |
+|Called from : PB_LIGAIMP(78) in Module: impress.prg                             |
+|Called from : CFEP4340(55) in Module: CFEP4340.PRG                              |
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prg                                |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(191) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+

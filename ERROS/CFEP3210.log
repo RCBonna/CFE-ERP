@@ -1,0 +1,3139 @@
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 08/10/2016
+Time...............: 10:07:51
+
+Application name...: M:\Inffhox\CFE\cfe.exe
+Workstation name...: RECEBIMENTO
+Available memory...: 2929832
+Current disk.......: M
+Current directory..: Inffhox\CFE
+Free disk space....: 230240288768
+
+Operating system...: Windows  Windows Vista Professional 6.01.7601 Service Pack 1
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/BR,B/W,N/N,N/N,W+/B,W/B,N/R,W/B,N/R,W/B,N/R,W/B,N/R,W/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEP3210.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: BASE
+System Code .......: 1002
+Default Status ....: .F.
+Description .......: Alias nÆo existe
+Operation .........: PARALINH
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+DBSELECTAREA          :       0 in Module: 
+PLINHA                :      36 in Module: PARALINH.PRG
+CFEP3100T             :      22 in Module: CFEP310T.PRG
+(b)CFEP3210           :      32 in Module: CFEP3210.PRG
+FN_TECLAX             :      70 in Module: fn_tecla.prg
+(b)DBEDIT             :     386 in Module: source\rtl\dbedit.prg
+DBE_CALLUDF           :     577 in Module: source\rtl\dbedit.prg
+DBEDIT                :     458 in Module: source\rtl\dbedit.prg
+FN_CODIGO             :      64 in Module: CFEPFUNC.PRG
+(b)CFEP3210           :      32 in Module: CFEP3210.PRG
+HBGETLIST:GETPOSTVALI :     721 in Module: source\rtl\tgetlist.prg
+HBGETLIST:READER      :     220 in Module: source\rtl\tgetlist.prg
+READMODAL             :     141 in Module: source\rtl\getsys.prg
+CFEP3210              :      33 in Module: CFEP3210.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|³ BERNADETE REDANTE /RECADASTRAR                ³  1914 ³ 42320968920    ³ SC  ³|
+|³ BERNADETE RIBEIRO    DOCUMENTO                ³  1165 ³ 80806597968    ³ SC  ³|
+|³ BERNADINA RODRIGUES MOREIRA/ OK               ³  1631 ³ 01604027940    ³ SC  ³|
+|³ BERNARDINA FATIMA THIBES AMORIM/              ³  3783 ³ 77648544920    ³ SC  ³|
+|Error BASE/1002  Alias nÆo existe: PARALINH Arguments: () 04768112951    ³ SC  ³|
+|³ BERTINO DE SOUZA SOMENTE ELE  DOCUMENTO       ³  2910 ³ 89509110949    ³ SC  ³|
+|Error at ...: DBSELECTAREA(0) in Module:        ³  2233 ³ 11111111111    ³ SC  ³|
+|Called from : PLINHA(36) in Module: PARALINH.PRG³   497 ³ 03745558340    ³ SC  ³|
+|Called from : CFEP3100T(22) in Module: CFEP310T.PRG3796 ³ 09911395936    ³ SC  ³|
+|Called from : (b)CFEP3210(32) in Module: CFEP3210.PRG61 ³ 00000000000000 ³ SC  ³|
+|Called from : FN_TECLAX(70) in Module: fn_tecla.prg 902 ³ 01744565902    ³ SC  ³|
+|Called from : (b)DBEDIT(386) in Module: source\rtl\dbedit.prg12319904    ³ SC  ³|
+|Called from : DBE_CALLUDF(577) in Module: source\rtl\dbedit.prg000000000 ³ SC  ³|
+|Called from : DBEDIT(458) in Module: source\rtl\dbedit.prg03156506990    ³ SC  ³|
+|Called from : FN_CODIGO(64) in Module: CFEPFUNC.PRGÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ|
+|Called from : (b)CFEP3210(32) in Module: CFEP3210.PRG                           |
+|Called from : HBGETLIST:GETPOSTVALIDATE(721) in Module: source\rtl\tgetlist.prg |
+|Called from : HBGETLIST:READER(220) in Module: source\rtl\tgetlist.prg          |
+|Called from : READMODAL(141) in Module: source\rtl\getsys.prg                   |
+|Called from : CFEP3210(33) in Module: CFEP3210.PRG                              |
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prg                                |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(191) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 31/03/2016
+Time...............: 10:57:07
+
+Application name...: M:\Inffhox\CFE\cfe.exe
+Workstation name...: RECEBIMENTO
+Available memory...: 2776848
+Current disk.......: M
+Current directory..: Inffhox\CFE
+Free disk space....: 232684457984
+
+Operating system...: Windows  Windows Vista Professional 6.01.7601 Service Pack 1
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/BR,B/W,N/N,N/N,W+/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEP3210.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: BASE
+System Code .......: 1002
+Default Status ....: .F.
+Description .......: Alias nÆo existe
+Operation .........: PARALINH
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+DBSELECTAREA          :       0 in Module: 
+PLINHA                :      36 in Module: PARALINH.PRG
+CFEP3100T             :      22 in Module: CFEP310T.PRG
+(b)CFEP3210           :      32 in Module: CFEP3210.PRG
+FN_TECLAX             :      70 in Module: fn_tecla.prg
+(b)DBEDIT             :     386 in Module: source\rtl\dbedit.prg
+DBE_CALLUDF           :     577 in Module: source\rtl\dbedit.prg
+DBEDIT                :     458 in Module: source\rtl\dbedit.prg
+FN_CODIGO             :      64 in Module: CFEPFUNC.PRG
+(b)CFEP3210           :      32 in Module: CFEP3210.PRG
+HBGETLIST:GETPOSTVALI :     721 in Module: source\rtl\tgetlist.prg
+HBGETLIST:READER      :     220 in Module: source\rtl\tgetlist.prg
+READMODAL             :     141 in Module: source\rtl\getsys.prg
+CFEP3210              :      33 in Module: CFEP3210.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|³ Inffhox Desenvolvimentos                                            10:57:07 ³|
+|ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ1-RecebimentosÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄCFEP3210Ù|
+|Ú[CLIENTE]ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿|
+|³ VILMA APARECIDA TAVARES /9969-6952            ³  3428 ³ 00746094914    ³ SC  ³|
+|Error BASE/1002  Alias nÆo existe: PARALINH Arguments: () 06610939993    ³ SC  ³|
+|³ VILMA NUNES DA SILVA/AUT CAMILA               ³  1270 ³ 01532033907    ³ SC  ³|
+|Error at ...: DBSELECTAREA(0) in Module:        ³  1010 ³ 00000000000    ³ SC  ³|
+|Called from : PLINHA(36) in Module: PARALINH.PRG³  2681 ³ 99836629904    ³ SC  ³|
+|Called from : CFEP3100T(22) in Module: CFEP310T.PRG1009 ³ 69360014915    ³ SC  ³|
+|Called from : (b)CFEP3210(32) in Module: CFEP3210.PRG22 ³ 06845783950    ³ SC  ³|
+|Called from : FN_TECLAX(70) in Module: fn_tecla.prg3264 ³ 64972070900    ³ SC  ³|
+|Called from : (b)DBEDIT(386) in Module: source\rtl\dbedit.prg00000000    ³ SC  ³|
+|Called from : DBE_CALLUDF(577) in Module: source\rtl\dbedit.prg440920    ³ SC  ³|
+|Called from : DBEDIT(458) in Module: source\rtl\dbedit.prg51604930934    ³ SC  ³|
+|Called from : FN_CODIGO(64) in Module: CFEPFUNC.PRG 995 ³ 01450502970    ³ SC  ³|
+|Called from : (b)CFEP3210(32) in Module: CFEP3210.PRG24 ³ 04255040931    ³ SC  ³|
+|Called from : HBGETLIST:GETPOSTVALIDATE(721) in Module: source\rtl\tgetlist.prg³|
+|Called from : HBGETLIST:READER(220) in Module: source\rtl\tgetlist.prg   ³ SC  ³|
+|Called from : READMODAL(141) in Module: source\rtl\getsys.prg33832953    ³ SC  ³|
+|Called from : CFEP3210(33) in Module: CFEP3210.PRGÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ|
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prg                                |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(191) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 15/10/2015
+Time...............: 15:50:37
+
+Application name...: M:\Inffhox\CFE\cfe.exe
+Workstation name...: RECEBIMENTO
+Available memory...: 2960008
+Current disk.......: M
+Current directory..: Inffhox\CFE
+Free disk space....: 234731991040
+
+Operating system...: Windows  Windows Vista Professional 6.01.7601 Service Pack 1
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/B,B/W,N/N,N/N,W+/B,W/B,N/R,W/B,N/R,W/B,N/R,W/B,N/R,W/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEP3210.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: BASE
+System Code .......: 1002
+Default Status ....: .F.
+Description .......: Alias nÆo existe
+Operation .........: CAIXACG
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+DBSELECTAREA          :       0 in Module: 
+BUSCTIPOCX            :     382 in Module: CFEPFUN1.PRG
+CFEP2211              :     106 in Module: CFEP2211.PRG
+CFEP3210              :      36 in Module: CFEP3210.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|³ LOJAO DO POVO                                                Hoje: 15/10/2015³|
+|³ Inffhox Desenvolvimentos                                            15:50:37 ³|
+|ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ1-RecebimentosÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄCFEP3210Ù|
+|ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»|
+|º Cliente.........  2335-ANTONIA MARIA CORDEIRO 9965-5178                      º|
+|º                                                                              º|
+|º                                                                              º|
+|º                                                                              º|
+|º         ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿  23,32 º|
+|ÚÄÄÄÄÄÄÄÄÄ³                                                           ³ÄÄÄÄÄÄÄÄ¿|
+|³NDuplicata Dt Venct   TpM Vlr Dpl/ R$  Vlr Pago     Juros        Desconto     ³|
+|³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³|
+|³ 187620.02³10/10/2015³1  ³       23,32³       23,32³        0,00³        0,00 ³|
+|³ 187620.03³10/11/2015³1  ³       23,32³        0,00³        0,00³        0,00 ³|
+|Error BASE/1002  Alias nÆo existe: CAIXACG Arguments: ()     0,00³        0,00 ³|
+|³ 187620.05³10/01/2016³1  ³       23,32³        0,00³        0,00³        0,00 ³|
+|Error at ...: DBSELECTAREA(0) in Module:            ³            ³             ³|
+|Called from : BUSCTIPOCX(382) in Module: CFEPFUN1.PRG            ³             ³|
+|Called from : CFEP2211(106) in Module: CFEP2211.PRG ³            ³             ³|
+|Called from : CFEP3210(36) in Module: CFEP3210.PRG  ³            ³             ³|
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prgÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ|
+|Called from : SUBMENU(81) in Module: fazmenu.prg                                |
+|Called from : SUBMENU(85) in Module: fazmenu.prgm XML-CFE+SAG                   |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(191) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 14/09/2015
+Time...............: 16:52:02
+
+Application name...: M:\Inffhox\CFE\cfe.exe
+Workstation name...: RECEBIMENTO
+Available memory...: 2969508
+Current disk.......: M
+Current directory..: Inffhox\CFE
+Free disk space....: 235244380160
+
+Operating system...: Windows  Windows Vista Professional 6.01.7601 Service Pack 1
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/BR,B/W,N/N,N/N,W+/B,W/B,N/R,W/B,N/R,W/B,N/R,W/B,N/R,W/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEP3210.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: BASE
+System Code .......: 1002
+Default Status ....: .F.
+Description .......: Alias nÆo existe
+Operation .........: PARALINH
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+DBSELECTAREA          :       0 in Module: 
+PLINHA                :      36 in Module: PARALINH.PRG
+CFEP3100T             :      22 in Module: CFEP310T.PRG
+(b)CFEP3210           :      32 in Module: CFEP3210.PRG
+FN_TECLAX             :      70 in Module: fn_tecla.prg
+(b)DBEDIT             :     386 in Module: source\rtl\dbedit.prg
+DBE_CALLUDF           :     577 in Module: source\rtl\dbedit.prg
+DBEDIT                :     458 in Module: source\rtl\dbedit.prg
+FN_CODIGO             :      64 in Module: CFEPFUNC.PRG
+(b)CFEP3210           :      32 in Module: CFEP3210.PRG
+HBGETLIST:GETPOSTVALI :     721 in Module: source\rtl\tgetlist.prg
+HBGETLIST:READER      :     220 in Module: source\rtl\tgetlist.prg
+READMODAL             :     141 in Module: source\rtl\getsys.prg
+CFEP3210              :      33 in Module: CFEP3210.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|³ Inffhox Desenvolvimentos                                            16:52:02 ³|
+|ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ1-RecebimentosÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄCFEP3210Ù|
+|Ú[CLIENTE]ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿|
+|³ ROSANGELA ALVES DOS SANTOS VIEIRA/RG/09/10/14 ³  3238 ³ 04661099974    ³ SC  ³|
+|Error BASE/1002  Alias nÆo existe: PARALINH Arguments: () 04515565931    ³ SC  ³|
+|³ ROSANGELA DA SILVA PASSOS VIATER /CARNE       ³   375 ³ 97436046934    ³ SC  ³|
+|Error at ...: DBSELECTAREA(0) in Module: STRAR  ³  2183 ³ 59237210906    ³ SC  ³|
+|Called from : PLINHA(36) in Module: PARALINH.PRG³  1969 ³ 00535424957    ³ SC  ³|
+|Called from : CFEP3100T(22) in Module: CFEP310T.PRG 847 ³ 05845309948    ³ SC  ³|
+|Called from : (b)CFEP3210(32) in Module: CFEP3210.PRG10 ³ 03689599962    ³ SC  ³|
+|Called from : FN_TECLAX(70) in Module: fn_tecla.prg2126 ³ 04499916950    ³ SC  ³|
+|Called from : (b)DBEDIT(386) in Module: source\rtl\dbedit.prg46519952    ³ SC  ³|
+|Called from : DBE_CALLUDF(577) in Module: source\rtl\dbedit.prg315914    ³ SC  ³|
+|Called from : DBEDIT(458) in Module: source\rtl\dbedit.prg66977282991    ³ SC  ³|
+|Called from : FN_CODIGO(64) in Module: CFEPFUNC.PRG3193 ³ 00458819956    ³ SC  ³|
+|Called from : (b)CFEP3210(32) in Module: CFEP3210.PRG78 ³ 02510059920    ³ SC  ³|
+|Called from : HBGETLIST:GETPOSTVALIDATE(721) in Module: source\rtl\tgetlist.prg³|
+|Called from : HBGETLIST:READER(220) in Module: source\rtl\tgetlist.prg   ³ SC  ³|
+|Called from : READMODAL(141) in Module: source\rtl\getsys.prg58134992    ³ SC  ³|
+|Called from : CFEP3210(33) in Module: CFEP3210.PRGÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ|
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prg                                |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(191) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 18/08/2015
+Time...............: 10:34:36
+
+Application name...: M:\Inffhox\CFE\cfe.exe
+Workstation name...: RECEBIMENTO
+Available memory...: 2490024
+Current disk.......: M
+Current directory..: Inffhox\CFE
+Free disk space....: 234630959104
+
+Operating system...: Windows  Windows Vista Professional 6.01.7601 Service Pack 1
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/BR,B/W,N/N,N/N,W+/B,W/B,N/R,W/B,N/R,W/B,N/R,W/B,N/R,W/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEP3210.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: BASE
+System Code .......: 1002
+Default Status ....: .F.
+Description .......: Alias nÆo existe
+Operation .........: PARALINH
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+DBSELECTAREA          :       0 in Module: 
+PLINHA                :      36 in Module: PARALINH.PRG
+CFEP3100T             :      22 in Module: CFEP310T.PRG
+(b)CFEP3210           :      32 in Module: CFEP3210.PRG
+FN_TECLAX             :      70 in Module: fn_tecla.prg
+(b)DBEDIT             :     386 in Module: source\rtl\dbedit.prg
+DBE_CALLUDF           :     577 in Module: source\rtl\dbedit.prg
+DBEDIT                :     458 in Module: source\rtl\dbedit.prg
+FN_CODIGO             :      64 in Module: CFEPFUNC.PRG
+(b)CFEP3210           :      32 in Module: CFEP3210.PRG
+HBGETLIST:GETPOSTVALI :     721 in Module: source\rtl\tgetlist.prg
+HBGETLIST:READER      :     220 in Module: source\rtl\tgetlist.prg
+READMODAL             :     141 in Module: source\rtl\getsys.prg
+CFEP3210              :      33 in Module: CFEP3210.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|³ Inffhox Desenvolvimentos                                            10:34:35 ³|
+|ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ1-RecebimentosÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄCFEP3210Ù|
+|Ú[CLIENTE]ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿|
+|³ MARIA NADIR ALVES DOS SANTOS/RG EXCLUIDO      ³  2093 ³ 48942588972    ³ SC  ³|
+|Error BASE/1002  Alias nÆo existe: PARALINH Arguments: () 58302212920    ³ SC  ³|
+|³ MARIA NAIR XAVIER DE LIMA  RG EXCLUIDO        ³  1834 ³ 02634770960    ³ SC  ³|
+|Error at ...: DBSELECTAREA(0) in Module:        ³  1647 ³ 00000000000    ³ SC  ³|
+|Called from : PLINHA(36) in Module: PARALINH.PRG³   279 ³ 01656540908    ³ SC  ³|
+|Called from : CFEP3100T(22) in Module: CFEP310T.PRG 273 ³ 00000000000    ³ SC  ³|
+|Called from : (b)CFEP3210(32) in Module: CFEP3210.PRG70 ³ 76792951900    ³ SC  ³|
+|Called from : FN_TECLAX(70) in Module: fn_tecla.prg1050 ³ 00000000000    ³ SC  ³|
+|Called from : (b)DBEDIT(386) in Module: source\rtl\dbedit.prg35254934    ³ SC  ³|
+|Called from : DBE_CALLUDF(577) in Module: source\rtl\dbedit.prg524987    ³ SC  ³|
+|Called from : DBEDIT(458) in Module: source\rtl\dbedit.prg70811199991    ³ SC  ³|
+|Called from : FN_CODIGO(64) in Module: CFEPFUNC.PRG 462 ³ 02116917980    ³ SC  ³|
+|Called from : (b)CFEP3210(32) in Module: CFEP3210.PRG69 ³ 00000000000    ³ SC  ³|
+|Called from : HBGETLIST:GETPOSTVALIDATE(721) in Module: source\rtl\tgetlist.prg³|
+|Called from : HBGETLIST:READER(220) in Module: source\rtl\tgetlist.prg   ³ SC  ³|
+|Called from : READMODAL(141) in Module: source\rtl\getsys.prg82319987    ³ SC  ³|
+|Called from : CFEP3210(33) in Module: CFEP3210.PRGÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ|
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prg                                |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(191) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 15/08/2015
+Time...............: 11:43:42
+
+Application name...: M:\Inffhox\CFE\cfe.exe
+Workstation name...: RECEBIMENTO
+Available memory...: 2657388
+Current disk.......: M
+Current directory..: Inffhox\CFE
+Free disk space....: 234922143744
+
+Operating system...: Windows  Windows Vista Professional 6.01.7601 Service Pack 1
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/BR,B/W,N/N,N/N,W+/B,W/B,N/R,W/B,N/R,W/B,N/R,W/B,N/R,W/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEP3210.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: BASE
+System Code .......: 1003
+Default Status ....: .F.
+Description .......: Vari vel nÆo existe
+Operation .........: CL_RAZAO
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+(b)DBEDIT             :     301 in Module: source\rtl\dbedit.prg
+TDATACACHE:FILLROW    :     469 in Module: source\rtl\tbrowse.prg
+TDATACACHE:SYNCDATA   :     443 in Module: source\rtl\tbrowse.prg
+TDATACACHE:GETCELLVAL :     411 in Module: source\rtl\tbrowse.prg
+TBROWSE:DRAWROW       :   2,710 in Module: source\rtl\tbrowse.prg
+TBROWSE:STABILIZE     :   2,501 in Module: source\rtl\tbrowse.prg
+TBROWSE:FORCESTABLE   :   2,405 in Module: source\rtl\tbrowse.prg
+DBEDIT                :     432 in Module: source\rtl\dbedit.prg
+FN_CODIGO             :      64 in Module: CFEPFUNC.PRG
+(b)CFEP3210           :      32 in Module: CFEP3210.PRG
+HBGETLIST:GETPOSTVALI :     721 in Module: source\rtl\tgetlist.prg
+HBGETLIST:READER      :     220 in Module: source\rtl\tgetlist.prg
+READMODAL             :     141 in Module: source\rtl\getsys.prg
+CFEP3210              :      33 in Module: CFEP3210.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|³ .                                             ³  2381 ³ 00000000000    ³ SC  ³|
+|³ .                                             ³  2498 ³ 11111111111    ³ SC  ³|
+|³ .       ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿  ³ SC  ³|
+|³ .       ³                                                           ³  ³ SC  ³|
+|Error BASE/1003  Vari vel nÆo existe: CL_RAZAO Arguments: ()          ³  ³ SC  ³|
+|³ .       ³                                                           ³  ³ SC  ³|
+|Error at ...: (b)DBEDIT(301) in Module: source\rtl\dbedit.prg         ³  ³ SC  ³|
+|Called from : TDATACACHE:FILLROW(469) in Module: source\rtl\tbrowse.prg  ³ SC  ³|
+|Called from : TDATACACHE:SYNCDATA(443) in Module: source\rtl\tbrowse.prg ³ SC  ³|
+|Called from : TDATACACHE:GETCELLVALUE(411) in Module: source\rtl\tbrowse.prgC  ³|
+|Called from : TBROWSE:DRAWROW(2710) in Module: source\rtl\tbrowse.prg ³  ³ SC  ³|
+|Called from : TBROWSE:STABILIZE(2501) in Module: source\rtl\tbrowse.prg  ³ SC  ³|
+|Called from : TBROWSE:FORCESTABLE(2405) in Module: source\rtl\tbrowse.prg³ SC  ³|
+|Called from : DBEDIT(432) in Module: source\rtl\dbedit.prg00000000000    ³ SC  ³|
+|Called from : FN_CODIGO(64) in Module: CFEPFUNC.PRGÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ|
+|Called from : (b)CFEP3210(32) in Module: CFEP3210.PRG                           |
+|Called from : HBGETLIST:GETPOSTVALIDATE(721) in Module: source\rtl\tgetlist.prg |
+|Called from : HBGETLIST:READER(220) in Module: source\rtl\tgetlist.prg          |
+|Called from : READMODAL(141) in Module: source\rtl\getsys.prg                   |
+|Called from : CFEP3210(33) in Module: CFEP3210.PRG                              |
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prg                                |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(191) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 10/08/2015
+Time...............: 09:17:51
+
+Application name...: M:\Inffhox\CFE\cfe.exe
+Workstation name...: RECEBIMENTO
+Available memory...: 2574344
+Current disk.......: M
+Current directory..: Inffhox\CFE
+Free disk space....: 235154669568
+
+Operating system...: Windows  Windows Vista Professional 6.01.7601 Service Pack 1
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/B,B/W,N/N,N/N,W+/B,W/B,N/R,W/B,N/R,W/B,N/R,W/B,N/R,W/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEP3210.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: BASE
+System Code .......: 1002
+Default Status ....: .F.
+Description .......: Alias nÆo existe
+Operation .........: CAIXACG
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+DBSELECTAREA          :       0 in Module: 
+BUSCTIPOCX            :     382 in Module: CFEPFUN1.PRG
+CFEP2211              :     106 in Module: CFEP2211.PRG
+CFEP3210              :      36 in Module: CFEP3210.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|³ C.F.E.                                                          Vers„o 2014c7³|
+|³ LOJAO DO POVO                                                Hoje: 10/08/2015³|
+|³ Inffhox Desenvolvimentos                                             9:17:51 ³|
+|ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ1-RecebimentosÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄCFEP3210Ù|
+|ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»|
+|º Cliente.........   740-MARGARIDA MARCHIORO   3546-0564                       º|
+|º                                                                              º|
+|º                                                                              º|
+|º                                                                              º|
+|º         ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿   0,00 º|
+|ÚÄÄÄÄÄÄÄÄÄ³                                                           ³ÄÄÄÄÄÄÄÄ¿|
+|³NDuplicata Dt Venct   TpM Vlr Dpl/ R$  Vlr Pago     Juros        Desconto     ³|
+|³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³|
+|³ 180587.04³10/09/2015³1  ³       23,98³        0,00³        0,00³        0,00 ³|
+|Error BASE/1002  Alias nÆo existe: CAIXACG Arguments: ()     0,00³        0,00 ³|
+|³ 180587.06³10/11/2015³1  ³       23,98³        0,00³        0,00³        0,00 ³|
+|Error at ...: DBSELECTAREA(0) in Module:        0,00³        0,00³        0,00 ³|
+|Called from : BUSCTIPOCX(382) in Module: CFEPFUN1.PRG        0,00³        0,00 ³|
+|Called from : CFEP2211(106) in Module: CFEP2211.PRG0³        0,00³        0,00 ³|
+|Called from : CFEP3210(36) in Module: CFEP3210.PRG00³        0,00³        0,00 ³|
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg           ³             ³|
+|Called from : SUBMENU(81) in Module: fazmenu.prgÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ|
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prgm XML-CFE+SAG                   |
+|Called from : MAIN(191) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 22/07/2015
+Time...............: 11:39:49
+
+Application name...: M:\Inffhox\CFE\cfe.exe
+Workstation name...: RECEBIMENTO
+Available memory...: 2233072
+Current disk.......: M
+Current directory..: Inffhox\CFE
+Free disk space....: 235526262784
+
+Operating system...: Windows  Windows Vista Professional 6.01.7601 Service Pack 1
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/BR,B/W,N/N,N/N,W+/B,W/B,N/R,W/B,N/R,W/B,N/R,W/B,N/R,W/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEP3210.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: BASE
+System Code .......: 1002
+Default Status ....: .F.
+Description .......: Alias nÆo existe
+Operation .........: PARALINH
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+DBSELECTAREA          :       0 in Module: 
+PLINHA                :      36 in Module: PARALINH.PRG
+CFEP3100T             :      22 in Module: CFEP310T.PRG
+(b)CFEP3210           :      32 in Module: CFEP3210.PRG
+FN_TECLAX             :      70 in Module: fn_tecla.prg
+(b)DBEDIT             :     386 in Module: source\rtl\dbedit.prg
+DBE_CALLUDF           :     577 in Module: source\rtl\dbedit.prg
+DBEDIT                :     458 in Module: source\rtl\dbedit.prg
+FN_CODIGO             :      64 in Module: CFEPFUNC.PRG
+(b)CFEP3210           :      32 in Module: CFEP3210.PRG
+HBGETLIST:GETPOSTVALI :     721 in Module: source\rtl\tgetlist.prg
+HBGETLIST:READER      :     220 in Module: source\rtl\tgetlist.prg
+READMODAL             :     141 in Module: source\rtl\getsys.prg
+CFEP3210              :      33 in Module: CFEP3210.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|³ Inffhox Desenvolvimentos                                            11:39:49 ³|
+|ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ1-RecebimentosÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄCFEP3210Ù|
+|Ú[CLIENTE]ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿|
+|³ CLAUDETE APARECIDA DA SILVA/REACERTO 2X100,00 ³   339 ³ 02172126977    ³ SC  ³|
+|Error BASE/1002  Alias nÆo existe: PARALINH Arguments: () 05666194909    ³ SC  ³|
+|³ CLAUDETE DE FATIMA DA SILVA/ RG/25/04/2011    ³  1092 ³ 96103957915    ³ SC  ³|
+|Error at ...: DBSELECTAREA(0) in Module:        ³  1414 ³ 05581635994    ³ SC  ³|
+|Called from : PLINHA(36) in Module: PARALINH.PRG³  1660 ³ 58024034972    ³ SC  ³|
+|Called from : CFEP3100T(22) in Module: CFEP310T.PRG1642 ³ 02870092970    ³ SC  ³|
+|Called from : (b)CFEP3210(32) in Module: CFEP3210.PRG70 ³ 04567194900    ³ SC  ³|
+|Called from : FN_TECLAX(70) in Module: fn_tecla.prg3091 ³ 63652242904    ³ SC  ³|
+|Called from : (b)DBEDIT(386) in Module: source\rtl\dbedit.prg00000000    ³ SC  ³|
+|Called from : DBE_CALLUDF(577) in Module: source\rtl\dbedit.prg447915    ³ SC  ³|
+|Called from : DBEDIT(458) in Module: source\rtl\dbedit.prg86848844934    ³ SC  ³|
+|Called from : FN_CODIGO(64) in Module: CFEPFUNC.PRG1211 ³ 02461437971    ³ SC  ³|
+|Called from : (b)CFEP3210(32) in Module: CFEP3210.PRG11 ³ 77650123987    ³ SC  ³|
+|Called from : HBGETLIST:GETPOSTVALIDATE(721) in Module: source\rtl\tgetlist.prg³|
+|Called from : HBGETLIST:READER(220) in Module: source\rtl\tgetlist.prg   ³ SC  ³|
+|Called from : READMODAL(141) in Module: source\rtl\getsys.prg60650961    ³ SC  ³|
+|Called from : CFEP3210(33) in Module: CFEP3210.PRGÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ|
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prg                                |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(191) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 28/02/2015
+Time...............: 10:12:43
+
+Application name...: M:\Inffhox\CFE\cfe.exe
+Workstation name...: RECEBIMENTO
+Available memory...: 3158108
+Current disk.......: M
+Current directory..: Inffhox\CFE
+Free disk space....: 235969105920
+
+Operating system...: Windows  Windows Vista Professional 6.01.7601 Service Pack 1
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/B,B/W,N/N,N/N,W+/B,W/B,N/R,W/B,N/R,W/B,N/R,W/B,N/R,W/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEP3210.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: BASE
+System Code .......: 1002
+Default Status ....: .F.
+Description .......: Alias nÆo existe
+Operation .........: CAIXACG
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+DBSELECTAREA          :       0 in Module: 
+BUSCTIPOCX            :     382 in Module: CFEPFUN1.PRG
+CFEP2211              :     106 in Module: CFEP2211.PRG
+CFEP3210              :      36 in Module: CFEP3210.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|³ Inffhox Desenvolvimentos                                            10:12:43 ³|
+|ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ1-RecebimentosÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄCFEP3210Ù|
+|ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»|
+|º Cliente.........   577-SANTINA DA ROSA /8851-6140                            º|
+|º                                                                              º|
+|º                                                                              º|
+|º                                                                              º|
+|º         ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿   0,00 º|
+|ÚÄÄÄÄÄÄÄÄÄ³                                                           ³ÄÄÄÄÄÄÄÄ¿|
+|³Vlr Pago     Juros        Desconto     Vlr Original Reg  NrNr   Ser DtEmiss   ³|
+|³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³|
+|³        0,00³        0,00³        0,00³       31,95³****³ 71690³1  ³04/10/2014³|
+|³        0,00³        0,00³        0,00³       31,95³****³ 71690³1  ³04/10/2014³|
+|³        0,00³        0,00³        0,00³       39,95³****³ 73248³1  ³29/11/2014³|
+|Error BASE/1002  Alias nÆo existe: CAIXACG Arguments: ()*³ 71552³1  ³25/09/2014³|
+|³        0,00³        0,00³        0,00³       59,95³****³ 68559³1  ³09/05/2014³|
+|Error at ...: DBSELECTAREA(0) in Module:       46,63³****³ 71552³1  ³25/09/2014³|
+|Called from : BUSCTIPOCX(382) in Module: CFEPFUN1.PRG****³ 73248³1  ³29/11/2014³|
+|Called from : CFEP2211(106) in Module: CFEP2211.PRG5³****³ 68559³1  ³09/05/2014³|
+|Called from : CFEP3210(36) in Module: CFEP3210.PRGÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ|
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prgm XML-CFE+SAG                   |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(191) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 09/02/2015
+Time...............: 14:27:57
+
+Application name...: M:\Inffhox\CFE\cfe.exe
+Workstation name...: RECEBIMENTO
+Available memory...: 3154056
+Current disk.......: M
+Current directory..: Inffhox\CFE
+Free disk space....: 235245678592
+
+Operating system...: Windows  Windows Vista Professional 6.01.7601 Service Pack 1
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/BR,B/W,N/N,N/N,W+/B,W/B,N/N,W/B,N/R,W/B,N/R,W/B,N/R,W/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEP3210.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: BASE
+System Code .......: 1002
+Default Status ....: .F.
+Description .......: Alias nÆo existe
+Operation .........: PARALINH
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+DBSELECTAREA          :       0 in Module: 
+PLINHA                :      36 in Module: PARALINH.PRG
+CFEP3100T             :      22 in Module: CFEP310T.PRG
+(b)CFEP3210           :      32 in Module: CFEP3210.PRG
+FN_TECLAX             :      70 in Module: fn_tecla.prg
+(b)DBEDIT             :     386 in Module: source\rtl\dbedit.prg
+DBE_CALLUDF           :     577 in Module: source\rtl\dbedit.prg
+DBEDIT                :     458 in Module: source\rtl\dbedit.prg
+FN_CODIGO             :      64 in Module: CFEPFUNC.PRG
+(b)CFEP3210           :      32 in Module: CFEP3210.PRG
+HBGETLIST:GETPOSTVALI :     721 in Module: source\rtl\tgetlist.prg
+HBGETLIST:READER      :     220 in Module: source\rtl\tgetlist.prg
+READMODAL             :     141 in Module: source\rtl\getsys.prg
+CFEP3210              :      33 in Module: CFEP3210.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|³ Inffhox Desenvolvimentos                                            14:27:56 ³|
+|ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ1-RecebimentosÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄCFEP3210Ù|
+|Ú[CLIENTE]ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿|
+|³ JOSE ZEFERINO DE SOUZA RG/EXCLUIDO            ³  1078 ³ 00000000000    ³ SC  ³|
+|Error BASE/1002  Alias nÆo existe: PARALINH Arguments: () 09245082997    ³ SC  ³|
+|³ JOSEANE AVILA / RG/15/04/2011                 ³  2887 ³ 08455428937    ³ SC  ³|
+|Error at ...: DBSELECTAREA(0) in Module: 4      ³  1744 ³ 04771759960    ³ SC  ³|
+|Called from : PLINHA(36) in Module: PARALINH.PRG³  2870 ³ 92780105968    ³ SC  ³|
+|Called from : CFEP3100T(22) in Module: CFEP310T.PRG3626 ³ 09187440911    ³ SC  ³|
+|Called from : (b)CFEP3210(32) in Module: CFEP3210.PRG55 ³ 07011516921    ³ SC  ³|
+|Called from : FN_TECLAX(70) in Module: fn_tecla.prg 614 ³ 03351531940    ³ SC  ³|
+|Called from : (b)DBEDIT(386) in Module: source\rtl\dbedit.prg05339956    ³ SC  ³|
+|Called from : DBE_CALLUDF(577) in Module: source\rtl\dbedit.prg178915    ³ SC  ³|
+|Called from : DBEDIT(458) in Module: source\rtl\dbedit.prg09800318933    ³ SC  ³|
+|Called from : FN_CODIGO(64) in Module: CFEPFUNC.PRG1931 ³ 04949830945    ³ SC  ³|
+|Called from : (b)CFEP3210(32) in Module: CFEP3210.PRG12 ³ 04804367977    ³ SC  ³|
+|Called from : HBGETLIST:GETPOSTVALIDATE(721) in Module: source\rtl\tgetlist.prg³|
+|Called from : HBGETLIST:READER(220) in Module: source\rtl\tgetlist.prg   ³ SC  ³|
+|Called from : READMODAL(141) in Module: source\rtl\getsys.prg42695908    ³ SC  ³|
+|Called from : CFEP3210(33) in Module: CFEP3210.PRGÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ|
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prg                                |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(191) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 06/02/2015
+Time...............: 09:38:11
+
+Application name...: M:\Inffhox\CFE\cfe.exe
+Workstation name...: RECEBIMENTO
+Available memory...: 3146848
+Current disk.......: M
+Current directory..: Inffhox\CFE
+Free disk space....: 235245445120
+
+Operating system...: Windows  Windows Vista Professional 6.01.7601 Service Pack 1
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/BR,B/W,N/N,N/N,W+/B,W/B,N/R,W/B,N/R,W/B,N/R,W/B,N/R,W/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEP3210.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: BASE
+System Code .......: 1002
+Default Status ....: .F.
+Description .......: Alias nÆo existe
+Operation .........: PARALINH
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+DBSELECTAREA          :       0 in Module: 
+PLINHA                :      36 in Module: PARALINH.PRG
+CFEP3100T             :      22 in Module: CFEP310T.PRG
+(b)CFEP3210           :      32 in Module: CFEP3210.PRG
+FN_TECLAX             :      70 in Module: fn_tecla.prg
+(b)DBEDIT             :     386 in Module: source\rtl\dbedit.prg
+DBE_CALLUDF           :     577 in Module: source\rtl\dbedit.prg
+DBEDIT                :     458 in Module: source\rtl\dbedit.prg
+FN_CODIGO             :      64 in Module: CFEPFUNC.PRG
+(b)CFEP3210           :      32 in Module: CFEP3210.PRG
+HBGETLIST:GETPOSTVALI :     721 in Module: source\rtl\tgetlist.prg
+HBGETLIST:READER      :     220 in Module: source\rtl\tgetlist.prg
+READMODAL             :     141 in Module: source\rtl\getsys.prg
+CFEP3210              :      33 in Module: CFEP3210.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|³ Inffhox Desenvolvimentos                                             9:38:11 ³|
+|ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ1-RecebimentosÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄCFEP3210Ù|
+|Ú[CLIENTE]ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿|
+|³ MIGUELINA MARILEI RODRIGUES MUNIZ/9917-9059   ³  1166 ³ 61961973987    ³ SC  ³|
+|Error BASE/1002  Alias nÆo existe: PARALINH Arguments: () 03647254940    ³ SC  ³|
+|³ MILTON ARAUJO   RECADASTRAR                   ³  2565 ³ 49237179987    ³ SC  ³|
+|Error at ...: DBSELECTAREA(0) in Module:        ³  1610 ³ 01688652973    ³ SC  ³|
+|Called from : PLINHA(36) in Module: PARALINH.PRG³   603 ³ 50157949915    ³ SC  ³|
+|Called from : CFEP3100T(22) in Module: CFEP310T.PRG 553 ³ 00000000000    ³ SC  ³|
+|Called from : (b)CFEP3210(32) in Module: CFEP3210.PRG56 ³ 97447960900    ³ SC  ³|
+|Called from : FN_TECLAX(70) in Module: fn_tecla.prg1774 ³ 00000000000000 ³ SC  ³|
+|Called from : (b)DBEDIT(386) in Module: source\rtl\dbedit.prg83611977    ³ SC  ³|
+|Called from : DBE_CALLUDF(577) in Module: source\rtl\dbedit.prg911902    ³ SC  ³|
+|Called from : DBEDIT(458) in Module: source\rtl\dbedit.prg07697363941    ³ SC  ³|
+|Called from : FN_CODIGO(64) in Module: CFEPFUNC.PRG3005 ³ 07414643000120 ³ SC  ³|
+|Called from : (b)CFEP3210(32) in Module: CFEP3210.PRG35 ³ 07180030988    ³ SC  ³|
+|Called from : HBGETLIST:GETPOSTVALIDATE(721) in Module: source\rtl\tgetlist.prg³|
+|Called from : HBGETLIST:READER(220) in Module: source\rtl\tgetlist.prg   ³ SC  ³|
+|Called from : READMODAL(141) in Module: source\rtl\getsys.prg99568922    ³ SC  ³|
+|Called from : CFEP3210(33) in Module: CFEP3210.PRGÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ|
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prg                                |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(191) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 29/12/2014
+Time...............: 16:07:25
+
+Application name...: M:\Inffhox\CFE\cfe.exe
+Workstation name...: RECEBIMENTO
+Available memory...: 3127816
+Current disk.......: M
+Current directory..: Inffhox\CFE
+Free disk space....: 235819143168
+
+Operating system...: Windows  Windows Vista Professional 6.01.7601 Service Pack 1
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/BR,B/W,N/N,N/N,W+/B,W/B,N/R,W/B,N/R,W/B,N/R,W/B,N/R,W/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEP3210.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: BASE
+System Code .......: 1002
+Default Status ....: .F.
+Description .......: Alias nÆo existe
+Operation .........: PARALINH
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+DBSELECTAREA          :       0 in Module: 
+PLINHA                :      36 in Module: PARALINH.PRG
+CFEP3100T             :      22 in Module: CFEP310T.PRG
+(b)CFEP3210           :      32 in Module: CFEP3210.PRG
+FN_TECLAX             :      70 in Module: fn_tecla.prg
+(b)DBEDIT             :     386 in Module: source\rtl\dbedit.prg
+DBE_CALLUDF           :     577 in Module: source\rtl\dbedit.prg
+DBEDIT                :     458 in Module: source\rtl\dbedit.prg
+FN_CODIGO             :      64 in Module: CFEPFUNC.PRG
+(b)CFEP3210           :      32 in Module: CFEP3210.PRG
+HBGETLIST:GETPOSTVALI :     721 in Module: source\rtl\tgetlist.prg
+HBGETLIST:READER      :     220 in Module: source\rtl\tgetlist.prg
+READMODAL             :     141 in Module: source\rtl\getsys.prg
+CFEP3210              :      33 in Module: CFEP3210.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|³ Inffhox Desenvolvimentos                                            16:07:25 ³|
+|ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ1-RecebimentosÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄCFEP3210Ù|
+|Ú[CLIENTE]ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿|
+|³ .                                             ³  1186 ³ 00000000000    ³ SC  ³|
+|Error BASE/1002  Alias nÆo existe: PARALINH Arguments: () 00000000000    ³ SC  ³|
+|³ .                                             ³  1191 ³ 00000000000    ³ SC  ³|
+|Error at ...: DBSELECTAREA(0) in Module:        ³  1195 ³ 11111111111    ³ SC  ³|
+|Called from : PLINHA(36) in Module: PARALINH.PRG³  1206 ³ 00000000000    ³ SC  ³|
+|Called from : CFEP3100T(22) in Module: CFEP310T.PRG1209 ³ 00000000000    ³ SC  ³|
+|Called from : (b)CFEP3210(32) in Module: CFEP3210.PRG15 ³ 00000000000    ³ SC  ³|
+|Called from : FN_TECLAX(70) in Module: fn_tecla.prg1227 ³ 00000000000    ³ SC  ³|
+|Called from : (b)DBEDIT(386) in Module: source\rtl\dbedit.prg00000000    ³ SC  ³|
+|Called from : DBE_CALLUDF(577) in Module: source\rtl\dbedit.prg000000    ³ SC  ³|
+|Called from : DBEDIT(458) in Module: source\rtl\dbedit.prg00000000000    ³ SC  ³|
+|Called from : FN_CODIGO(64) in Module: CFEPFUNC.PRG1259 ³ 00000000000    ³ SC  ³|
+|Called from : (b)CFEP3210(32) in Module: CFEP3210.PRG66 ³ 00000000000    ³ SC  ³|
+|Called from : HBGETLIST:GETPOSTVALIDATE(721) in Module: source\rtl\tgetlist.prg³|
+|Called from : HBGETLIST:READER(220) in Module: source\rtl\tgetlist.prg   ³ SC  ³|
+|Called from : READMODAL(141) in Module: source\rtl\getsys.prg00000000    ³ SC  ³|
+|Called from : CFEP3210(33) in Module: CFEP3210.PRGÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ|
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prgss <INS>                        |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(191) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 09/12/2014
+Time...............: 16:07:43
+
+Application name...: M:\Inffhox\CFE\cfe.exe
+Workstation name...: RECEBIMENTO
+Available memory...: 3078868
+Current disk.......: M
+Current directory..: Inffhox\CFE
+Free disk space....: 236578742272
+
+Operating system...: Windows  Windows Vista Professional 6.01.7601 Service Pack 1
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/B,B/W,N/N,N/N,W+/B,W/B,N/R,W/B,N/R,W/B,N/R,W/B,N/R,W/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEP3210.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: BASE
+System Code .......: 1002
+Default Status ....: .F.
+Description .......: Alias nÆo existe
+Operation .........: CAIXACG
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+DBSELECTAREA          :       0 in Module: 
+BUSCTIPOCX            :     382 in Module: CFEPFUN1.PRG
+CFEP2211              :     106 in Module: CFEP2211.PRG
+CFEP3210              :      36 in Module: CFEP3210.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|³ C.F.E.                                                          Vers„o 2014c7³|
+|³ LOJAO DO POVO                                                Hoje: 09/12/2014³|
+|³ Inffhox Desenvolvimentos                                            16:07:43 ³|
+|ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ1-RecebimentosÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄCFEP3210Ù|
+|ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»|
+|º Cliente.........  3098-SUELE CASTANGA GONCALVES/9952-4072                    º|
+|º                                                                              º|
+|º                                                                              º|
+|º                                                                              º|
+|º         ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿   0,00 º|
+|ÚÄÄÄÄÄÄÄÄÄ³                                                           ³ÄÄÄÄÄÄÄÄ¿|
+|³NDuplicata Dt Venct   TpM Vlr Dpl/ R$  Vlr Pago     Juros        Desconto     ³|
+|³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³|
+|³ 149398.08³30/10/2014³1  ³       29,05³        0,00³        0,00³        0,00 ³|
+|Error BASE/1002  Alias nÆo existe: CAIXACG Arguments: ()     0,00³        0,00 ³|
+|³ 156472.06³30/10/2014³1  ³       49,95³        0,00³        0,00³        0,00 ³|
+|Error at ...: DBSELECTAREA(0) in Module:        0,00³        0,00³        0,00 ³|
+|Called from : BUSCTIPOCX(382) in Module: CFEPFUN1.PRG        0,00³        0,00 ³|
+|Called from : CFEP2211(106) in Module: CFEP2211.PRG0³        0,00³        0,00 ³|
+|Called from : CFEP3210(36) in Module: CFEP3210.PRG00³        0,00³        0,00 ³|
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg       0,00³        0,00 ³|
+|Called from : SUBMENU(81) in Module: fazmenu.prgÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ|
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prgm XML-CFE+SAG                   |
+|Called from : MAIN(191) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 18/11/2014
+Time...............: 16:34:53
+
+Application name...: M:\Inffhox\CFE\cfe.exe
+Workstation name...: RECEBIMENTO
+Available memory...: 3128540
+Current disk.......: M
+Current directory..: Inffhox\CFE
+Free disk space....: 235845210112
+
+Operating system...: Windows  Windows Vista Professional 6.01.7601 Service Pack 1
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/B,B/W,N/N,N/N,W+/B,W/B,N/R,W/B,N/R,W/B,N/R,W/B,N/R,W/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEP3210.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: BASE
+System Code .......: 1002
+Default Status ....: .F.
+Description .......: Alias nÆo existe
+Operation .........: CAIXACG
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+DBSELECTAREA          :       0 in Module: 
+BUSCTIPOCX            :     382 in Module: CFEPFUN1.PRG
+CFEP2211              :     106 in Module: CFEP2211.PRG
+CFEP3210              :      36 in Module: CFEP3210.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|³ LOJAO DO POVO                                                Hoje: 18/11/2014³|
+|³ Inffhox Desenvolvimentos                                            16:34:53 ³|
+|ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ1-RecebimentosÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄCFEP3210Ù|
+|ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»|
+|º Cliente.........  1002-VERENICE DA SILVA  /SOMENTE ELA  CARNE                º|
+|º                                                                              º|
+|º                                                                              º|
+|º                                                                              º|
+|º         ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄVlr Lan‡ado :           0,00 º|
+|ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄDuplicatasÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿|
+|³NDuplicata Dt Venct   TpM Vlr Dpl/ R$  Vlr Pago     Juros        Desconto     ³|
+|³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³|
+|³ 145113.05³10/04/2014³1  ³       54,79³        0,00³        0,00³        0,00 ³|
+|³ 146086.04³10/04/2014³1  ³       26,13³        0,00³        0,00³        0,00 ³|
+|Error BASE/1002  Alias nÆo existe: CAIXACG Arguments: ()     0,00³        0,00 ³|
+|³ 145113.06³10/05/2014³1  ³       60,79³        0,00³        0,00³        0,00 ³|
+|Error at ...: DBSELECTAREA(0) in Module:        0,00³        0,00³        0,00 ³|
+|Called from : BUSCTIPOCX(382) in Module: CFEPFUN1.PRG        0,00³        0,00 ³|
+|Called from : CFEP2211(106) in Module: CFEP2211.PRG0³        0,00³        0,00 ³|
+|Called from : CFEP3210(36) in Module: CFEP3210.PRG00³        0,00³        0,00 ³|
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prgÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ|
+|Called from : SUBMENU(81) in Module: fazmenu.prg                                |
+|Called from : SUBMENU(85) in Module: fazmenu.prgSC> para sair                   |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(191) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 05/11/2014
+Time...............: 10:11:11
+
+Application name...: M:\Inffhox\CFE\cfe.exe
+Workstation name...: RECEBIMENTO
+Available memory...: 3086700
+Current disk.......: M
+Current directory..: Inffhox\CFE
+Free disk space....: 235646533632
+
+Operating system...: Windows  Windows Vista Professional 6.01.7601 Service Pack 1
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/BR,B/W,N/N,N/N,W+/B,W/B,N/R,W/B,N/R,W/B,N/R,W/B,N/R,W/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEP3210.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: BASE
+System Code .......: 1002
+Default Status ....: .F.
+Description .......: Alias nÆo existe
+Operation .........: PARALINH
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+DBSELECTAREA          :       0 in Module: 
+PLINHA                :      36 in Module: PARALINH.PRG
+CFEP3100T             :      22 in Module: CFEP310T.PRG
+(b)CFEP3210           :      32 in Module: CFEP3210.PRG
+FN_TECLAX             :      70 in Module: fn_tecla.prg
+(b)DBEDIT             :     386 in Module: source\rtl\dbedit.prg
+DBE_CALLUDF           :     577 in Module: source\rtl\dbedit.prg
+DBEDIT                :     458 in Module: source\rtl\dbedit.prg
+FN_CODIGO             :      64 in Module: CFEPFUNC.PRG
+(b)CFEP3210           :      32 in Module: CFEP3210.PRG
+HBGETLIST:GETPOSTVALI :     721 in Module: source\rtl\tgetlist.prg
+HBGETLIST:READER      :     220 in Module: source\rtl\tgetlist.prg
+READMODAL             :     141 in Module: source\rtl\getsys.prg
+CFEP3210              :      33 in Module: CFEP3210.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|³ Inffhox Desenvolvimentos                                            10:11:11 ³|
+|ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ1-RecebimentosÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄCFEP3210Ù|
+|Ú[CLIENTE]ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿|
+|³ .                                             ³  1120 ³ 00000000000    ³ SC  ³|
+|Error BASE/1002  Alias nÆo existe: PARALINH Arguments: () 00000000000    ³ SC  ³|
+|³ .                                             ³  1126 ³ 00000000000    ³ SC  ³|
+|Error at ...: DBSELECTAREA(0) in Module:        ³  1128 ³ 00000000000    ³ SC  ³|
+|Called from : PLINHA(36) in Module: PARALINH.PRG³  1142 ³ 00000000000    ³ SC  ³|
+|Called from : CFEP3100T(22) in Module: CFEP310T.PRG1143 ³ 00000000000    ³ SC  ³|
+|Called from : (b)CFEP3210(32) in Module: CFEP3210.PRG47 ³ 00000000000    ³ SC  ³|
+|Called from : FN_TECLAX(70) in Module: fn_tecla.prg1151 ³ 00000000000    ³ SC  ³|
+|Called from : (b)DBEDIT(386) in Module: source\rtl\dbedit.prg00000000    ³ SC  ³|
+|Called from : DBE_CALLUDF(577) in Module: source\rtl\dbedit.prg000000    ³ SC  ³|
+|Called from : DBEDIT(458) in Module: source\rtl\dbedit.prg00000000000    ³ SC  ³|
+|Called from : FN_CODIGO(64) in Module: CFEPFUNC.PRG1188 ³ 00000000000    ³ SC  ³|
+|Called from : (b)CFEP3210(32) in Module: CFEP3210.PRG91 ³ 00000000000    ³ SC  ³|
+|Called from : HBGETLIST:GETPOSTVALIDATE(721) in Module: source\rtl\tgetlist.prg³|
+|Called from : HBGETLIST:READER(220) in Module: source\rtl\tgetlist.prg   ³ SC  ³|
+|Called from : READMODAL(141) in Module: source\rtl\getsys.prg00000000    ³ SC  ³|
+|Called from : CFEP3210(33) in Module: CFEP3210.PRGÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ|
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prgss <INS>                        |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(191) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 07/10/2014
+Time...............: 10:37:58
+
+Application name...: M:\Inffhox\CFE\cfe.exe
+Workstation name...: RECEBIMENTO
+Available memory...: 3169068
+Current disk.......: M
+Current directory..: Inffhox\CFE
+Free disk space....: 235438178304
+
+Operating system...: Windows  Windows Vista Professional 6.01.7601 Service Pack 1
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/BR,B/W,N/N,N/N,W+/B,W/B,N/R,W/B,N/R,W/B,N/R,W/B,N/R,W/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEP3210.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: BASE
+System Code .......: 1002
+Default Status ....: .F.
+Description .......: Alias nÆo existe
+Operation .........: PARALINH
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+DBSELECTAREA          :       0 in Module: 
+PLINHA                :      36 in Module: PARALINH.PRG
+CFEP3100T             :      22 in Module: CFEP310T.PRG
+(b)CFEP3210           :      32 in Module: CFEP3210.PRG
+FN_TECLAX             :      70 in Module: fn_tecla.prg
+(b)DBEDIT             :     386 in Module: source\rtl\dbedit.prg
+DBE_CALLUDF           :     577 in Module: source\rtl\dbedit.prg
+DBEDIT                :     458 in Module: source\rtl\dbedit.prg
+FN_CODIGO             :      64 in Module: CFEPFUNC.PRG
+(b)CFEP3210           :      32 in Module: CFEP3210.PRG
+HBGETLIST:GETPOSTVALI :     721 in Module: source\rtl\tgetlist.prg
+HBGETLIST:READER      :     220 in Module: source\rtl\tgetlist.prg
+READMODAL             :     141 in Module: source\rtl\getsys.prg
+CFEP3210              :      33 in Module: CFEP3210.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|³ Inffhox Desenvolvimentos                                            10:37:58 ³|
+|ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ1-RecebimentosÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄCFEP3210Ù|
+|Ú[CLIENTE]ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿|
+|³ CRISTIAN FERREIRA BUENO    RG INATIVO         ³  2054 ³ 04162733945    ³ SC  ³|
+|Error BASE/1002  Alias nÆo existe: PARALINH Arguments: () 04187538909    ³ SC  ³|
+|³ CRISTIANE DA ROSA                             ³  2523 ³ 01074935942    ³ SC  ³|
+|Error at ...: DBSELECTAREA(0) in Module: 4      ³   406 ³ 08858111940    ³ SC  ³|
+|Called from : PLINHA(36) in Module: PARALINH.PRG³   182 ³ 04279864942    ³ SC  ³|
+|Called from : CFEP3100T(22) in Module: CFEP310T.PRG 655 ³ 02192174918    ³ SC  ³|
+|Called from : (b)CFEP3210(32) in Module: CFEP3210.PRG36 ³ 04819555936    ³ SC  ³|
+|Called from : FN_TECLAX(70) in Module: fn_tecla.prg3298 ³ 09081506951    ³ SC  ³|
+|Called from : (b)DBEDIT(386) in Module: source\rtl\dbedit.prg54157907    ³ SC  ³|
+|Called from : DBE_CALLUDF(577) in Module: source\rtl\dbedit.prg411957    ³ SC  ³|
+|Called from : DBEDIT(458) in Module: source\rtl\dbedit.prg81178883949    ³ SC  ³|
+|Called from : FN_CODIGO(64) in Module: CFEPFUNC.PRG 773 ³ 00000000000    ³ SC  ³|
+|Called from : (b)CFEP3210(32) in Module: CFEP3210.PRG24 ³ 00000000000    ³ SC  ³|
+|Called from : HBGETLIST:GETPOSTVALIDATE(721) in Module: source\rtl\tgetlist.prg³|
+|Called from : HBGETLIST:READER(220) in Module: source\rtl\tgetlist.prg   ³ SC  ³|
+|Called from : READMODAL(141) in Module: source\rtl\getsys.prg92891900    ³ SC  ³|
+|Called from : CFEP3210(33) in Module: CFEP3210.PRGÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ|
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prg                                |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(191) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 02/10/2014
+Time...............: 11:26:10
+
+Application name...: M:\Inffhox\CFE\cfe.exe
+Workstation name...: RECEBIMENTO
+Available memory...: 3124136
+Current disk.......: M
+Current directory..: Inffhox\CFE
+Free disk space....: 235917926400
+
+Operating system...: Windows  Windows Vista Professional 6.01.7601 Service Pack 1
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/BR,B/W,N/N,N/N,W+/B,W/B,N/R,W/B,N/R,W/B,N/R,W/B,N/R,W/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEP3210.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: BASE
+System Code .......: 1002
+Default Status ....: .F.
+Description .......: Alias nÆo existe
+Operation .........: PARALINH
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+DBSELECTAREA          :       0 in Module: 
+PLINHA                :      36 in Module: PARALINH.PRG
+CFEP3100T             :      22 in Module: CFEP310T.PRG
+(b)CFEP3210           :      32 in Module: CFEP3210.PRG
+FN_TECLAX             :      70 in Module: fn_tecla.prg
+(b)DBEDIT             :     386 in Module: source\rtl\dbedit.prg
+DBE_CALLUDF           :     577 in Module: source\rtl\dbedit.prg
+DBEDIT                :     458 in Module: source\rtl\dbedit.prg
+FN_CODIGO             :      64 in Module: CFEPFUNC.PRG
+(b)CFEP3210           :      32 in Module: CFEP3210.PRG
+HBGETLIST:GETPOSTVALI :     721 in Module: source\rtl\tgetlist.prg
+HBGETLIST:READER      :     220 in Module: source\rtl\tgetlist.prg
+READMODAL             :     141 in Module: source\rtl\getsys.prg
+CFEP3210              :      33 in Module: CFEP3210.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|³ Inffhox Desenvolvimentos                                            11:26:10 ³|
+|ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ1-RecebimentosÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄCFEP3210Ù|
+|Ú[CLIENTE]ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿|
+|³ MARLI A OLIVEIRA DE SOUZA     RG EXCLUIDO     ³  2586 ³ 07138663900    ³ SC  ³|
+|Error BASE/1002  Alias nÆo existe: PARALINH Arguments: () 03929653990    ³ SC  ³|
+|³ MARLI APARECIDA DE JESUS RG/EXCLUIDO          ³  2016 ³ 05001253926    ³ SC  ³|
+|Error at ...: DBSELECTAREA(0) in Module:        ³  1810 ³ 03179043962    ³ SC  ³|
+|Called from : PLINHA(36) in Module: PARALINH.PRG³   602 ³ 70553939904    ³ SC  ³|
+|Called from : CFEP3100T(22) in Module: CFEP310T.PRG3322 ³ 02873391901    ³ SC  ³|
+|Called from : (b)CFEP3210(32) in Module: CFEP3210.PRG08 ³ 64993159900    ³ SC  ³|
+|Called from : FN_TECLAX(70) in Module: fn_tecla.prg2508 ³ 76970566900    ³ SC  ³|
+|Called from : (b)DBEDIT(386) in Module: source\rtl\dbedit.prg14242923    ³ SC  ³|
+|Called from : DBE_CALLUDF(577) in Module: source\rtl\dbedit.prg895100    ³ SC  ³|
+|Called from : DBEDIT(458) in Module: source\rtl\dbedit.prg70130531987    ³ SC  ³|
+|Called from : FN_CODIGO(64) in Module: CFEPFUNC.PRG2738 ³ 96081600904    ³ SC  ³|
+|Called from : (b)CFEP3210(32) in Module: CFEP3210.PRG79 ³ 67081061915    ³ SC  ³|
+|Called from : HBGETLIST:GETPOSTVALIDATE(721) in Module: source\rtl\tgetlist.prg³|
+|Called from : HBGETLIST:READER(220) in Module: source\rtl\tgetlist.prg   ³ SC  ³|
+|Called from : READMODAL(141) in Module: source\rtl\getsys.prg59965900    ³ SC  ³|
+|Called from : CFEP3210(33) in Module: CFEP3210.PRGÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ|
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prg                                |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(191) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 09/09/2014
+Time...............: 15:52:07
+
+Application name...: M:\Inffhox\CFE\cfe.exe
+Workstation name...: RECEBIMENTO
+Available memory...: 3171624
+Current disk.......: M
+Current directory..: Inffhox\CFE
+Free disk space....: 236307513344
+
+Operating system...: Windows  Windows Vista Professional 6.01.7601 Service Pack 1
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/BR,B/W,N/N,N/N,W+/B,W/B,N/R,W/B,N/R,W/B,N/R,W/B,N/R,W/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEP3210.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: BASE
+System Code .......: 1002
+Default Status ....: .F.
+Description .......: Alias nÆo existe
+Operation .........: PARALINH
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+DBSELECTAREA          :       0 in Module: 
+PLINHA                :      36 in Module: PARALINH.PRG
+CFEP3100T             :      22 in Module: CFEP310T.PRG
+(b)CFEP3210           :      32 in Module: CFEP3210.PRG
+FN_TECLAX             :      70 in Module: fn_tecla.prg
+(b)DBEDIT             :     386 in Module: source\rtl\dbedit.prg
+DBE_CALLUDF           :     577 in Module: source\rtl\dbedit.prg
+DBEDIT                :     458 in Module: source\rtl\dbedit.prg
+FN_CODIGO             :      64 in Module: CFEPFUNC.PRG
+(b)CFEP3210           :      32 in Module: CFEP3210.PRG
+HBGETLIST:GETPOSTVALI :     721 in Module: source\rtl\tgetlist.prg
+HBGETLIST:READER      :     220 in Module: source\rtl\tgetlist.prg
+READMODAL             :     141 in Module: source\rtl\getsys.prg
+CFEP3210              :      33 in Module: CFEP3210.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|³ Inffhox Desenvolvimentos                                            15:52:07 ³|
+|ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ1-RecebimentosÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄCFEP3210Ù|
+|Ú[CLIENTE]ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿|
+|³ .                                             ³  1111 ³ 00000000000    ³ SC  ³|
+|Error BASE/1002  Alias nÆo existe: PARALINH Arguments: () 00000000000    ³ SC  ³|
+|³ .                                             ³  1122 ³ 00000000000    ³ SC  ³|
+|Error at ...: DBSELECTAREA(0) in Module:        ³  1126 ³ 00000000000    ³ SC  ³|
+|Called from : PLINHA(36) in Module: PARALINH.PRG³  1128 ³ 00000000000    ³ SC  ³|
+|Called from : CFEP3100T(22) in Module: CFEP310T.PRG1142 ³ 00000000000    ³ SC  ³|
+|Called from : (b)CFEP3210(32) in Module: CFEP3210.PRG43 ³ 00000000000    ³ SC  ³|
+|Called from : FN_TECLAX(70) in Module: fn_tecla.prg1147 ³ 00000000000    ³ SC  ³|
+|Called from : (b)DBEDIT(386) in Module: source\rtl\dbedit.prg00000000    ³ SC  ³|
+|Called from : DBE_CALLUDF(577) in Module: source\rtl\dbedit.prg000000    ³ SC  ³|
+|Called from : DBEDIT(458) in Module: source\rtl\dbedit.prg00000000000    ³ SC  ³|
+|Called from : FN_CODIGO(64) in Module: CFEPFUNC.PRG1186 ³ 00000000000    ³ SC  ³|
+|Called from : (b)CFEP3210(32) in Module: CFEP3210.PRG88 ³ 00000000000    ³ SC  ³|
+|Called from : HBGETLIST:GETPOSTVALIDATE(721) in Module: source\rtl\tgetlist.prg³|
+|Called from : HBGETLIST:READER(220) in Module: source\rtl\tgetlist.prg   ³ SC  ³|
+|Called from : READMODAL(141) in Module: source\rtl\getsys.prg00000000    ³ SC  ³|
+|Called from : CFEP3210(33) in Module: CFEP3210.PRGÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ|
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prgss <INS>                        |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(191) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 26/06/2014
+Time...............: 11:45:23
+
+Application name...: M:\Inffhox\CFE\cfe.exe
+Workstation name...: LOJA2
+Available memory...: 3170432
+Current disk.......: M
+Current directory..: Inffhox\CFE
+Free disk space....: 235933552640
+
+Operating system...: Windows  Windows Vista Professional 6.01.7601 Service Pack 1
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/BR,B/W,N/N,N/N,W+/B,W/B,N/R,W/B,N/R,W/B,N/R,W/B,N/R,W/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEP3210.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: BASE
+System Code .......: 1002
+Default Status ....: .F.
+Description .......: Alias nÆo existe
+Operation .........: PARALINH
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+DBSELECTAREA          :       0 in Module: 
+PLINHA                :      36 in Module: PARALINH.PRG
+CFEP3100T             :      22 in Module: CFEP310T.PRG
+(b)CFEP3210           :      32 in Module: CFEP3210.PRG
+FN_TECLAX             :      70 in Module: fn_tecla.prg
+(b)DBEDIT             :     386 in Module: source\rtl\dbedit.prg
+DBE_CALLUDF           :     577 in Module: source\rtl\dbedit.prg
+DBEDIT                :     458 in Module: source\rtl\dbedit.prg
+FN_CODIGO             :      64 in Module: CFEPFUNC.PRG
+(b)CFEP3210           :      32 in Module: CFEP3210.PRG
+HBGETLIST:GETPOSTVALI :     721 in Module: source\rtl\tgetlist.prg
+HBGETLIST:READER      :     220 in Module: source\rtl\tgetlist.prg
+READMODAL             :     141 in Module: source\rtl\getsys.prg
+CFEP3210              :      33 in Module: CFEP3210.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|Ú[CLIENTE]ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿|
+|³ .                                             ³  1091 ³ 00000000000    ³ SC  ³|
+|³ .                                             ³  1099 ³ 00000000000    ³ SC  ³|
+|³ .                                             ³  1103 ³ 00000000000    ³ SC  ³|
+|Error BASE/1002  Alias nÆo existe: PARALINH Arguments: () 00000000000    ³ SC  ³|
+|³ .                                             ³  1111 ³ 00000000000    ³ SC  ³|
+|Error at ...: DBSELECTAREA(0) in Module:        ³  1120 ³ 00000000000    ³ SC  ³|
+|Called from : PLINHA(36) in Module: PARALINH.PRG³  1122 ³ 00000000000    ³ SC  ³|
+|Called from : CFEP3100T(22) in Module: CFEP310T.PRG1126 ³ 00000000000    ³ SC  ³|
+|Called from : (b)CFEP3210(32) in Module: CFEP3210.PRG28 ³ 00000000000    ³ SC  ³|
+|Called from : FN_TECLAX(70) in Module: fn_tecla.prg1142 ³ 00000000000    ³ SC  ³|
+|Called from : (b)DBEDIT(386) in Module: source\rtl\dbedit.prg00000000    ³ SC  ³|
+|Called from : DBE_CALLUDF(577) in Module: source\rtl\dbedit.prg000000    ³ SC  ³|
+|Called from : DBEDIT(458) in Module: source\rtl\dbedit.prg00000000000    ³ SC  ³|
+|Called from : FN_CODIGO(64) in Module: CFEPFUNC.PRG1181 ³ 00000000000    ³ SC  ³|
+|Called from : (b)CFEP3210(32) in Module: CFEP3210.PRG85 ³ 00000000000    ³ SC  ³|
+|Called from : HBGETLIST:GETPOSTVALIDATE(721) in Module: source\rtl\tgetlist.prg³|
+|Called from : HBGETLIST:READER(220) in Module: source\rtl\tgetlist.prgÄÄÄÄÄÄÄÄÄÙ|
+|Called from : READMODAL(141) in Module: source\rtl\getsys.prg                   |
+|Called from : CFEP3210(33) in Module: CFEP3210.PRG <INS>                        |
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prg                                |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(191) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 06/05/2014
+Time...............: 14:29:33
+
+Application name...: M:\Inffhox\CFE\cfe.exe
+Workstation name...: LOJA2
+Available memory...: 3252108
+Current disk.......: M
+Current directory..: Inffhox\CFE
+Free disk space....: 239035781120
+
+Operating system...: Windows  Windows Vista Professional 6.01.7601 Service Pack 1
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/B,B/W,N/N,N/N,W+/B,W/B,N/R,W/B,N/R,W/B,N/R,W/B,N/R,W/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEP3210.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: DBFCDX
+System Code .......: 1010
+Default Status ....: .F.
+Description .......: Erro de leitura
+Operation .........: 
+Arguments .........: 
+Involved File .....: CFEADR.dbf
+Dos Error Code ....: 87
+
+ Trace Through:
+----------------
+ATUALDPL              :     248 in Module: CFEP2211.PRG
+CFEP2211              :     125 in Module: CFEP2211.PRG
+CFEP3210              :      36 in Module: CFEP3210.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|º Codigo Caixa:  1-RECEBIMENTOS                                                º|
+|º                                                 Vlr Lan‡ado :         501,47 º|
+|ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄForma de Pagamento/RecebimentosÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿|
+|³Sq Bco Descricao                           Docto  Valor        Imprime Cheque ³|
+|³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³|
+|³ 1³  1³CARTEIRA                           ³     1³      501,47³S              ³|
+|³ 2³  0³                                   ³     0³        0,00³S              ³|
+|³ 3³  0³                                   ³     0³        0,00³S              ³|
+|³ 4³  0³                                   ³     0³        0,00³S              ³|
+|³ 5³  0³                                   ³     0³        0,00³S              ³|
+|³ 6³  0³                                   ³     0³        0,00³S              ³|
+|³ 7³  0³                                   ³     0³        0,00³S              ³|
+|³ 8³  0³                                   ³     0³        0,00³S              ³|
+|ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ|
+|                                                                                |
+|Error DBFCDX/1010  Erro de leitura: CFEADR.dbf Arguments: () (DOS Error 87)     |
+|                                                                                |
+|Error at ...: ATUALDPL(248) in Module: CFEP2211.PRG                             |
+|Called from : CFEP2211(125) in Module: CFEP2211.PRG                             |
+|Called from : CFEP3210(36) in Module: CFEP3210.PRG                              |
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prg                                |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(191) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+

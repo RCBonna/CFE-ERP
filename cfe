@@ -1,0 +1,10 @@
+#BCC
+VERSION=BCB.01
+!ifndef CC_DIR
+CC_DIR = $(MAKE_DIR)
+!endif
+
+!ifndef HB_DIR
+HB_DIR = $(HARBOUR_DIR)
+!endif
+ 

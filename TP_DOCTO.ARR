@@ -1,0 +1,1 @@
+A   6A   2C    3NF C   22Nota Fiscal           A   2C    3NFFC   22Nota Fiscal Fatura    A   2C    3CEEC   22Conta Energia EletricaA   2C    3CT C   22Conhecimento de Frete A   2C    3CTCC   22CONTA DE TELE COMUNIC A   2C    3NFSC   20Nota Fiscal de Serv 

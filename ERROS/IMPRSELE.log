@@ -1,0 +1,451 @@
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 24/10/2017
+Time...............: 17:02:36
+
+Application name...: C:\Inffhox\CFE\cfe.exe
+Workstation name...: SERVIDOR
+Available memory...: 4194303
+Current disk.......: C
+Current directory..: Inffhox\CFE
+Free disk space....: 220011675648
+
+Operating system...: Windows  Windows Vista Professional 6.01.7601 Service Pack 1
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/BR,R/W,N/N,N/N,W+/BR,W/B,N/R
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\IMPRSELE.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: DBFCDX
+System Code .......: 1022
+Default Status ....: .F.
+Description .......: Travamento requerido
+Operation .........: 
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+IMPRSELE              :     126 in Module: imprset.prg
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     213 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»|
+|º Caixa Fornecedor Clientes Estoque Faturamento Fiscal Sistema                 º|
+|ºÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄº|
+|º                                                     ³1-Muda Data     ³       º|
+|º                                                     ³2-Parametros... ³       º|
+|º                                                     ³3-Dados...      ³       º|
+|º                                                     ³4-Sistema...    ³       º|
+|º                                                     ³5-Impressora... ³       º|
+|º F1 =Ajuda                                           ³X-EnÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿   º|
+|º F3 =Cons.Fornecedores                               ÀÄÄÄÄ³1-Inclui/Altera³   º|
+|º F4 =Cons.Clientes                                        ³2-Seleciona    ³   º|
+|º F5 =Cons.Produtos ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄSele‡„o de ImpressorasÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿|
+|º F7 =Cons.Parcelame³     Impressora                          Situa‡„o         ³|
+|º F6 =Calculadora   ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³|
+|º F9 =Sel Impressora³     PADRAO EPSON FX                    ³                 ³|
+|º F11=Calendario    ³     HP 680C                            ³                 ³|
+|º                   ³     EPSON FX 890                       ³                 ³|
+|Error DBFCDX/1022  Travamento requerido Arguments: ()ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ|
+|                      M¢dulo de Parametriza‡„o do Sistema                       |
+|Error at ...: IMPRSELE(126) in Module: imprset.prgabalho                        |
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prg                                |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(213) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 24/10/2017
+Time...............: 17:02:14
+
+Application name...: C:\Inffhox\CFE\cfe.exe
+Workstation name...: SERVIDOR
+Available memory...: 4194303
+Current disk.......: C
+Current directory..: Inffhox\CFE
+Free disk space....: 220011675648
+
+Operating system...: Windows  Windows Vista Professional 6.01.7601 Service Pack 1
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/BR,R/W,N/N,N/N,W+/BR,W/B,N/R,W/B,N/R,W/B,N/R,W/B,N/R,W/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\IMPRSELE.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: DBFCDX
+System Code .......: 1022
+Default Status ....: .F.
+Description .......: Travamento requerido
+Operation .........: 
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+IMPRSELE              :     126 in Module: imprset.prg
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     213 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»|
+|º Caixa Fornecedor Clientes Estoque Faturamento Fiscal Sistema                 º|
+|ºÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄº|
+|º                                                     ³1-Muda Data     ³       º|
+|º                                                     ³2-Parametros... ³       º|
+|º                                                     ³3-Dados...      ³       º|
+|º                                                     ³4-Sistema...    ³       º|
+|º                                                     ³5-Impressora... ³       º|
+|º F1 =Ajuda                                           ³X-EnÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿   º|
+|º F3 =Cons.Fornecedores                               ÀÄÄÄÄ³1-Inclui/Altera³   º|
+|º F4 =Cons.Clientes                                        ³2-Seleciona    ³   º|
+|º F5 =Cons.Produtos ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄSele‡„o de ImpressorasÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿|
+|º F7 =Cons.Parcelame³     Impressora                          Situa‡„o         ³|
+|º F6 =Calculadora   ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³|
+|º F9 =Sel Impressora³     PADRAO EPSON FX                    ³Selecionada      ³|
+|º F11=Calendario    ³     HP 680C                            ³                 ³|
+|º                   ³     EPSON FX 890                       ³                 ³|
+|Error DBFCDX/1022  Travamento requerido Arguments: ()ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ|
+|                      M¢dulo de Parametriza‡„o do Sistema                       |
+|Error at ...: IMPRSELE(126) in Module: imprset.prgabalho                        |
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prg                                |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(213) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 24/10/2017
+Time...............: 17:01:07
+
+Application name...: C:\Inffhox\CFE\cfe.exe
+Workstation name...: SERVIDOR
+Available memory...: 4194303
+Current disk.......: C
+Current directory..: Inffhox\CFE
+Free disk space....: 220011683840
+
+Operating system...: Windows  Windows Vista Professional 6.01.7601 Service Pack 1
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/BR,R/W,N/N,N/N,W+/BR,W/B,N/R
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\IMPRSELE.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: DBFCDX
+System Code .......: 1022
+Default Status ....: .F.
+Description .......: Travamento requerido
+Operation .........: 
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+IMPRSELE              :     126 in Module: imprset.prg
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     213 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»|
+|º Caixa Fornecedor Clientes Estoque Faturamento Fiscal Sistema                 º|
+|ºÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄº|
+|º                                                     ³1-Muda Data     ³       º|
+|º                                                     ³2-Parametros... ³       º|
+|º                                                     ³3-Dados...      ³       º|
+|º                                                     ³4-Sistema...    ³       º|
+|º                                                     ³5-Impressora... ³       º|
+|º F1 =Ajuda                                           ³X-EnÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿   º|
+|º F3 =Cons.Fornecedores                               ÀÄÄÄÄ³1-Inclui/Altera³   º|
+|º F4 =Cons.Clientes                                        ³2-Seleciona    ³   º|
+|º F5 =Cons.Produtos ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄSele‡„o de ImpressorasÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿|
+|º F7 =Cons.Parcelame³     Impressora                          Situa‡„o         ³|
+|º F6 =Calculadora   ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³|
+|º F9 =Sel Impressora³     PADRAO EPSON FX                    ³Selecionada      ³|
+|º F11=Calendario    ³     HP 680C                            ³                 ³|
+|º                   ³     EPSON FX 890                       ³                 ³|
+|Error DBFCDX/1022  Travamento requerido Arguments: ()ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ|
+|                      M¢dulo de Parametriza‡„o do Sistema                       |
+|Error at ...: IMPRSELE(126) in Module: imprset.prgabalho                        |
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prg                                |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(213) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 29/10/2015
+Time...............: 19:10:51
+
+Application name...: \\servidor\Inffhox\CFE\cfe.exe
+Workstation name...: CASA-3E8374E007
+Available memory...: 1629324
+Current disk.......: \
+Current directory..: \servidor\Inffhox\CFE

@@ -1,0 +1,150 @@
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 24/10/2017
+Time...............: 17:00:29
+
+Application name...: C:\Inffhox\CFE\cfe.exe
+Workstation name...: SERVIDOR
+Available memory...: 4194303
+Current disk.......: C
+Current directory..: Inffhox\CFE
+Free disk space....: 220011692032
+
+Operating system...: Windows  Windows Vista Professional 6.01.7601 Service Pack 1
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/G,B/W,N/N,N/N,W+/G
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEPRCPG.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: LPT1
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: TERM
+System Code .......: 2014
+Default Status ....: .T.
+Description .......: Erro de cria‡Æo
+Operation .........: LPT1.prn
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 2
+
+ Trace Through:
+----------------
+SET                   :       0 in Module: 
+PB_LIGAIMP            :      78 in Module: impress.prg
+CFEPRCPG              :      28 in Module: CFEPRCPG.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     213 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|º                 ³3-Listagens...  ³                                           º|
+|º                 ³4-CoÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿                                   º|
+|º                 ³5-S.³1-DPL /Bancos...   ³                                   º|
+|º F1 =Ajuda       ³6-Co³2-DPL /Cliente...  ³                                   º|
+|º F3 =Cons.ForneceÀÄÄÄÄ³3-DPL /Dt Venc...  ³                                   º|
+|º F4 =Cons.Clientes    ³4-Vlr Recebidos..  ³                                   º|
+|º F5 =Cons.Produtos    ³5-FicÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿                                º|
+|º F7 =Cons.ParcelameÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿|
+|º F6 =Calculadora   ³ Cod.Emitente.........     0                              ³|
+|º F9 =Sel Impressora³                                                          ³|
+|º F11=Calendario    ³ Informe data Inical.. 23/10/2017                         ³|
+|º                   ³              Final... 23/10/2017                         ³|
+|ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ|
+|                               M¢dulo de Clientes                               |
+|Error TERM/2014  Erro de cria‡Æo: LPT1.prn Arguments: () (DOS Error 2)do        |
+|                                                                                |
+|Error at ...: SET(0) in Module:                                                 |
+|Called from : PB_LIGAIMP(78) in Module: impress.prg                             |
+|Called from : CFEPRCPG(28) in Module: CFEPRCPG.PRG                              |
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prg                                |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(213) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+

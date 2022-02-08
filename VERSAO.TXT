@@ -1,0 +1,81 @@
+*******************
+texto das alteracoes efetuadas no sistema - CFE
+*******************
+
+Informações Gerais
+=======================================================================
+O arquivo CONFIG.SYS deve ser alterado para colcar as seguintes linhas:
+  FILES=250
+  BUFFERS=32
+
+A senha padrão de acesso:
+=======================================================================
+Usuário: GERENTE
+Senha  : GERENTE
+
+
+==============ATUALIZAÇÕES DAS VERSÕES DO SISTEMA======================
+
+2.03F
+2.03G - 24/04/1999 - alterado programa da dief / saidas
+2.03H - 28/04/1999 - alterado programa impr fisc - cancelamento
+2.03I - 04/05/1999 - alterado programa produto x fornec
+
+2.04G - 09/09/1999 - Produtos x fornecedores -> guarda todos os precos
+                   - Pesquisa parcial -> exemplo *SILVA
+						 - Impressao das parcelas no pedido
+2.04H - 12/09/1999 - Incluido no produto % para acrescimo nas vendas
+                   - Novas consultas produtos x fornecedor - novo menu
+						 
+2000a - 03/04/2000 - Alterado programa de digitacao/geracao lancamento direto
+                     contabilidade.
+
+2000b - 04/04/2000 - Corrigido programa digitacao lancamento direto/Exclusao
+
+2000C - 23/04/2000 - Corrigido problema com NF de servicos
+                     Corrigido lista de tipos por cc
+2000D - 03/06/2000 - Acerto na implantacao de DUplicatas(ABERTURA PROGRAMA)
+2000E - 03/06/2000 - Acerto na mascara de digitacao nro junta comercial(ctb)
+2000G - 03/06/2000 - acerto em extrato de fornecedor
+2000H - 05/06/2000 - Acerto na edicao de nf (saida) nao gravava valores
+2000I - 06/06/2000 - Acerto na edicao de nf (entrada) nao gravava valores
+2000L - 12/08/2000 - Acerto GDF - produto
+...
+2000S - 26/09/2000 - Entrada de produtos/Fechamento da nota as vezes com
+							problemas arredondamento
+2001A - 30/12/2000 - Contabilizacao da NF de saida esta com problema de arredondamento Custo
+                     Medio (cfep520g)
+							Codigo de Tributacao e % de icms para nf fora do estado (cfep5100)
+2001F - 12/03/2001 - Contabilizacao da NF de servicos
+2001G - 14/03/2001 - Contabilizacao da NF de servicos-Acerto do número de vezes contabilizado
+
+2001H - 19/05/2001 - ALTERADO O CÓDIGO DE NATUREZA PARA 7 DIGITOS => 5 GOVERNO 2 SISTEMA
+							Alterado programa CFEP4313 -> Problemas de página
+							Programa de Impressao de Movimentos/Entrada de NF -> 
+                     Pode-se selcionar Documento/Serie..
+
+2001I - 02/06/2001 - ALTERADO O CÓDIGO DE NATUREZA PARA 7 DIGITOS => 5 GOVERNO 2 SISTEMA (complemento)
+
+2001J - 01/07/2001 - Alterado Entrada de Itens completas - para contemplar as bases Trib/Isentas/Outras
+2001K - 10/07/2001 - Alterado Geracao do arquivo para Receita Estadual
+2001L - 28/07/2001 - Alterado Venda Balcao - Travamento do Registro
+2001Q - 27/08/2001 - Alterado Cad.Produto/+Cod.Trib.Entrada /
+                     Alterado Entrada NF/Dig NF Entrada
+2001R - 30/08/2001 - Corrigido erro na impressão do Pedido
+2001S - 14/09/2001 - Corrigido erro na entrada com valor na Base de Icms
+                   + Corrigido Impressão NF entrada / descricao da natureza
+2001T - 18/09/2001 - Incluido mais um parametro no sistema para zoom produto ter ou nao vlr
+                     custo.
+                   + Verificação da Data de Cupom fiscal na virada de data.
+2001U - 13/10/2001 - Validação para Vlr desc no pedido - 
+                     deve ser menor = ao qtd * preco
+                   + Verificação da Data de Cupom fiscal na virada de data.
+                   + Listagem de razão acertado o valor = 0 
+                   + Acerto programa Sintegra.
+---------------------------------------------------------------------------
+2001X3 -01/12/2001 - Incluido nos parametros do sistema a possibilidade de
+                     selecionar numero de casas decimais para valor 
+                     unitario de venda /tanto na entrada quanto na saida.
+---------------------------------------------------------------------------
+2001Y -11/12/2001 - Incluido OBS por produto / Selecionar Pis/Cofins
+                    

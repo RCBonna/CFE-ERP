@@ -1,0 +1,1 @@
+A   2C   80Servico de Protecao ao Credito (SPC) - LACERDOPOLIS                             C   80Av Cacador 46  Fones (0492) - 46-2270 e 46-2493                                 

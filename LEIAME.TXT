@@ -1,0 +1,125 @@
+-------------------------------------------------------------------------------
+                        TROCAS DE VERSAO DO SISTEMA - CFE -
+-------------------------------------------------------------------------------
+Vers„o 1.53
+ - Listagem de vendedores ja considera se houve pagamentos das duplicatas e
+   calcula o % de pagamento.
+ - Estouro de pagina na listagem de NF de Saidas.
+ - A listagem de produtos nao movimentados esta correta.
+ - Foi incluido um arquivo de OBS para as notas fiscais de saida, voce pode in-
+   cluir novas mensagens no item (REG FISCAL).
+
+Vers„o  1.54
+ - Codigos de CGC verificando somente dois ultimos digitos conforme lei federal
+ - Acertos de diversos problemas na contabilidade, impressao de razao, diario e
+   balancetes.
+ - inclsao da tecla F9 e F10 na consulta de contas contabeis.
+
+Vers„o  1.55
+ - Cadastro de Clientes ampliada, com mais informacoes.
+
+Vers„o  1.55c
+ - Acertado listagens que estavam saltando no meio da pagina.
+ - Nome do Cliente e Fornecedor aumentados para 45 caracteres.
+ - Valores de Duplicatas para sistemas implantados depois de 07/94
+
+Vers„o  1.56
+ - Incluido campo de Conjuge e local de trabalho no cadastro de cliente
+ - Incluido novo calculo para vendedores.
+
+Vers„o  1.57
+ - Alterado pagamento de clientes/fornecedores
+ - Incluido F3,F4,F5 consultas diretamente do menu.
+
+Vers„o  1.58
+ - Alterado programa de criacao e impressao das Etiquetas e dos boletos
+
+Vers„o  1.59
+ - Incluido programa de consulta das duplicatas pagas e pendentes - CLI/FORN
+
+Vers„o  1.60
+ - Acerto da consulta a ficha financeira CLI/FOR
+ - Acerto de impressao de etiqueta
+
+Vers„o  1.60a
+ - Mudanca na rotina de FLUXO DE CAIXA
+
+Vers„o  1.61
+ - Mudanca na rotina de FLUXO DE CAIXA-Incluido Entradas/Saidas
+ - Retirado os graficos do sistema (ocupando muito espaco)
+
+Vers„o  1.61a
+- Acerto de entrada de produtos
+
+Vers„o  1.61b
+- acerto Fluxo de Caixa para nao possibilitar erro quando dt venc branca.
+
+Vers„o  1.61c (12/11/94)
+- Acerto cadastro de empresa no modulo financeiro
+- Colocado editor de Nota Fiscal e impressao da nota por este editor
+  SENHA ACESSO AO EDITOR DE NOTAS FISCAIS = NFS
+
+Vers„o  1.61d (13/11/94)
+- Atualizacao da NF
+
+Versao 1.62
+ - Melhorada velocidade de impress„o das NF/Boletos/Etiquetas...
+ - Acertato arquivo de Codigos tributarios para aceitar Letras (Refazer arq)
+ - Incluido arquivo de tipos de Clientes            (pode ser alterado)
+ - Incluido arquivo de tipos de Fornecedores        (pode ser alterado)
+ - Incluido arquivo de tipos de Estoque             (pode ser alterado)
+ - Alterado arquivo de configura‡„o das impressoras (Refazer se necessario).
+
+
+Versao 1.62
+ - Acerto de cod trib -> aceitar Letras
+ - Incluido Suporte a rede para algumas rotinas.
+ - contabilizacao mais aprimorada (acertar Sistema/Parametros/Gerais)
+   usar YY campo de contabilidade
+
+Versao 1.63
+ - Incluido Suporte a rede para algumas rotinas.
+
+
+Versao 1.64
+ - Incluido Suporte a rede para algumas rotinas.
+
+Versao 1.64a (18/01/95)
+ - Incluido Suporte a rede para algumas rotinas.
+ - Acertado listagens Estoque.
+
+Versao 1.64b (20/01/95)
+ - Conserto diversos problemas na parte financeira.
+
+Versao 1.64c (01/02/95)
+ - Incluindo Suporte a rede para algumas rotinas.
+ - Listagem de NF saidas OK
+ - Ficha Financeira CLIENTES/FORNECEDORES
+ - Cadastro de Moeda OK
+ - Faturamento-> valor de venda tem que ser maior ou igual a valor interno
+   (tabela) + exige-se senha para faze-lo <ACEITO>
+ 
+Versao 1.64d (06/02/95)
+ - acerto fechamento do mes
+ - cadastro de clientes
+ - 
+
+
+  ACAO ANTES DE EXECUTAR NOVA COPIA :
+     del *.OLD
+     del *.NTX
+     ren C*.DBF *.OLD
+	  executar -> ren CFEAPD.OLD CFEAPD.ZZZ (*)
+	  execurar -> CFE (programa NOVO)
+	  executar -> EXPORT CFEAPD.ZZZ (*) ----> SOMENTE 1 VEZ SERA NECESSARIO
+	  executar -> IMPORT CFEAPD.DBF (*) ----> SOMENTE 1 VEZ SERA NECESSARIO
+	  del TMP
+	  execurar -> CFE (programa NOVO)
+	  executar reordenacao da base de dados
+
+
+                                                      ROBERTO
+
+                                                    FRAIBURGO  18, Janeiro 95
+-------------------------------------------------------------------------------
+

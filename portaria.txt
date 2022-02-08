@@ -1,0 +1,275 @@
+          
+
+
+
+   
+                    PORTARIA MF Nº 115, DE 02 DE OUTUBRO DE 2006
+                               (DOU DE 13.10.2006)
+
+     Dispõe sobre  a apresentação  de arquivos  digitais a  serem elaborados  por
+ contribuintes que  venham a formalizar  Pedido de Restituição,  Ressarcimento ou
+ Declaração de Compensação referentes a créditos da Contribuição para o PIS/PASEP
+ e da COFINS não cumulativo.
+
+     O DELEGADO DA RECEITA  FEDERAL EM JOAÇABA, Estado de Santa  Catarina, no uso
+ das  atribuições  que lhe  conferem  art.  250,  XXI,  do Regimento  Interno  da
+ Secretaria  da Receita  Federal,  aprovado pela  Portaria  MF nº  30,  de 25  de
+ fevereiro de 2005, o art. 24 da Instrução Normativa SRF nº 460, de 18 de outubro
+ de 2004; e  com o objetivo de  agilizar a apreciação de  Pedidos de Restituição,
+ Ressarcimento e de Declarações de Compensação,  de créditos da Contribuição para
+ o PIS/PASEP e da COFINS não cumulativos, resolve:
+
+     Art. 1º - O contribuinte que apresentar Pedido de Restituição, Ressarcimento
+ ou Declaração de Compensação, referentes aos períodos de apuração de 2004 e anos
+ posteriores, que tenha como objeto o  reconhecimento de créditos da Contribuição
+ para o PIS/PASEP e da COFINS, não cumulativos,  apurados na forma do art. 3º das
+ Leis nº 10637, de 30 de dezembro de 2002, e nº 10833, de 29 de dezembro de 2003,
+ deverá manter,  à disposição da Seção  de Orientação e Análise  Tributária desta
+ Delegacia, arquivos digitais contendo relação das Notas Fiscais referentes a:
+
+     I -  Operações de Entrada: arquivo  digital que contenha todas  as operações
+ informadas   no   livro  Registro   de   Entradas   (LRE)  de   um   determinado
+ estabelecimento, referentes a um trimestre-calendário;
+
+     II -  Operações de Saída:  arquivo digital  que contenha todas  as operações
+ informadas no livro Registro de Saídas  (LRS) de um determinado estabelecimento,
+ referentes a um trimestre-calendário.
+
+     Parágrafo 1º -  Para cada trimestre-calendário, em que  for apurado crédito,
+ objeto de  Pedido de  Restituição, Ressarcimento  ou Declaração  de Compensação,
+ deverão ser gerados dois arquivos por  estabelecimento do contribuinte, sendo um
+ referente às Operações de Entrada no  estabelecimento (LRE) e outro referente às
+ Operações de Saída do estabelecimento (LRS).
+
+     Parágrafo  2º  -  Os  arquivos  digitais  citados  no  "caput"  deverão  ser
+ conservados pelo prazo decadencial previsto na legislação tributária.
+
+     Art. 2º  - As informações, quando  solicitadas, deverão ser  apresentadas em
+ meio digital, no prazo determinado, obedecendo ao layout e demais especificações
+ constantes do Anexo Único.
+
+     Art. 3º - As disposições da presente Portaria não dispensam a observância da
+ Instrução Normativa SRF nº 86/2001, e do Ato Declaratório Executivo Cofis nº 15,
+ de  23 de  outubro  de 2001,  inclusive  na  hipótese do  art.  17 da  Instrução
+ Normativa SRF nº 210/2002.
+
+     Art. 4º - Esta Portaria entra em vigor na data de sua publicação.
+
+                               ANDRÉ MARDULA FILHO
+
+                                      ANEXO
+                        ARQUIVOS DIGITAIS DE NOTAS FISCAIS
+
+     Descrição  dos  arquivos   digitais  contendo  relação  das   Notas  Fiscais
+ referentes a:
+
+     I  - Operações  de  Entrada: arquivo  digital  contendo  todas as  operações
+ informadas   no    livro   Registro    de   Entradas    (LRE)   referentes    ao
+ trimestre-calendário;
+
+     II  -  Operações de  Saída:  arquivo  digital  contendo todas  as  operações
+ informadas no livro Registro de Saídas (LRS) referentes ao trimestre-calendário.
+
+     1) Especificações comuns  a ambos os arquivos (LRE e  LRS): Delimitadores de
+ registro (EOL - Fim de Linha): ascii 0Dh e 0Ah. Tamanho de registro: FIXO.
+
+     Os únicos caracteres permitidos são NÚMEROS (ascii 30h a 39h), LETRAS (ascii
+ 41h a 5Ah), ESPAÇO EM  BRANCO (ascii 20h) e EOL (ascii 0Dh e  0Ah ao fim de cada
+ registro).
+
+     Os arquivos NÃO deverão conter quaisquer  outros caracteres tais como PONTO,
+ VÍRGULA, PONTO E VÍRGULA, ASPAS, BARRA, TRAVESSÃO, etc.
+
+     2) Especificações do Arquivo LRE (Livro de Registro de Entradas):
+
+     Objetivo: Arquivo digital que contemple  todas operações informadas no Livro
+ de Registro de Entradas referentes ao trimestre-calendário.
+
+     Nome do arquivo: LREcccccccc-cccc-cc-aaaa-t.txt
+
+     Onde
+
+     cccccccc-cccc-cc = CNPJ do estabelecimento
+
+     aaaa = Ano de referência.
+
+     t = Dígito identificador do trimestre-calendário de referência. Por exemplo,
+ 1 = 1º trimestre; 2 = 2º trimestre; etc.
+
+     Exemplos de nomes:
+
+     a)LRE00000000-0002-72-2000-4.txt  -> Arquivo  referente ao  4º trimestre  de
+ 2000 da filial cujo CNPJ é 00.000.000/0002-72.
+
+     b)LRE00000000-0001-91-2000-4.txt  -> Arquivo  referente ao  4º trimestre  de
+ 2000 da matriz cujo CNPJ é 00.000.000/0001-91.
+
+     Atenção!  No  arquivo deverão  estar  relacionadas  TODAS as  Notas  Fiscais
+ referentes à  Entrada, cuja data de  entrada no estabelecimento (campo  5) tenha
+ ocorrido no trimestre a que se refere o arquivo.
+
+     Atenção! Cada registro deve fazer menção a  somente um CFOP de entrada. Caso
+ a Nota Fiscal referente à Entrada tenha sido registrada com mais de um CFOP (por
+ exemplo, parte  da aquisição é  destinada à produção e  parte a uso  e consumo),
+ será necessário que  a mesma nota seja  informada em mais de  um registro. Neste
+ caso, os campos  7, 8, 9 e  10 somente devem expressar  valores relativos àquele
+ CFOP que estiver sendo informado no campo 6.
+
+ +-------+------------------------------+--------+-----+---------+--------------+
+ | Ordem | Campo                        | Inicio | Fim | Tamanho | Formato      |
+ |-------|------------------------------|--------|-----|---------|--------------|
+ | 01    | CNPJ do Emitente             | 01     | 14  | 14      | Numérico     |
+ |-------|------------------------------|--------|-----|---------|--------------|
+ | 02    | Número do Documento          | 15     | 20  |  6      | Numérico     |
+ |-------|------------------------------|--------|-----|---------|--------------|
+ | 03    | Série/Subsérie do Documento  | 21     | 23  |  3      | Alfanumérico |
+ |-------|------------------------------|--------|-----|---------|--------------|
+ | 04    | Data de Emissão              | 24     | 31  |  8      | Numérico     |
+ |-------|------------------------------|--------|-----|---------|--------------|
+ | 05    | Data de Entrada              | 32     | 39  |  8      | Numérico     |
+ |-------|------------------------------|--------|-----|---------|--------------|
+ | 06    | Código  Fiscal  de  Operação | 40     | 43  |  4      | Alfanumérico |
+ |       | (CFOP)                       |        |     |         |              |
+ |-------|------------------------------|--------|-----|---------|--------------|
+ | 07    | Valor Contábil  da  Operação | 44     | 57  | 14      | Numérico     |
+ |       | (Base de Cálculo + IPI)      |        |     |         |              |
+ |-------|------------------------------|--------|-----|---------|--------------|
+ | 08    | Valor  do IPI  Destacado  na | 58     | 71  | 14      | Numérico     |
+ |       | Nota Fiscal                  |        |     |         |              |
+ |-------|------------------------------|--------|-----|---------|--------------|
+ | 09    | Valor  do  crédito   de  PIS | 72     | 85  | 14      | Numérico     |
+ |       | calculado sobre a Nota Fiscal|        |     |         |              |
+ |-------|------------------------------|--------|-----|---------|--------------|
+ | 10    | Valor do crédito  de  COFINS | 86     | 99  | 14      | Numérico     |
+ |       | calculado sobre a Nota Fiscal|        |     |         |              |
+ +-------+------------------------------+--------+-----+---------+--------------+
+
+ +-------+----------------------------------------------------------------------+
+ | Ordem | Observações                                                          |
+ |-------|----------------------------------------------------------------------|
+ | 01    | CNPJ válido - Deverá conter 14 dígitos. Exemplo: "00000000000191"    |
+ |-------|----------------------------------------------------------------------|
+ | 02    | Número da Nota Fiscal. Exemplo: "000134"                             |
+ |-------|----------------------------------------------------------------------|
+ | 03    | Caracter "U" + 2 espaços à  direita quando série for única. Exemplo: |
+ |       | "002" e "U"                                                          |
+ |-------|----------------------------------------------------------------------|
+ | 04    | Data válida no formato DDMMAAAA. Exemplo: "07081998"                 |
+ |-------|----------------------------------------------------------------------|
+ | 05    | Data válida no formato DDMMAAAA. Exemplo: "07081998"                 |
+ |-------|----------------------------------------------------------------------|
+ | 06    | Conforme consta no Livro Registro de  Entrada. Se CFOP com 3 dígitos |
+ |       | completar com branco a direita. Exemplos: "111 " e "1101"            |
+ |-------|----------------------------------------------------------------------|
+ | 07    | Valor sem sinal, pontos ou vírgulas e com 2 casas decimais. Exemplo: |
+ |       | R$ 1234,56 "00000000123456"                                          |
+ |-------|----------------------------------------------------------------------|
+ | 08    | Valor sem sinal, pontos ou vírgulas e com 2 casas decimais. Exemplo: |
+ |       | R$ 1234,56 "00000000123456"                                          |
+ |-------|----------------------------------------------------------------------|
+ | 09    | Valor sem sinal, pontos ou vírgulas e com 2 casas decimais. Exemplo: |
+ |       | R$ 1234,56 "00000000123456"                                          |
+ |-------|----------------------------------------------------------------------|
+ | 10    | Valor sem sinal, pontos ou vírgulas e com 2 casas decimais. Exemplo: |
+ |       | R$ 1234,56 "00000000123456"                                          |
+ +-------+----------------------------------------------------------------------+
+
+     3) Especificações do Arquivo LRS (Livro de Registro de Saídas):
+
+     Objetivo: Arquivo digital que contemple  todas operações informadas no Livro
+ de Registro de Saídas referentes a um trimestre-calendário.
+
+     Nome do arquivo: LRScccccccc-cccc-cc-aaaa-t.txt
+
+     Onde
+
+     cccccccc-cccc-cc = CNPJ do estabelecimento
+
+     aaaa = Ano de referência.
+
+     t = Dígito identificador do trimestre-calendário de referência. Por exemplo,
+ 1 = 1º trimestre; 2 = 2º trimestre; etc.
+
+     Exemplos de nomes:
+
+     c)LRS00000000-0002-72-2000-4.txt  -> Arquivo  referente ao  4º trimestre  de
+ 2000 da filial cujo CNPJ é 00.000.000/0002-72.
+
+     d)LRS00000000-0001-91-2000-4.txt  -> Arquivo  referente ao  4º trimestre  de
+ 2000 da matriz cujo CNPJ é 00.000.000/0001-91.
+
+     Atenção!  No  arquivo deverão  estar  relacionadas  TODAS as  Notas  Fiscais
+ referentes  à Saída,  cuja  data de  saída do  estabelecimento  (campo 5)  tenha
+ ocorrido no trimestre a que se refere o arquivo.
+
+     Atenção! Cada registro deve fazer menção a  somente um CFOP de saída. Caso a
+ Nota Fiscal  referente à Saída  tenha sido registrada com  mais de um  CFOP (por
+ exemplo,  parte da  venda  se refere  à  produção  e parte  se  refere ao  ativo
+ imobilizado), será  necessário que  a mesma nota  seja informada  em mais  de um
+ registro. Neste caso, os campos 7 e  8 somente devem expressar valores relativos
+ àquele CFOP que estiver sendo informado no campo 6.
+
+ +-------+------------------------------+--------+-----+---------+--------------+
+ | Ordem | Campo                        | Inicio | Fim | Tamanho | Formato      |
+ |-------|------------------------------|--------|-----|---------|--------------|
+ | 01    | CNPJ do Adquirente           | 01     | 14  | 14      | Numérico     |
+ |-------|------------------------------|--------|-----|---------|--------------|
+ | 02    | Número do Documento          | 15     | 20  |  6      | Numérico     |
+ |-------|------------------------------|--------|-----|---------|--------------|
+ | 03    | Série/Subsérie do Documento  | 21     | 23  |  3      | Alfanumérico |
+ |-------|------------------------------|--------|-----|---------|--------------|
+ | 04    | Data de Emissão              | 24     | 31  |  8      | Numérico     |
+ |-------|------------------------------|--------|-----|---------|--------------|
+ | 05    | Data de Saída                | 32     | 39  |  8      | Numérico     |
+ |-------|------------------------------|--------|-----|---------|--------------|
+ | 06    | Código  Fiscal  de  Operação | 40     | 43  |  4      | Alfanumérico |
+ |       | (CFOP)                       |        |     |         |              |
+ |-------|------------------------------|--------|-----|---------|--------------|
+ | 07    | Valor Contábil  da  Operação | 44     | 57  | 14      | Numérico     |
+ |       | (Base de Cálculo + IPI)      |        |     |         |              |
+ |-------|------------------------------|--------|-----|---------|--------------|
+ | 08    | Valor do  IPI  Destacado  na | 58     | 71  | 14      | Numérico     |
+ |       | Nota Fiscal                  |        |     |         |              |
+ +-------+------------------------------+--------+-----+---------+--------------+
+
+ +-------+----------------------------------------------------------------------+
+ | Ordem | Observações                                                          |
+ |-------|----------------------------------------------------------------------|
+ | 01    |  CNPJ  válido  -   Deverá  conter  14   dígitos.  Exemplo:           |
+ |       | "00000000000191"                                                     |
+ |-------|----------------------------------------------------------------------|
+ | 02    | Número da Nota Fiscal. Exemplo: "000134"                             |
+ |-------|----------------------------------------------------------------------|
+ | 03    | Caracter "U" + 2 espaços à  direita quando série for única. Exemplo: |
+ |       | "002" e "U"                                                          |
+ |-------|----------------------------------------------------------------------|
+ | 04    | Data válida no formato DDMMAAAA. Exemplo: "07081998"                 |
+ |-------|----------------------------------------------------------------------|
+ | 05    | Data válida no formato DDMMAAAA. Exemplo: "07081998"                 |
+ |-------|----------------------------------------------------------------------|
+ | 06    | Conforme consta  no Livro Registro de  Saída. Se CFOP com  3 dígitos |
+ |       | completar com 1 branco a direita. Exemplos: "511" e "5101"           |
+ |-------|----------------------------------------------------------------------|
+ | 07    | Valor sem sinal, pontos ou vírgulas e com 2 casas decimais. Exemplo: |
+ |       | R$ 1234,56 = "00000000123456"                                        |
+ |-------|----------------------------------------------------------------------|
+ | 08    | Valor  sem sinal, pontos ou vírgulas e  com 2 casas decimais.        |
+ |       | Exemplo: R$ 1234,56 = "00000000123456"                               |
+ +-------+----------------------------------------------------------------------+
+
+
+
+
+
+                        
+
+
+
+      Copyright © 2005 
+      Nos termos da Lei nº 9610, de 19.02.98, é proibida a reprodução para fins 
+      comerciais, total ou parcial, 
+      deste site, de qualquer forma ou por qualquer meio eletrônico ou mecânico, 
+      inclusive através de processo 
+      reprográfico, sem a permissão por escrito do responsável pela FiscoData 
+      Legislação On-line Ltda. 
+      .

@@ -1,0 +1,6 @@
+hbmk2: Processando script local: hbmk.hbm
+Harbour 3.2.0dev (r1508071407)
+Copyright (c) 1999-2015, http://harbour-project.org/
+100200300400500600700Compiling 'cfe.prg'...
+100100200300400500600100200300100100200300400500
+No code generated.

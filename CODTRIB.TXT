@@ -1,0 +1,25 @@
+00Nac.- Trib Integralmente                                    100.00
+01Nac.- Trib c/Cobr por Substituicao                            0.00
+02Nac.- Com Reducao Base de Calculo                           100.00
+03Nac.- Isenta/Nao tributada c/Cobr por Subst.                  0.00
+04Nac.- Isenta/Nao Tributada                                    0.00
+05Nac.- Com Suspensao ou difereimento                           0.00
+06Nac.- ICMS cobrado anteriormente /Subst Trib                  0.00
+07Nac.- Outras                                                  0.00
+10Estr.- Trib Integralmente                                   100.00
+11Estr.- Trib c/Cobr por Substituicao                           0.00
+12Estr.- Com Reducao Base de Calculo                          100.00
+13Estr.- Isenta/Nao tributada c/Cobr por Subst                  0.00
+14Estr.- Isenta/Nao Tributada                                   0.00
+15Estr.- Com Suspensao ou difereimento                          0.00
+16Estr.- ICMS cobrado anteriormente/Subst Trib                  0.00
+17Estr.- Outras                                                 0.00
+20Estr.Adq M.Int- Trib Integralmente                          100.00
+21Estr.Adq M.Int- Trib c/Cobr por Substituicao                  0.00
+22Estr.Adq M.Int- Com Reducao Base de Calculo                 100.00
+23Estr.Adq M.Int- Isenta/Nao tributada c/Cobr                   0.00
+24Estr.Adq M.Int- Isenta/Nao Tributada                          0.00
+25Estr.Adq M.Int- Com Suspensao ou diferemento                  0.00
+26Estr.Adq M.Int- ICMS cobrado anteriormente/S                  0.00
+27Estr.Adq M.Int- Outras                                        0.00
+

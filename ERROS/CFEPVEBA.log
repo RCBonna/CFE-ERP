@@ -1,0 +1,4995 @@
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 03/03/2018
+Time...............: 08:29:21
+
+Application name...: M:\Inffhox\CFE\cfe.exe
+Workstation name...: LOJA2
+Available memory...: 3193564
+Current disk.......: M
+Current directory..: Inffhox\CFE
+Free disk space....: 218833182720
+
+Operating system...: Windows  Windows Vista Professional 6.01.7601 Service Pack 1
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/B,B/W,N/N,N/N,W+/B,W/B,N/N,W/B,N/R,W/B,N/R
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEPVEBA.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: DBFCDX
+System Code .......: 1001
+Default Status ....: .T.
+Description .......: Erro de abertura
+Operation .........: 
+Arguments .........: 
+Involved File .....: CFEAPA.dbf
+Dos Error Code ....: 64
+
+ Trace Through:
+----------------
+DBUSEAREA             :       0 in Module: 
+NET_USE               :      57 in Module: n_open.prg
+ABRE                  :     141 in Module: CFEPABRE.PRG
+CFEPVEBA              :      52 in Module: CFEPVEBA.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     213 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|ºÀÄÄÄÄÄ³1-Pedido   ³Ù                                                          º|
+|º      ³2-Autorizar³                                                           º|
+|º      ÀÄÄÄÄÄÄÄÄÄÄÄÙ                                                           º|
+|º F1 =Ajuda                                                                    º|
+|º F3 =Cons.Fornecedores                                                        º|
+|º F4 =Cons.Clientes                                                            º|
+|º F5 =Cons.Produtos                                                            º|
+|º F7 =Cons.Parcelamento                                                        º|
+|º F6 =Calculadora                                                              º|
+|º F9 =Sel Impressora                                                           º|
+|º F11=Calendario                                            Mem¢ria:   3.292 MBº|
+|º                                                           Usuario:VENDAS     º|
+|ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ[B]¼|
+|                             M¢dulo de Faturamento                              |
+|Error DBFCDX/1001  Erro de abertura: CFEAPA.dbf Arguments: () (DOS Error 64)    |
+|                                                                                |
+|Error at ...: DBUSEAREA(0) in Module:                                           |
+|Called from : NET_USE(57) in Module: n_open.prg                                 |
+|Called from : ABRE(141) in Module: CFEPABRE.PRG                                 |
+|Called from : CFEPVEBA(52) in Module: CFEPVEBA.PRG                              |
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prg                                |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(213) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 21/12/2010
+Time...............: 01:55:49
+
+Application name...: Z:\Inffhox\CFE\cfe.exe
+Workstation name...: LOJA-50ED9B1BED
+Available memory...: 1695872
+Current disk.......: Z
+Current directory..: Inffhox\CFE
+Free disk space....: 221385457664
+
+Operating system...: Windows  XP Professional 5.01.2600 Service Pack 3
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: GR+/BG,R/W,N/N,N/N,GR+/BG,W/B,N/N,W/B,N/R,W/B,N/R,W/B,N/R
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 1
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEPVEBA.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: BASE
+System Code .......: 1002
+Default Status ....: .F.
+Description .......: Alias nÆo existe
+Operation .........: CTRNF
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+DBSELECTAREA          :       0 in Module: 
+FN_BACKNF             :      35 in Module: FN_GRNF.PRG
+CFEPVEBA              :      81 in Module: CFEPVEBA.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|º                                                                              º|
+|º         ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿        º|
+|º         ³                                                           ³        º|
+|º         ³                                                           ³        º|
+|º         ³                                                           ³        º|
+|º         ³                                                           ³        º|
+|º         ³                                                           ³        º|
+|º         ³                                                           ³        º|
+|º         ³                                                           ³        º|
+|º         ³                                                           ³        º|
+|º         ³                                                           ³        º|
+|º         ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ        º|
+|º                                                                              º|
+|ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼|
+|                                                                                |
+|Error BASE/1002  Alias nÆo existe: CTRNF Arguments: ()CFE+SAG                   |
+|                                                                                |
+|Error at ...: DBSELECTAREA(0) in Module:                                        |
+|Called from : FN_BACKNF(35) in Module: FN_GRNF.PRG                              |
+|Called from : CFEPVEBA(81) in Module: CFEPVEBA.PRG                              |
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prg                                |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(191) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 21/12/2010
+Time...............: 00:30:58
+
+Application name...: Z:\Inffhox\CFE\cfe.exe
+Workstation name...: LOJA-50ED9B1BED
+Available memory...: 1702696
+Current disk.......: Z
+Current directory..: Inffhox\CFE
+Free disk space....: 223064416256
+
+Operating system...: Windows  XP Professional 5.01.2600 Service Pack 3
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/B,B/W,N/N,N/N,W+/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEPVEBA.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: DBFCDX
+System Code .......: 1012
+Default Status ....: .T.
+Description .......: Detectado ¡ndice corrompido
+Operation .........: 
+Arguments .........: 
+Involved File .....: CFEAPC.cdx
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+ORDLISTADD            :       0 in Module: 
+ABRE                  :     137 in Module: CFEPABRE.PRG
+CFEPVEBA              :      37 in Module: CFEPVEBA.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|º                 ³9-RelÚÄÄÄÄÄÄÄÄÄÄÄ¿³                                         º|
+|º                 ÀÄÄÄÄÄ³1-Pedido   ³Ù                                         º|
+|º                       ³2-Autorizar³                                          º|
+|º                       ÀÄÄÄÄÄÄÄÄÄÄÄÙ                                          º|
+|º F1 =Ajuda                                                                    º|
+|º F3 =Cons.Fornecedores                                                        º|
+|º F4 =Cons.Clientes                                                            º|
+|º F5 =Cons.Produtos                                                            º|
+|º F7 =Cons.Parcelamento                                                        º|
+|º F6 =Calculadora                                                              º|
+|º F9 =Sel Impressora                                                           º|
+|º F11=Calendario                                            Mem¢ria:   1.663 MBº|
+|º                                                           Usuario:CREDIARIO  º|
+|ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ[C]¼|
+|                             M¢dulo de Faturamento                              |
+|Error DBFCDX/1012  Detectado ¡ndice corrompido: CFEAPC.cdx Arguments: ()        |
+|                                                                                |
+|Error at ...: ORDLISTADD(0) in Module:                                          |
+|Called from : ABRE(137) in Module: CFEPABRE.PRG                                 |
+|Called from : CFEPVEBA(37) in Module: CFEPVEBA.PRG                              |
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prg                                |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(191) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 21/12/2010
+Time...............: 00:29:36
+
+Application name...: Z:\Inffhox\CFE\cfe.exe
+Workstation name...: LOJA-50ED9B1BED
+Available memory...: 1702076
+Current disk.......: Z
+Current directory..: Inffhox\CFE
+Free disk space....: 223064424448
+
+Operating system...: Windows  XP Professional 5.01.2600 Service Pack 3
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/B,B/W,N/N,N/N,W+/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEPVEBA.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: DBFCDX
+System Code .......: 1012
+Default Status ....: .T.
+Description .......: Detectado ¡ndice corrompido
+Operation .........: 
+Arguments .........: 
+Involved File .....: CFEAPC.cdx
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+ORDLISTADD            :       0 in Module: 
+ABRE                  :     137 in Module: CFEPABRE.PRG
+CFEPVEBA              :      37 in Module: CFEPVEBA.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|ºÀÄÄÄÄÄÚÄÄÄÄÄÄÄÄÄÄÄ¿Ù                                                          º|
+|º      ³1-Pedido   ³                                                           º|
+|º      ³2-Autorizar³                                                           º|
+|º      ÀÄÄÄÄÄÄÄÄÄÄÄÙ                                                           º|
+|º F1 =Ajuda                                                                    º|
+|º F3 =Cons.Fornecedores                                                        º|
+|º F4 =Cons.Clientes                                                            º|
+|º F5 =Cons.Produtos                                                            º|
+|º F7 =Cons.Parcelamento                                                        º|
+|º F6 =Calculadora                                                              º|
+|º F9 =Sel Impressora                                                           º|
+|º F11=Calendario                                            Mem¢ria:   1.663 MBº|
+|º                                                           Usuario:VENDAS     º|
+|ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ[B]¼|
+|                             M¢dulo de Faturamento                              |
+|Error DBFCDX/1012  Detectado ¡ndice corrompido: CFEAPC.cdx Arguments: ()        |
+|                                                                                |
+|Error at ...: ORDLISTADD(0) in Module:                                          |
+|Called from : ABRE(137) in Module: CFEPABRE.PRG                                 |
+|Called from : CFEPVEBA(37) in Module: CFEPVEBA.PRG                              |
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prg                                |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(191) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 21/12/2010
+Time...............: 00:29:17
+
+Application name...: Z:\Inffhox\CFE\cfe.exe
+Workstation name...: LOJA-50ED9B1BED
+Available memory...: 1702528
+Current disk.......: Z
+Current directory..: Inffhox\CFE
+Free disk space....: 223064944640
+
+Operating system...: Windows  XP Professional 5.01.2600 Service Pack 3
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/B,N/W,N/N,N/N,W+/B,W+/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEPVEBA.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: DBFCDX
+System Code .......: 1201
+Default Status ....: .T.
+Description .......: Workarea nÆo indexada
+Operation .........: 
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+DBSEEK                :       0 in Module: 
+PB_IFCOD2             :      21 in Module: pb_ifcd2.prg
+CFEPVEBA              :      70 in Module: CFEPVEBA.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿|
+|³ C.F.E.                                                          Vers„o 2014c7³|
+|³ LOJAO DO POVO                                                Hoje: 21/12/2010³|
+|³ Inffhox Desenvolvimentos                                             0:29:17 ³|
+|ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄDigita‡„o de PedidosÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄCFEPVEBAÙ|
+|Error DBFCDX/1201  Workarea nÆo indexada Arguments: ()ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»|
+|º                                                                              º|
+|Error at ...: DBSEEK(0) in Module:                                             º|
+|Called from : PB_IFCOD2(21) in Module: pb_ifcd2.prg                            º|
+|Called from : CFEPVEBA(70) in Module: CFEPVEBA.PRG                             º|
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                         º|
+|Called from : SUBMENU(81) in Module: fazmenu.prg                               º|
+|Called from : SUBMENU(85) in Module: fazmenu.prg                               º|
+|Called from : FAZMENU(29) in Module: fazmenu.prg                               º|
+|Called from : MAIN(191) in Module: CFE.PRG                                     º|
+|º                                                                              º|
+|º                                                                              º|
+|º                                                                              º|
+|º                                                                              º|
+|º                                                                              º|
+|º                                                                              º|
+|º                                                                              º|
+|ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼|
+|                                                                                |
+|                                                                                |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 30/03/2017
+Time...............: 08:51:55
+
+Application name...: M:\Inffhox\CFE\cfe.exe
+Workstation name...: LOJA2
+Available memory...: 2955608
+Current disk.......: M
+Current directory..: Inffhox\CFE
+Free disk space....: 223064944640
+
+Operating system...: Windows  Windows Vista Professional 6.01.7601 Service Pack 1
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/B,B/W,N/N,N/N,W+/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEPVEBA.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: DBFCDX
+System Code .......: 1012
+Default Status ....: .T.
+Description .......: Detectado ¡ndice corrompido
+Operation .........: 
+Arguments .........: 
+Involved File .....: CFEAPC.cdx
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+ORDLISTADD            :       0 in Module: 
+ABRE                  :     137 in Module: CFEPABRE.PRG
+CFEPVEBA              :      37 in Module: CFEPVEBA.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|ºÀÄÄÄÄÄÚÄÄÄÄÄÄÄÄÄÄÄ¿Ù                                                          º|
+|º      ³1-Pedido   ³                                                           º|
+|º      ³2-Autorizar³                                                           º|
+|º      ÀÄÄÄÄÄÄÄÄÄÄÄÙ                                                           º|
+|º F1 =Ajuda                                                                    º|
+|º F3 =Cons.Fornecedores                                                        º|
+|º F4 =Cons.Clientes                                                            º|
+|º F5 =Cons.Produtos                                                            º|
+|º F7 =Cons.Parcelamento                                                        º|
+|º F6 =Calculadora                                                              º|
+|º F9 =Sel Impressora                                                           º|
+|º F11=Calendario                                            Mem¢ria:   2.887 MBº|
+|º                                                           Usuario:VENDAS     º|
+|ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ[B]¼|
+|                             M¢dulo de Faturamento                              |
+|Error DBFCDX/1012  Detectado ¡ndice corrompido: CFEAPC.cdx Arguments: ()        |
+|                                                                                |
+|Error at ...: ORDLISTADD(0) in Module:                                          |
+|Called from : ABRE(137) in Module: CFEPABRE.PRG                                 |
+|Called from : CFEPVEBA(37) in Module: CFEPVEBA.PRG                              |
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prg                                |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(191) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 30/03/2017
+Time...............: 08:51:27
+
+Application name...: M:\Inffhox\CFE\cfe.exe
+Workstation name...: LOJA2
+Available memory...: 2954672
+Current disk.......: M
+Current directory..: Inffhox\CFE
+Free disk space....: 223064952832
+
+Operating system...: Windows  Windows Vista Professional 6.01.7601 Service Pack 1
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/B,B/W,N/N,N/N,W+/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEPVEBA.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: DBFCDX
+System Code .......: 1012
+Default Status ....: .T.
+Description .......: Detectado ¡ndice corrompido
+Operation .........: 
+Arguments .........: 
+Involved File .....: CFEAPC.cdx
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+ORDLISTADD            :       0 in Module: 
+ABRE                  :     137 in Module: CFEPABRE.PRG
+CFEPVEBA              :      37 in Module: CFEPVEBA.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|ºÀÄÄÄÄÄÚÄÄÄÄÄÄÄÄÄÄÄ¿Ù                                                          º|
+|º      ³1-Pedido   ³                                                           º|
+|º      ³2-Autorizar³                                                           º|
+|º      ÀÄÄÄÄÄÄÄÄÄÄÄÙ                                                           º|
+|º F1 =Ajuda                                                                    º|
+|º F3 =Cons.Fornecedores                                                        º|
+|º F4 =Cons.Clientes                                                            º|
+|º F5 =Cons.Produtos                                                            º|
+|º F7 =Cons.Parcelamento                                                        º|
+|º F6 =Calculadora                                                              º|
+|º F9 =Sel Impressora                                                           º|
+|º F11=Calendario                                            Mem¢ria:   2.886 MBº|
+|º                                                           Usuario:VENDAS     º|
+|ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ[B]¼|
+|                             M¢dulo de Faturamento                              |
+|Error DBFCDX/1012  Detectado ¡ndice corrompido: CFEAPC.cdx Arguments: ()        |
+|                                                                                |
+|Error at ...: ORDLISTADD(0) in Module:                                          |
+|Called from : ABRE(137) in Module: CFEPABRE.PRG                                 |
+|Called from : CFEPVEBA(37) in Module: CFEPVEBA.PRG                              |
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prg                                |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(191) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 30/03/2017
+Time...............: 08:50:58
+
+Application name...: M:\Inffhox\CFE\cfe.exe
+Workstation name...: LOJA2
+Available memory...: 2956320
+Current disk.......: M
+Current directory..: Inffhox\CFE
+Free disk space....: 223064956928
+
+Operating system...: Windows  Windows Vista Professional 6.01.7601 Service Pack 1
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/B,B/W,N/N,N/N,W+/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEPVEBA.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: DBFCDX
+System Code .......: 1012
+Default Status ....: .T.
+Description .......: Detectado ¡ndice corrompido
+Operation .........: 
+Arguments .........: 
+Involved File .....: CFEAPC.cdx
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+ORDLISTADD            :       0 in Module: 
+ABRE                  :     137 in Module: CFEPABRE.PRG
+CFEPVEBA              :      37 in Module: CFEPVEBA.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|ºÀÄÄÄÄÄÚÄÄÄÄÄÄÄÄÄÄÄ¿Ù                                                          º|
+|º      ³1-Pedido   ³                                                           º|
+|º      ³2-Autorizar³                                                           º|
+|º      ÀÄÄÄÄÄÄÄÄÄÄÄÙ                                                           º|
+|º F1 =Ajuda                                                                    º|
+|º F3 =Cons.Fornecedores                                                        º|
+|º F4 =Cons.Clientes                                                            º|
+|º F5 =Cons.Produtos                                                            º|
+|º F7 =Cons.Parcelamento                                                        º|
+|º F6 =Calculadora                                                              º|
+|º F9 =Sel Impressora                                                           º|
+|º F11=Calendario                                            Mem¢ria:   2.888 MBº|
+|º                                                           Usuario:VENDAS     º|
+|ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ[B]¼|
+|                             M¢dulo de Faturamento                              |
+|Error DBFCDX/1012  Detectado ¡ndice corrompido: CFEAPC.cdx Arguments: ()        |
+|                                                                                |
+|Error at ...: ORDLISTADD(0) in Module:                                          |
+|Called from : ABRE(137) in Module: CFEPABRE.PRG                                 |
+|Called from : CFEPVEBA(37) in Module: CFEPVEBA.PRG                              |
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prg                                |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(191) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 21/12/2010
+Time...............: 00:32:36
+
+Application name...: Z:\Inffhox\CFE\cfe.exe
+Workstation name...: LOJA-50ED9B1BED
+Available memory...: 1702176
+Current disk.......: Z
+Current directory..: Inffhox\CFE
+Free disk space....: 229026205696
+
+Operating system...: Windows  XP Professional 5.01.2600 Service Pack 3
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/B,B/W,N/N,N/N,W+/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEPVEBA.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: DBFCDX
+System Code .......: 1012
+Default Status ....: .T.
+Description .......: Detectado ¡ndice corrompido
+Operation .........: 
+Arguments .........: 
+Involved File .....: CFEAPC.cdx
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+ORDLISTADD            :       0 in Module: 
+ABRE                  :     137 in Module: CFEPABRE.PRG
+CFEPVEBA              :      37 in Module: CFEPVEBA.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|ºÀÄÄÄÄÄÚÄÄÄÄÄÄÄÄÄÄÄ¿Ù                                                          º|
+|º      ³1-Pedido   ³                                                           º|
+|º      ³2-Autorizar³                                                           º|
+|º      ÀÄÄÄÄÄÄÄÄÄÄÄÙ                                                           º|
+|º F1 =Ajuda                                                                    º|
+|º F3 =Cons.Fornecedores                                                        º|
+|º F4 =Cons.Clientes                                                            º|
+|º F5 =Cons.Produtos                                                            º|
+|º F7 =Cons.Parcelamento                                                        º|
+|º F6 =Calculadora                                                              º|
+|º F9 =Sel Impressora                                                           º|
+|º F11=Calendario                                            Mem¢ria:   1.663 MBº|
+|º                                                           Usuario:VENDAS     º|
+|ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ[B]¼|
+|                             M¢dulo de Faturamento                              |
+|Error DBFCDX/1012  Detectado ¡ndice corrompido: CFEAPC.cdx Arguments: ()        |
+|                                                                                |
+|Error at ...: ORDLISTADD(0) in Module:                                          |
+|Called from : ABRE(137) in Module: CFEPABRE.PRG                                 |
+|Called from : CFEPVEBA(37) in Module: CFEPVEBA.PRG                              |
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prg                                |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(191) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 18/03/2017
+Time...............: 08:53:41
+
+Application name...: M:\Inffhox\CFE\cfe.exe
+Workstation name...: LOJA2
+Available memory...: 3088524
+Current disk.......: M
+Current directory..: Inffhox\CFE
+Free disk space....: 229118435328
+
+Operating system...: Windows  Windows Vista Professional 6.01.7601 Service Pack 1
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/B,N/W,N/N,N/N,W+/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEPVEBA.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: DBFCDX
+System Code .......: 1201
+Default Status ....: .T.
+Description .......: Workarea nÆo indexada
+Operation .........: 
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+DBSEEK                :       0 in Module: 
+PB_IFCOD2             :      21 in Module: pb_ifcd2.prg
+CFEPVEBA              :      70 in Module: CFEPVEBA.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿|
+|³ C.F.E.                                                          Vers„o 2014c7³|
+|³ LOJAO DO POVO                                                Hoje: 18/03/2017³|
+|³ Inffhox Desenvolvimentos                                             8:53:41 ³|
+|ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄDigita‡„o de PedidosÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄCFEPVEBAÙ|
+|Error DBFCDX/1201  Workarea nÆo indexada Arguments: ()ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»|
+|º                                                                              º|
+|Error at ...: DBSEEK(0) in Module:                                             º|
+|Called from : PB_IFCOD2(21) in Module: pb_ifcd2.prg                            º|
+|Called from : CFEPVEBA(70) in Module: CFEPVEBA.PRG                             º|
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                         º|
+|Called from : SUBMENU(81) in Module: fazmenu.prg                               º|
+|Called from : SUBMENU(85) in Module: fazmenu.prg                               º|
+|Called from : FAZMENU(29) in Module: fazmenu.prg                               º|
+|Called from : MAIN(191) in Module: CFE.PRG                                     º|
+|º                                                                              º|
+|º                                                                              º|
+|º                                                                              º|
+|º                                                                              º|
+|º                                                                              º|
+|º                                                                              º|
+|º                                                                              º|
+|ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼|
+|                                                                                |
+|                                                                                |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 18/03/2017
+Time...............: 08:52:52
+
+Application name...: M:\Inffhox\CFE\cfe.exe
+Workstation name...: LOJA2
+Available memory...: 3090068
+Current disk.......: M
+Current directory..: Inffhox\CFE
+Free disk space....: 229136785408
+
+Operating system...: Windows  Windows Vista Professional 6.01.7601 Service Pack 1
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/B,B/W,N/N,N/N,W+/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEPVEBA.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: DBFCDX
+System Code .......: 1012
+Default Status ....: .T.
+Description .......: Detectado ¡ndice corrompido
+Operation .........: 
+Arguments .........: 
+Involved File .....: CFEAPC.cdx
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+ORDLISTADD            :       0 in Module: 
+ABRE                  :     137 in Module: CFEPABRE.PRG
+CFEPVEBA              :      37 in Module: CFEPVEBA.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|ºÀÄÄÄÄÄÚÄÄÄÄÄÄÄÄÄÄÄ¿Ù                                                          º|
+|º      ³1-Pedido   ³                                                           º|
+|º      ³2-Autorizar³                                                           º|
+|º      ÀÄÄÄÄÄÄÄÄÄÄÄÙ                                                           º|
+|º F1 =Ajuda                                                                    º|
+|º F3 =Cons.Fornecedores                                                        º|
+|º F4 =Cons.Clientes                                                            º|
+|º F5 =Cons.Produtos                                                            º|
+|º F7 =Cons.Parcelamento                                                        º|
+|º F6 =Calculadora                                                              º|
+|º F9 =Sel Impressora                                                           º|
+|º F11=Calendario                                            Mem¢ria:   3.018 MBº|
+|º                                                           Usuario:VENDAS     º|
+|ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ[B]¼|
+|                             M¢dulo de Faturamento                              |
+|Error DBFCDX/1012  Detectado ¡ndice corrompido: CFEAPC.cdx Arguments: ()        |
+|                                                                                |
+|Error at ...: ORDLISTADD(0) in Module:                                          |
+|Called from : ABRE(137) in Module: CFEPABRE.PRG                                 |
+|Called from : CFEPVEBA(37) in Module: CFEPVEBA.PRG                              |
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prg                                |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(191) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 21/12/2010
+Time...............: 00:29:12
+
+Application name...: Z:\Inffhox\CFE\cfe.exe
+Workstation name...: LOJA-50ED9B1BED
+Available memory...: 1701432
+Current disk.......: Z
+Current directory..: Inffhox\CFE
+Free disk space....: 228738994176
+
+Operating system...: Windows  XP Professional 5.01.2600 Service Pack 3
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/B,B/W,N/N,N/N,W+/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEPVEBA.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: DBFCDX
+System Code .......: 1012
+Default Status ....: .T.
+Description .......: Detectado ¡ndice corrompido
+Operation .........: 
+Arguments .........: 
+Involved File .....: CFEAPC.cdx
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+ORDLISTADD            :       0 in Module: 
+ABRE                  :     137 in Module: CFEPABRE.PRG
+CFEPVEBA              :      37 in Module: CFEPVEBA.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|ºÀÄÄÄÄÄÚÄÄÄÄÄÄÄÄÄÄÄ¿Ù                                                          º|
+|º      ³1-Pedido   ³                                                           º|
+|º      ³2-Autorizar³                                                           º|
+|º      ÀÄÄÄÄÄÄÄÄÄÄÄÙ                                                           º|
+|º F1 =Ajuda                                                                    º|
+|º F3 =Cons.Fornecedores                                                        º|
+|º F4 =Cons.Clientes                                                            º|
+|º F5 =Cons.Produtos                                                            º|
+|º F7 =Cons.Parcelamento                                                        º|
+|º F6 =Calculadora                                                              º|
+|º F9 =Sel Impressora                                                           º|
+|º F11=Calendario                                            Mem¢ria:   1.662 MBº|
+|º                                                           Usuario:VENDAS     º|
+|ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ[B]¼|
+|                             M¢dulo de Faturamento                              |
+|Error DBFCDX/1012  Detectado ¡ndice corrompido: CFEAPC.cdx Arguments: ()        |
+|                                                                                |
+|Error at ...: ORDLISTADD(0) in Module:                                          |
+|Called from : ABRE(137) in Module: CFEPABRE.PRG                                 |
+|Called from : CFEPVEBA(37) in Module: CFEPVEBA.PRG                              |
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prg                                |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(191) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 21/12/2010
+Time...............: 00:28:56
+
+Application name...: Z:\Inffhox\CFE\cfe.exe
+Workstation name...: LOJA-50ED9B1BED
+Available memory...: 1701204
+Current disk.......: Z
+Current directory..: Inffhox\CFE
+Free disk space....: 229318168576
+
+Operating system...: Windows  XP Professional 5.01.2600 Service Pack 3
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/B,N/W,N/N,N/N,W+/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEPVEBA.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: DBFCDX
+System Code .......: 1201
+Default Status ....: .T.
+Description .......: Workarea nÆo indexada
+Operation .........: 
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+DBSEEK                :       0 in Module: 
+PB_IFCOD2             :      21 in Module: pb_ifcd2.prg
+CFEPVEBA              :      70 in Module: CFEPVEBA.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿|
+|³ C.F.E.                                                          Vers„o 2014c7³|
+|³ LOJAO DO POVO                                                Hoje: 21/12/2010³|
+|³ Inffhox Desenvolvimentos                                             0:28:56 ³|
+|ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄDigita‡„o de PedidosÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄCFEPVEBAÙ|
+|Error DBFCDX/1201  Workarea nÆo indexada Arguments: ()ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»|
+|º                                                                              º|
+|Error at ...: DBSEEK(0) in Module:                                             º|
+|Called from : PB_IFCOD2(21) in Module: pb_ifcd2.prg                            º|
+|Called from : CFEPVEBA(70) in Module: CFEPVEBA.PRG                             º|
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                         º|
+|Called from : SUBMENU(81) in Module: fazmenu.prg                               º|
+|Called from : SUBMENU(85) in Module: fazmenu.prg                               º|
+|Called from : FAZMENU(29) in Module: fazmenu.prg                               º|
+|Called from : MAIN(191) in Module: CFE.PRG                                     º|
+|º                                                                              º|
+|º                                                                              º|
+|º                                                                              º|
+|º                                                                              º|
+|º                                                                              º|
+|º                                                                              º|
+|º                                                                              º|
+|ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼|
+|                                                                                |
+|                                                                                |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 21/12/2010
+Time...............: 00:28:39
+
+Application name...: Z:\Inffhox\CFE\cfe.exe
+Workstation name...: LOJA-50ED9B1BED
+Available memory...: 1702020
+Current disk.......: Z
+Current directory..: Inffhox\CFE
+Free disk space....: 229340495872
+
+Operating system...: Windows  XP Professional 5.01.2600 Service Pack 3
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/B,B/W,N/N,N/N,W+/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEPVEBA.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: DBFCDX
+System Code .......: 1012
+Default Status ....: .T.
+Description .......: Detectado ¡ndice corrompido
+Operation .........: 
+Arguments .........: 
+Involved File .....: CFEAPC.cdx
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+ORDLISTADD            :       0 in Module: 
+ABRE                  :     137 in Module: CFEPABRE.PRG
+CFEPVEBA              :      37 in Module: CFEPVEBA.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|ºÀÄÄÄÄÄÚÄÄÄÄÄÄÄÄÄÄÄ¿Ù                                                          º|
+|º      ³1-Pedido   ³                                                           º|
+|º      ³2-Autorizar³                                                           º|
+|º      ÀÄÄÄÄÄÄÄÄÄÄÄÙ                                                           º|
+|º F1 =Ajuda                                                                    º|
+|º F3 =Cons.Fornecedores                                                        º|
+|º F4 =Cons.Clientes                                                            º|
+|º F5 =Cons.Produtos                                                            º|
+|º F7 =Cons.Parcelamento                                                        º|
+|º F6 =Calculadora                                                              º|
+|º F9 =Sel Impressora                                                           º|
+|º F11=Calendario                                            Mem¢ria:   1.663 MBº|
+|º                                                           Usuario:VENDAS     º|
+|ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ[B]¼|
+|                             M¢dulo de Faturamento                              |
+|Error DBFCDX/1012  Detectado ¡ndice corrompido: CFEAPC.cdx Arguments: ()        |
+|                                                                                |
+|Error at ...: ORDLISTADD(0) in Module:                                          |
+|Called from : ABRE(137) in Module: CFEPABRE.PRG                                 |
+|Called from : CFEPVEBA(37) in Module: CFEPVEBA.PRG                              |
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prg                                |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(191) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 21/12/2010
+Time...............: 02:01:07
+
+Application name...: Z:\Inffhox\CFE\cfe.exe
+Workstation name...: LOJA-50ED9B1BED
+Available memory...: 1699024
+Current disk.......: Z
+Current directory..: Inffhox\CFE
+Free disk space....: 227969679360
+
+Operating system...: Windows  XP Professional 5.01.2600 Service Pack 3
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/B,N/W,N/N,N/N,W+/B,W/B,N/N,W/B,N/R,W/B,N/R,W/B,N/R,W/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEPVEBA.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: BASE
+System Code .......: 1002
+Default Status ....: .F.
+Description .......: Alias nÆo existe
+Operation .........: PEDCAB
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+DBSELECTAREA          :       0 in Module: 
+EDPRDBALCAO           :     203 in Module: CFEPVEBA.PRG
+CFEPVEBA              :     106 in Module: CFEPVEBA.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+| ³ 2³  45921³CALCAS MASCULINAS PROMOCA³     1,00 ³     79,000 ³          79,00³ |
+| ³ 3³      0³....................     ³     0,00 ³      0,000 ³           0,00³ |
+| ³ 4³      0³....................     ³     0,00 ³      0,000 ³           0,00³ |
+| ³ 5³      0³....................     ³     0,00 ³      0,000 ³           0,00³ |
+| ³ 6³      0³....................     ³     0,00 ³      0,000 ³           0,00³ |
+| ³ 7³      0³....................     ³     0,00 ³      0,000 ³           0,00³ |
+| ³ 8³      0³....................     ³     0,00 ³      0,000 ³           0,00³ |
+| ³ 9³      0³....................     ³     0,00 ³      0,000 ³           0,00³ |
+| ³10³      0³....................     ³     0,00 ³      0,000 ³           0,00³ |
+| ³11³      0³....................     ³     0,00 ³      0,000 ³           0,00³ |
+| ³12³      0³....................     ³     0,00 ³      0,000 ³           0,00³ |
+| ³13³      0³....................     ³     0,00 ³      0,000 ³           0,00³ |
+| ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ |
+| TOTAL do Pedido.:         158,00                                               |
+| Observacao......:                                                              |
+|Error BASE/1002  Alias nÆo existe: PEDCAB Arguments: ()o de OBSERVACOES         |
+|                                                                                |
+|Error at ...: DBSELECTAREA(0) in Module:                                        |
+|Called from : EDPRDBALCAO(203) in Module: CFEPVEBA.PRG                          |
+|Called from : CFEPVEBA(106) in Module: CFEPVEBA.PRG                             |
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prg                                |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(191) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 21/12/2010
+Time...............: 01:04:44
+
+Application name...: Z:\Inffhox\CFE\cfe.exe
+Workstation name...: LOJA-50ED9B1BED
+Available memory...: 1700716
+Current disk.......: Z
+Current directory..: Inffhox\CFE
+Free disk space....: 228599660544
+
+Operating system...: Windows  XP Professional 5.01.2600 Service Pack 3
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/B,N/W,N/N,N/N,W+/B,W/B,N/N,W/B,N/R,W/B,N/R,W/B,N/R,W/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEPVEBA.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: BASE
+System Code .......: 1002
+Default Status ....: .F.
+Description .......: Alias nÆo existe
+Operation .........: PROD
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+DBSELECTAREA          :       0 in Module: 
+FN_CODPR              :      19 in Module: FN_CODPR.PRG
+(b)CFEPVEBAD          :     253 in Module: CFEPVEBA.PRG
+HBGETLIST:GETPOSTVALI :     721 in Module: source\rtl\tgetlist.prg
+HBGETLIST:READER      :     220 in Module: source\rtl\tgetlist.prg
+READMODAL             :     141 in Module: source\rtl\getsys.prg
+CFEPVEBAD             :     256 in Module: CFEPVEBA.PRG
+EDPRDBALCAO           :     145 in Module: CFEPVEBA.PRG
+CFEPVEBA              :     106 in Module: CFEPVEBA.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿|
+|³Nr.Pedido.: 222686    Dt.Emissao: 20/01/2017                     Vers„o 2014c7³|
+|³Cliente...:   3477-NATAN PROENCIO                             Hoje: 21/12/2010³|
+|³Vendedor..:      9-CLEISLA                                            1:04:44 ³|
+|ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄDigita‡„o de PedidosÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄCFEPVEBAÙ|
+| ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿ |
+| ³Sq Prod.   Descricao                 Qtdade     Vlr Unit Ven Valor Total    ³ |
+| ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³ |
+| ³ 1³  44954³....................     ³     0,00 ³      0,000 ³           0,00³ |
+|Error BASE/1002  Alias nÆo existe: PROD Arguments: ()   0,000 ³           0,00³ |
+| ³ 3³      0³....................     ³     0,00 ³      0,000 ³           0,00³ |
+|Error at ...: DBSELECTAREA(0) in Module:    0,00 ³      0,000 ³           0,00³ |
+|Called from : FN_CODPR(19) in Module: FN_CODPR.PRG      0,000 ³           0,00³ |
+|Called from : (b)CFEPVEBAD(253) in Module: CFEPVEBA.PRG 0,000 ³           0,00³ |
+|Called from : HBGETLIST:GETPOSTVALIDATE(721) in Module: source\rtl\tgetlist.prg |
+|Called from : HBGETLIST:READER(220) in Module: source\rtl\tgetlist.prg    0,00³ |
+|Called from : READMODAL(141) in Module: source\rtl\getsys.prg ³           0,00³ |
+|Called from : CFEPVEBAD(256) in Module: CFEPVEBA.PRG    0,000 ³           0,00³ |
+|Called from : EDPRDBALCAO(145) in Module: CFEPVEBA.PRG  0,000 ³           0,00³ |
+|Called from : CFEPVEBA(106) in Module: CFEPVEBA.PRG     0,000 ³           0,00³ |
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg  0,000 ³           0,00³ |
+|Called from : SUBMENU(81) in Module: fazmenu.prgÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg:                               |
+|Called from : MAIN(191) in Module: CFE.PRGlinha do pedido                       |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 21/12/2010
+Time...............: 00:25:35
+
+Application name...: Z:\Inffhox\CFE\cfe.exe
+Workstation name...: LOJA-50ED9B1BED
+Available memory...: 1702284
+Current disk.......: Z
+Current directory..: Inffhox\CFE
+Free disk space....: 228599234560
+
+Operating system...: Windows  XP Professional 5.01.2600 Service Pack 3
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/B,N/W,N/N,N/N,W+/B,W/B,N/R,W/B,N/R,W/B,N/R,W/B,N/R,W/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEPVEBA.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: BASE
+System Code .......: 1002
+Default Status ....: .F.
+Description .......: Alias nÆo existe
+Operation .........: PROD
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+DBSELECTAREA          :       0 in Module: 
+FN_CODPR              :      19 in Module: FN_CODPR.PRG
+(b)CFEPVEBAD          :     253 in Module: CFEPVEBA.PRG
+HBGETLIST:GETPOSTVALI :     721 in Module: source\rtl\tgetlist.prg
+HBGETLIST:READER      :     220 in Module: source\rtl\tgetlist.prg
+READMODAL             :     141 in Module: source\rtl\getsys.prg
+CFEPVEBAD             :     256 in Module: CFEPVEBA.PRG
+EDPRDBALCAO           :     145 in Module: CFEPVEBA.PRG
+CFEPVEBA              :     106 in Module: CFEPVEBA.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+| ³Sq Prod.   Descricao                 Qtdade     Vlr Unit Ven Valor Total    ³ |
+| ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³ |
+| ³ 1³  38319³VESTIDO EMMA FIOREZI ESTA³     1,00 ³     89,900 ³          89,90³ |
+| ³ 2³  44887³VESTIDO EXTENSAO 556 VISC³     1,00 ³    129,900 ³         129,90³ |
+| ³ 3³  45599³SHORT BIVIK 0062395 BOYFR³     1,00 ³     79,900 ³          79,90³ |
+| ³ 4³  45606³SHORT BIVIK 0061815 JEANS³     1,00 ³     72,900 ³          72,90³ |
+| ³ 5³  45595³SHORT BIVIK 0062470 JEANS³     1,00 ³     72,900 ³          72,90³ |
+| ³ 6³  45602³SHORT BIVIK 0061532 JEANS³     1,00 ³     79,900 ³          79,90³ |
+| ³ 7³  45600³....................     ³     0,00 ³      0,000 ³           0,00³ |
+|Error BASE/1002  Alias nÆo existe: PROD Arguments: ()   0,000 ³           0,00³ |
+| ³ 9³      0³....................     ³     0,00 ³      0,000 ³           0,00³ |
+|Error at ...: DBSELECTAREA(0) in Module:    0,00 ³      0,000 ³           0,00³ |
+|Called from : FN_CODPR(19) in Module: FN_CODPR.PRG      0,000 ³           0,00³ |
+|Called from : (b)CFEPVEBAD(253) in Module: CFEPVEBA.PRG 0,000 ³           0,00³ |
+|Called from : HBGETLIST:GETPOSTVALIDATE(721) in Module: source\rtl\tgetlist.prg |
+|Called from : HBGETLIST:READER(220) in Module: source\rtl\tgetlist.prgÄÄÄÄÄÄÄÄÙ |
+|Called from : READMODAL(141) in Module: source\rtl\getsys.prg                   |
+|Called from : CFEPVEBAD(256) in Module: CFEPVEBA.PRG                            |
+|Called from : EDPRDBALCAO(145) in Module: CFEPVEBA.PRGido                       |
+|Called from : CFEPVEBA(106) in Module: CFEPVEBA.PRG                             |
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prg                                |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(191) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 21/12/2010
+Time...............: 07:44:08
+
+Application name...: Z:\Inffhox\CFE\cfe.exe
+Workstation name...: LOJA-50ED9B1BED
+Available memory...: 1701092
+Current disk.......: Z
+Current directory..: Inffhox\CFE
+Free disk space....: 229301317632
+
+Operating system...: Windows  XP Professional 5.01.2600 Service Pack 3
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/B,N/W,N/N,N/N,W+/B,W/B,N/N,W/B,N/R,W/B,N/R,W/B,N/R,W/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEPVEBA.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: BASE
+System Code .......: 1002
+Default Status ....: .F.
+Description .......: Alias nÆo existe
+Operation .........: PROD
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+DBSELECTAREA          :       0 in Module: 
+FN_CODPR              :      19 in Module: FN_CODPR.PRG
+(b)CFEPVEBAD          :     253 in Module: CFEPVEBA.PRG
+HBGETLIST:GETPOSTVALI :     721 in Module: source\rtl\tgetlist.prg
+HBGETLIST:READER      :     220 in Module: source\rtl\tgetlist.prg
+READMODAL             :     141 in Module: source\rtl\getsys.prg
+CFEPVEBAD             :     256 in Module: CFEPVEBA.PRG
+EDPRDBALCAO           :     145 in Module: CFEPVEBA.PRG
+CFEPVEBA              :     106 in Module: CFEPVEBA.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+| ³ 8³  45794³CALCA YARTE 1409 JEANS CI³     1,00 ³    102,900 ³         102,90³ |
+| ³ 9³  45674³BERMUDA BIVIK 0062730 COL³     1,00 ³     72,900 ³          72,90³ |
+| ³10³  45706³BERMUDA BIVIK 0061472 BOR³     1,00 ³     72,900 ³          72,90³ |
+| ³11³  44299³BERMUDA IDIOS A16002 SARJ³     1,00 ³    149,900 ³         149,90³ |
+| ³12³  45660³BERMUDA BIVIK 0061456 SPO³     1,00 ³     72,900 ³          72,90³ |
+| ³13³  45606³SHORT BIVIK 0061815 JEANS³     1,00 ³     72,900 ³          72,90³ |
+| ³14³  45611³SHORT BIVIK 062153 BOY CL³     1,00 ³     75,900 ³          75,90³ |
+| ³15³  45598³SHORT BIVIK 0059929 JEANS³     1,00 ³     72,900 ³          72,90³ |
+| ³16³  44681³....................     ³     0,00 ³      0,000 ³           0,00³ |
+|Error BASE/1002  Alias nÆo existe: PROD Arguments: ()ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ |
+| TOTAL do Pedido.:       1.278,50                                               |
+|Error at ...: DBSELECTAREA(0) in Module: Item 16:                               |
+|Called from : FN_CODPR(19) in Module: FN_CODPR.PRG pedido                       |
+|Called from : (b)CFEPVEBAD(253) in Module: CFEPVEBA.PRG                         |
+|Called from : HBGETLIST:GETPOSTVALIDATE(721) in Module: source\rtl\tgetlist.prg |
+|Called from : HBGETLIST:READER(220) in Module: source\rtl\tgetlist.prg          |
+|Called from : READMODAL(141) in Module: source\rtl\getsys.prg                   |
+|Called from : CFEPVEBAD(256) in Module: CFEPVEBA.PRG                            |
+|Called from : EDPRDBALCAO(145) in Module: CFEPVEBA.PRG                          |
+|Called from : CFEPVEBA(106) in Module: CFEPVEBA.PRG                             |
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prg                                |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(191) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 21/12/2010
+Time...............: 01:56:32
+
+Application name...: Z:\Inffhox\CFE\cfe.exe
+Workstation name...: LOJA-50ED9B1BED
+Available memory...: 1699700
+Current disk.......: Z
+Current directory..: Inffhox\CFE
+Free disk space....: 229819273216
+
+Operating system...: Windows  XP Professional 5.01.2600 Service Pack 3
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/B,N/W,N/N,N/N,W+/B,W/B,N/N,W/B,N/R,W/B,N/R,W/B,N/R,W/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEPVEBA.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: BASE
+System Code .......: 1002
+Default Status ....: .F.
+Description .......: Alias nÆo existe
+Operation .........: PROD
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+DBSELECTAREA          :       0 in Module: 
+FN_CODPR              :      19 in Module: FN_CODPR.PRG
+(b)CFEPVEBAD          :     253 in Module: CFEPVEBA.PRG
+HBGETLIST:GETPOSTVALI :     721 in Module: source\rtl\tgetlist.prg
+HBGETLIST:READER      :     220 in Module: source\rtl\tgetlist.prg
+READMODAL             :     141 in Module: source\rtl\getsys.prg
+CFEPVEBAD             :     256 in Module: CFEPVEBA.PRG
+EDPRDBALCAO           :     145 in Module: CFEPVEBA.PRG
+CFEPVEBA              :     106 in Module: CFEPVEBA.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|³Cliente...:    654-DINEIDE DE FATIMA GONCALVES  /DOC          Hoje: 21/12/2010³|
+|³Vendedor..:      4-ADRIANA                                            1:56:32 ³|
+|ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄDigita‡„o de PedidosÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄCFEPVEBAÙ|
+| ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿ |
+| ³Sq Prod.   Descricao                 Qtdade     Vlr Unit Ven Valor Total    ³ |
+| ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³ |
+| ³ 1³  45338³VESTIDO BRANDILI 32678 DI³     1,00 ³     72,900 ³          72,90³ |
+| ³ 2³  40925³BERMUDA OLHO FATAL 10209 ³     1,00 ³     79,900 ³          79,90³ |
+| ³ 3³  44987³....................     ³     0,00 ³      0,000 ³           0,00³ |
+|Error BASE/1002  Alias nÆo existe: PROD Arguments: ()   0,000 ³           0,00³ |
+| ³ 5³      0³....................     ³     0,00 ³      0,000 ³           0,00³ |
+|Error at ...: DBSELECTAREA(0) in Module:    0,00 ³      0,000 ³           0,00³ |
+|Called from : FN_CODPR(19) in Module: FN_CODPR.PRG      0,000 ³           0,00³ |
+|Called from : (b)CFEPVEBAD(253) in Module: CFEPVEBA.PRG 0,000 ³           0,00³ |
+|Called from : HBGETLIST:GETPOSTVALIDATE(721) in Module: source\rtl\tgetlist.prg |
+|Called from : HBGETLIST:READER(220) in Module: source\rtl\tgetlist.prg    0,00³ |
+|Called from : READMODAL(141) in Module: source\rtl\getsys.prg ³           0,00³ |
+|Called from : CFEPVEBAD(256) in Module: CFEPVEBA.PRG    0,000 ³           0,00³ |
+|Called from : EDPRDBALCAO(145) in Module: CFEPVEBA.PRG  0,000 ³           0,00³ |
+|Called from : CFEPVEBA(106) in Module: CFEPVEBA.PRGÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ |
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prg:                               |
+|Called from : SUBMENU(85) in Module: fazmenu.prgdo pedido                       |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(191) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 20/06/2016
+Time...............: 18:02:32
+
+Application name...: M:\Inffhox\CFE\cfe.exe
+Workstation name...: LOJA2
+Available memory...: 3056752
+Current disk.......: M
+Current directory..: Inffhox\CFE
+Free disk space....: 232116600832
+
+Operating system...: Windows  Windows Vista Professional 6.01.7601 Service Pack 1
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/B,N/W,N/N,N/N,W+/B,W/B,N/N,W/B,N/R,W/B,N/R,W/B,N/R,W/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 1
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEPVEBA.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: BASE
+System Code .......: 1002
+Default Status ....: .F.
+Description .......: Alias nÆo existe
+Operation .........: CTRNF
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+DBSELECTAREA          :       0 in Module: 
+FN_BACKNF             :      35 in Module: FN_GRNF.PRG
+CFEPVEBA              :      92 in Module: CFEPVEBA.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|º                                                                              º|
+|º         ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿        º|
+|º         ³                                                           ³        º|
+|º         ³                                                           ³        º|
+|º         ³                                                           ³        º|
+|º         ³                                                           ³        º|
+|º         ³                                                           ³        º|
+|º         ³                                                           ³        º|
+|º         ³                                                           ³        º|
+|º         ³                                                           ³        º|
+|º         ³                                                           ³        º|
+|º         ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ        º|
+|º                                                                              º|
+|ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼|
+|                                                                                |
+|Error BASE/1002  Alias nÆo existe: CTRNF Arguments: ()CFE+SAG                   |
+|                                                                                |
+|Error at ...: DBSELECTAREA(0) in Module:                                        |
+|Called from : FN_BACKNF(35) in Module: FN_GRNF.PRG                              |
+|Called from : CFEPVEBA(92) in Module: CFEPVEBA.PRG                              |
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prg                                |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(191) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 04/01/2016
+Time...............: 17:05:50
+
+Application name...: M:\Inffhox\CFE\cfe.exe
+Workstation name...: LOJA2
+Available memory...: 3075692
+Current disk.......: M
+Current directory..: Inffhox\CFE
+Free disk space....: 233654419456
+
+Operating system...: Windows  Windows Vista Professional 6.01.7601 Service Pack 1
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/B,N/W,N/N,N/N,W+/B,W/B,N/N,W/B,N/R,W/B,N/R,W/B,N/R,W/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEPVEBA.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: BASE
+System Code .......: 1002
+Default Status ....: .F.
+Description .......: Alias nÆo existe
+Operation .........: PROD
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+DBSELECTAREA          :       0 in Module: 
+FN_CODPR              :      19 in Module: FN_CODPR.PRG
+(b)CFEPVEBAD          :     253 in Module: CFEPVEBA.PRG
+HBGETLIST:GETPOSTVALI :     721 in Module: source\rtl\tgetlist.prg
+HBGETLIST:READER      :     220 in Module: source\rtl\tgetlist.prg
+READMODAL             :     141 in Module: source\rtl\getsys.prg
+CFEPVEBAD             :     256 in Module: CFEPVEBA.PRG
+EDPRDBALCAO           :     145 in Module: CFEPVEBA.PRG
+CFEPVEBA              :     106 in Module: CFEPVEBA.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+| ³Sq Prod.   Descricao                 Qtdade     Vlr Unit Ven Valor Total    ³ |
+| ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³ |
+| ³ 1³  42207³BLUSA POOKY CHIFON/MALHA ³     1,00 ³     49,900 ³          49,90³ |
+| ³ 2³  40846³CIGARRETE VISUAL 095796 J³     1,00 ³    219,900 ³         219,90³ |
+| ³ 3³  38707³CALCA BRIX CAF2313 JEGGIN³     1,00 ³    239,900 ³         239,90³ |
+| ³ 4³  36640³SHORT CEMELY FASHION ESTA³     1,00 ³     25,900 ³          25,90³ |
+| ³ 5³  37566³SAIA VISUAL 525145 JEANS ³     1,00 ³    209,900 ³         209,90³ |
+| ³ 6³  41213³SHORTS BRX DENIM SHTX088 ³     1,00 ³    129,900 ³         129,90³ |
+| ³ 7³  40819³....................     ³     0,00 ³      0,000 ³           0,00³ |
+|Error BASE/1002  Alias nÆo existe: PROD Arguments: ()   0,000 ³           0,00³ |
+| ³ 9³      0³....................     ³     0,00 ³      0,000 ³           0,00³ |
+|Error at ...: DBSELECTAREA(0) in Module:    0,00 ³      0,000 ³           0,00³ |
+|Called from : FN_CODPR(19) in Module: FN_CODPR.PRG      0,000 ³           0,00³ |
+|Called from : (b)CFEPVEBAD(253) in Module: CFEPVEBA.PRG 0,000 ³           0,00³ |
+|Called from : HBGETLIST:GETPOSTVALIDATE(721) in Module: source\rtl\tgetlist.prg |
+|Called from : HBGETLIST:READER(220) in Module: source\rtl\tgetlist.prgÄÄÄÄÄÄÄÄÙ |
+|Called from : READMODAL(141) in Module: source\rtl\getsys.prg                   |
+|Called from : CFEPVEBAD(256) in Module: CFEPVEBA.PRG                            |
+|Called from : EDPRDBALCAO(145) in Module: CFEPVEBA.PRGido                       |
+|Called from : CFEPVEBA(106) in Module: CFEPVEBA.PRG                             |
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prg                                |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(191) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 22/12/2015
+Time...............: 01:08:17
+
+Application name...: Z:\Inffhox\CFE\cfe.exe
+Workstation name...: LOJA1
+Available memory...: 1692196
+Current disk.......: Z
+Current directory..: Inffhox\CFE
+Free disk space....: 232916348928
+
+Operating system...: Windows  XP Professional 5.01.2600 Service Pack 3
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/B,N/W,N/N,N/N,W+/B,W/B,N/N,W/B,N/R,W/B,N/R,W/B,N/R,W/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 1
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEPVEBA.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: BASE
+System Code .......: 1002
+Default Status ....: .F.
+Description .......: Alias nÆo existe
+Operation .........: PEDCAB
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+DBSELECTAREA          :       0 in Module: 
+EDPRDBALCAO           :     203 in Module: CFEPVEBA.PRG
+CFEPVEBA              :     106 in Module: CFEPVEBA.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+| ³ 2³      0³....................     ³     0,00 ³      0,000 ³           0,00³ |
+| ³ 3³      0³....................     ³     0,00 ³      0,000 ³           0,00³ |
+| ³ 4³      0³....................     ³     0,00 ³      0,000 ³           0,00³ |
+| ³ 5³      0³....................     ³     0,00 ³      0,000 ³           0,00³ |
+| ³ 6³      0³....................     ³     0,00 ³      0,000 ³           0,00³ |
+| ³ 7³      0³....................     ³     0,00 ³      0,000 ³           0,00³ |
+| ³ 8³      0³....................     ³     0,00 ³      0,000 ³           0,00³ |
+| ³ 9³      0³....................     ³     0,00 ³      0,000 ³           0,00³ |
+| ³10³      0³....................     ³     0,00 ³      0,000 ³           0,00³ |
+| ³11³      0³....................     ³     0,00 ³      0,000 ³           0,00³ |
+| ³12³      0³....................     ³     0,00 ³      0,000 ³           0,00³ |
+| ³13³      0³....................     ³     0,00 ³      0,000 ³           0,00³ |
+| ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ |
+| TOTAL do Pedido.:          99,90                                               |
+| Observacao......:                                                              |
+|Error BASE/1002  Alias nÆo existe: PEDCAB Arguments: ()o de OBSERVACOES         |
+|                                                                                |
+|Error at ...: DBSELECTAREA(0) in Module:                                        |
+|Called from : EDPRDBALCAO(203) in Module: CFEPVEBA.PRG                          |
+|Called from : CFEPVEBA(106) in Module: CFEPVEBA.PRG                             |
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prg                                |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(191) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 16/12/2015
+Time...............: 14:19:20
+
+Application name...: M:\Inffhox\CFE\cfe.exe
+Workstation name...: LOJA2
+Available memory...: 3126708
+Current disk.......: M
+Current directory..: Inffhox\CFE
+Free disk space....: 233977589760
+
+Operating system...: Windows  Windows Vista Professional 6.01.7601 Service Pack 1
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/B,N/W,N/N,N/N,W+/B,W/B,N/N,W/B,N/R,W/B,N/R,W/B,N/R,W/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEPVEBA.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: BASE
+System Code .......: 1002
+Default Status ....: .F.
+Description .......: Alias nÆo existe
+Operation .........: PROD
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+DBSELECTAREA          :       0 in Module: 
+FN_CODPR              :      19 in Module: FN_CODPR.PRG
+(b)CFEPVEBAD          :     253 in Module: CFEPVEBA.PRG
+HBGETLIST:GETPOSTVALI :     721 in Module: source\rtl\tgetlist.prg
+HBGETLIST:READER      :     220 in Module: source\rtl\tgetlist.prg
+READMODAL             :     141 in Module: source\rtl\getsys.prg
+CFEPVEBAD             :     256 in Module: CFEPVEBA.PRG
+EDPRDBALCAO           :     145 in Module: CFEPVEBA.PRG
+CFEPVEBA              :     106 in Module: CFEPVEBA.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|³Vendedor..:      9-ELAINE                                            14:19:20 ³|
+|ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄDigita‡„o de PedidosÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄCFEPVEBAÙ|
+| ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿ |
+| ³Sq Prod.   Descricao                 Qtdade     Vlr Unit Ven Valor Total    ³ |
+| ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³ |
+| ³ 1³  40985³SAPATILHA RENATA DELAVECH³     1,00 ³     89,900 ³          89,90³ |
+| ³ 2³  37096³MOCASSIM DAKOTA B6893 FEM³     1,00 ³    139,900 ³         139,90³ |
+| ³ 3³  40986³SAPATILHA RENATA DELAVECH³     1,00 ³    109,900 ³         109,90³ |
+| ³ 4³  40578³....................     ³     0,00 ³      0,000 ³           0,00³ |
+|Error BASE/1002  Alias nÆo existe: PROD Arguments: ()   0,000 ³           0,00³ |
+| ³ 6³      0³....................     ³     0,00 ³      0,000 ³           0,00³ |
+|Error at ...: DBSELECTAREA(0) in Module:    0,00 ³      0,000 ³           0,00³ |
+|Called from : FN_CODPR(19) in Module: FN_CODPR.PRG      0,000 ³           0,00³ |
+|Called from : (b)CFEPVEBAD(253) in Module: CFEPVEBA.PRG 0,000 ³           0,00³ |
+|Called from : HBGETLIST:GETPOSTVALIDATE(721) in Module: source\rtl\tgetlist.prg |
+|Called from : HBGETLIST:READER(220) in Module: source\rtl\tgetlist.prg    0,00³ |
+|Called from : READMODAL(141) in Module: source\rtl\getsys.prg ³           0,00³ |
+|Called from : CFEPVEBAD(256) in Module: CFEPVEBA.PRG    0,000 ³           0,00³ |
+|Called from : EDPRDBALCAO(145) in Module: CFEPVEBA.PRGÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ |
+|Called from : CFEPVEBA(106) in Module: CFEPVEBA.PRG                             |
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prgdo pedido                       |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(191) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 21/12/2010
+Time...............: 12:52:32
+
+Application name...: Z:\Inffhox\CFE\cfe.exe
+Workstation name...: LOJA1
+Available memory...: 1695284
+Current disk.......: Z
+Current directory..: Inffhox\CFE
+Free disk space....: 235249516544
+
+Operating system...: Windows  XP Professional 5.01.2600 Service Pack 3
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/B,N/W,N/N,N/N,W+/B,W/B,N/N,W/B,N/R,W/B,N/R,W/B,N/R,W/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEPVEBA.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: BASE
+System Code .......: 1002
+Default Status ....: .F.
+Description .......: Alias nÆo existe
+Operation .........: PROD
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+DBSELECTAREA          :       0 in Module: 
+FN_CODPR              :      19 in Module: FN_CODPR.PRG
+(b)CFEPVEBAD          :     253 in Module: CFEPVEBA.PRG
+HBGETLIST:GETPOSTVALI :     721 in Module: source\rtl\tgetlist.prg
+HBGETLIST:READER      :     220 in Module: source\rtl\tgetlist.prg
+READMODAL             :     141 in Module: source\rtl\getsys.prg
+CFEPVEBAD             :     256 in Module: CFEPVEBA.PRG
+EDPRDBALCAO           :     145 in Module: CFEPVEBA.PRG
+CFEPVEBA              :     106 in Module: CFEPVEBA.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿|
+|³Nr.Pedido.: 193078    Dt.Emissao: 10/10/2015                     Vers„o 2014c7³|
+|³Cliente...:   2944-DOUGLAS DE SOUZA CANDIAGO     DOCUMENTO    Hoje: 21/12/2010³|
+|³Vendedor..:      9-ELAINE                                            12:52:31 ³|
+|ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄDigita‡„o de PedidosÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄCFEPVEBAÙ|
+| ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿ |
+| ³Sq Prod.   Descricao                 Qtdade     Vlr Unit Ven Valor Total    ³ |
+| ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³ |
+| ³ 1³  40167³....................     ³     0,00 ³      0,000 ³           0,00³ |
+|Error BASE/1002  Alias nÆo existe: PROD Arguments: ()   0,000 ³           0,00³ |
+| ³ 3³      0³....................     ³     0,00 ³      0,000 ³           0,00³ |
+|Error at ...: DBSELECTAREA(0) in Module:    0,00 ³      0,000 ³           0,00³ |
+|Called from : FN_CODPR(19) in Module: FN_CODPR.PRG      0,000 ³           0,00³ |
+|Called from : (b)CFEPVEBAD(253) in Module: CFEPVEBA.PRG 0,000 ³           0,00³ |
+|Called from : HBGETLIST:GETPOSTVALIDATE(721) in Module: source\rtl\tgetlist.prg |
+|Called from : HBGETLIST:READER(220) in Module: source\rtl\tgetlist.prg    0,00³ |
+|Called from : READMODAL(141) in Module: source\rtl\getsys.prg ³           0,00³ |
+|Called from : CFEPVEBAD(256) in Module: CFEPVEBA.PRG    0,000 ³           0,00³ |
+|Called from : EDPRDBALCAO(145) in Module: CFEPVEBA.PRG  0,000 ³           0,00³ |
+|Called from : CFEPVEBA(106) in Module: CFEPVEBA.PRG     0,000 ³           0,00³ |
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg  0,000 ³           0,00³ |
+|Called from : SUBMENU(81) in Module: fazmenu.prgÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg:                               |
+|Called from : MAIN(191) in Module: CFE.PRGlinha do pedido                       |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 15/08/2015
+Time...............: 10:16:38
+
+Application name...: M:\Inffhox\CFE\cfe.exe
+Workstation name...: LOJA2
+Available memory...: 3120832
+Current disk.......: M
+Current directory..: Inffhox\CFE
+Free disk space....: 234922270720
+
+Operating system...: Windows  Windows Vista Professional 6.01.7601 Service Pack 1
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/B,N/W,N/N,N/N,W+/B,W/B,N/N,W/B,N/R,W/B,N/R,W/B,N/R,W/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 1
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEPVEBA.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+------------------------Detailed Work Area Items------------------------
+
+
+----------------- Internal Error Handling Information  -----------------
+
+Subsystem Call ....: BASE
+System Code .......: 1002
+Default Status ....: .F.
+Description .......: Alias nÆo existe
+Operation .........: CTRNF
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+DBSELECTAREA          :       0 in Module: 
+FN_BACKNF             :      35 in Module: FN_GRNF.PRG
+CFEPVEBA              :      92 in Module: CFEPVEBA.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+########################## Video Screen Dump ###########################
+
++-------------------------------------------------------------------------+
+|º                                                                        |
+|º         ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿  |
+|º         ³                                                           ³  |
+|º         ³                                                           ³  |
+|º         ³                                                           ³  |
+|º         ³                                                           ³  |
+|º         ³                                                           ³  |
+|º         ³                                                           ³  |
+|º         ³                                                           ³  |
+|º         ³                                                           ³  |
+|º         ³                                                           ³  |
+|º         ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ  |
+|º                                                                        |
+|ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼|
+|                                                                         |
+|Error BASE/1002  Alias nÆo existe: CTRNF Arguments: ()+SAG               |
+|                                                                         |
+|Error at ...: DBSELECTAREA(0) in Module:                                 |
+|Called from : FN_BACKNF(35) in Module: FN_GRNF.PRG                       |
+|Called from : CFEPVEBA(92) in Module: CFEPVEBA.PRG                       |
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                   |
+|Called from : SUBMENU(81) in Module: fazmenu.prg                         |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                         |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                         |
+|Called from : MAIN(191) in Module: CFE.PRG                               |
++-------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 16/07/2015
+Time...............: 11:16:18
+
+Application name...: M:\Inffhox\CFE\cfe.exe
+Workstation name...: LOJA2
+Available memory...: 3018416
+Current disk.......: M
+Current directory..: Inffhox\CFE
+Free disk space....: 234514800640
+
+Operating system...: Windows  Windows Vista Professional 6.01.7601 Service Pack 1
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/BR,N/W,N/N,N/N,W+/B,W/B,N/N,W/B,N/R,W/B,N/R,W/B,N/R,W/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEPVEBA.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+------------------------Detailed Work Area Items------------------------
+
+
+----------------- Internal Error Handling Information  -----------------
+
+Subsystem Call ....: BASE
+System Code .......: 1002
+Default Status ....: .F.
+Description .......: Alias nÆo existe
+Operation .........: PROD
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+(b)DBEDIT             :     299 in Module: source\rtl\dbedit.prg
+TDATACACHE:FILLROW    :     469 in Module: source\rtl\tbrowse.prg
+TDATACACHE:SYNCDATA   :     443 in Module: source\rtl\tbrowse.prg
+TDATACACHE:GETCELLVAL :     411 in Module: source\rtl\tbrowse.prg
+TBROWSE:DRAWROW       :   2,710 in Module: source\rtl\tbrowse.prg
+TBROWSE:STABILIZE     :   2,501 in Module: source\rtl\tbrowse.prg
+TBROWSE:FORCESTABLE   :   2,405 in Module: source\rtl\tbrowse.prg
+DBEDIT                :     432 in Module: source\rtl\dbedit.prg
+FN_CODPR              :      35 in Module: FN_CODPR.PRG
+(b)CFEPVEBAD          :     253 in Module: CFEPVEBA.PRG
+HBGETLIST:GETPOSTVALI :     721 in Module: source\rtl\tgetlist.prg
+HBGETLIST:READER      :     220 in Module: source\rtl\tgetlist.prg
+READMODAL             :     141 in Module: source\rtl\getsys.prg
+CFEPVEBAD             :     256 in Module: CFEPVEBA.PRG
+EDPRDBALCAO           :     145 in Module: CFEPVEBA.PRG
+CFEPVEBA              :     106 in Module: CFEPVEBA.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+########################## Video Screen Dump ###########################
+
++-------------------------------------------------------------------------+
+|³   AGASAL³                                                           ³ ³|
+|Error at ...: (b)DBEDIT(299) in Module: source\rtl\dbedit.prg         ³ ³|
+|Called from : TDATACACHE:FILLROW(469) in Module: source\rtl\tbrowse.prg ³|
+|Called from : TDATACACHE:SYNCDATA(443) in Module: source\rtl\tbrowse.prg³|
+|Called from : TDATACACHE:GETCELLVALUE(411) in Module: source\rtl\tbrowse.|
+|prg ALMOFA³                                                           ³ ³|
+|Called from : TBROWSE:DRAWROW(2710) in Module: source\rtl\tbrowse.prg ³ ³|
+|Called from : TBROWSE:STABILIZE(2501) in Module: source\rtl\tbrowse.prg ³|
+|Called from : TBROWSE:FORCESTABLE(2405) in Module: source\rtl\tbrowse.prg|
+|ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ|
+|Called from : DBEDIT(432) in Module: source\rtl\dbedit.prg               |
+|Called from : FN_CODPR(35) in Module: FN_CODPR.PRG-CFE+SAG               |
+|Called from : (b)CFEPVEBAD(253) in Module: CFEPVEBA.PRG                  |
+|Called from : HBGETLIST:GETPOSTVALIDATE(721) in Module: source\rtl\tgetli|
+|st.prg                                                                   |
+|Called from : HBGETLIST:READER(220) in Module: source\rtl\tgetlist.prg   |
+|Called from : READMODAL(141) in Module: source\rtl\getsys.prg            |
+|Called from : CFEPVEBAD(256) in Module: CFEPVEBA.PRG                     |
+|Called from : EDPRDBALCAO(145) in Module: CFEPVEBA.PRG                   |
+|Called from : CFEPVEBA(106) in Module: CFEPVEBA.PRG                      |
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                   |
+|Called from : SUBMENU(81) in Module: fazmenu.prg                         |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                         |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                         |
+|Called from : MAIN(191) in Module: CFE.PRG                               |
++-------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 09/06/2015
+Time...............: 17:08:31
+
+Application name...: M:\Inffhox\CFE\cfe.exe
+Workstation name...: LOJA2
+Available memory...: 3023000
+Current disk.......: M
+Current directory..: Inffhox\CFE
+Free disk space....: 235648712704
+
+Operating system...: Windows  Windows Vista Professional 6.01.7601 Service Pack 1
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/B,N/W,N/N,N/N,W+/B,W/B,N/R,W/B,N/R,W/B,N/R,W/B,N/R
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEPVEBA.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: BASE
+System Code .......: 1002
+Default Status ....: .F.
+Description .......: Alias nÆo existe
+Operation .........: PROD
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+DBSELECTAREA          :       0 in Module: 
+FN_CODPR              :      19 in Module: FN_CODPR.PRG
+(b)CFEPVEBAD          :     253 in Module: CFEPVEBA.PRG
+HBGETLIST:GETPOSTVALI :     721 in Module: source\rtl\tgetlist.prg
+HBGETLIST:READER      :     220 in Module: source\rtl\tgetlist.prg
+READMODAL             :     141 in Module: source\rtl\getsys.prg
+CFEPVEBAD             :     256 in Module: CFEPVEBA.PRG
+EDPRDBALCAO           :     145 in Module: CFEPVEBA.PRG
+CFEPVEBA              :     106 in Module: CFEPVEBA.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|³Cliente...:    729-INIDINA DOS SANTOS/AUT SIMONE DELFES OK    Hoje: 09/06/2015³|
+|³Vendedor..:      9-ELAINE                                            17:08:31 ³|
+|ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄDigita‡„o de PedidosÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄCFEPVEBAÙ|
+| ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿ |
+| ³Sq Prod.   Descricao                 Qtdade     Vlr Unit Ven Valor Total    ³ |
+| ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³ |
+| ³ 1³  33307³CIGARRETE BIVIK 0044586 P³     1,00 ³     84,900 ³          84,90³ |
+| ³ 2³  39413³CIGARRETE TANISE CA4475 S³     1,00 ³     99,900 ³          99,90³ |
+| ³ 3³  36063³....................     ³     0,00 ³      0,000 ³           0,00³ |
+|Error BASE/1002  Alias nÆo existe: PROD Arguments: ()   0,000 ³           0,00³ |
+| ³ 5³      0³....................     ³     0,00 ³      0,000 ³           0,00³ |
+|Error at ...: DBSELECTAREA(0) in Module:    0,00 ³      0,000 ³           0,00³ |
+|Called from : FN_CODPR(19) in Module: FN_CODPR.PRG      0,000 ³           0,00³ |
+|Called from : (b)CFEPVEBAD(253) in Module: CFEPVEBA.PRG 0,000 ³           0,00³ |
+|Called from : HBGETLIST:GETPOSTVALIDATE(721) in Module: source\rtl\tgetlist.prg |
+|Called from : HBGETLIST:READER(220) in Module: source\rtl\tgetlist.prg    0,00³ |
+|Called from : READMODAL(141) in Module: source\rtl\getsys.prg ³           0,00³ |
+|Called from : CFEPVEBAD(256) in Module: CFEPVEBA.PRG    0,000 ³           0,00³ |
+|Called from : EDPRDBALCAO(145) in Module: CFEPVEBA.PRG  0,000 ³           0,00³ |
+|Called from : CFEPVEBA(106) in Module: CFEPVEBA.PRGÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ |
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prg:                               |
+|Called from : SUBMENU(85) in Module: fazmenu.prgdo pedido                       |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(191) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 21/12/2010
+Time...............: 05:34:23
+
+Application name...: Z:\Inffhox\CFE\cfe.exe
+Workstation name...: LOJA1
+Available memory...: 1696152
+Current disk.......: Z
+Current directory..: Inffhox\CFE
+Free disk space....: 235690590208
+
+Operating system...: Windows  XP Professional 5.01.2600 Service Pack 3
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/B,N/W,N/N,N/N,W+/B,W/B,N/N,W/B,N/R,W/B,N/R,W/B,N/R,W/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 1
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEPVEBA.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: BASE
+System Code .......: 1002
+Default Status ....: .F.
+Description .......: Alias nÆo existe
+Operation .........: CTRNF
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+DBSELECTAREA          :       0 in Module: 
+FN_BACKNF             :      35 in Module: FN_GRNF.PRG
+CFEPVEBA              :      92 in Module: CFEPVEBA.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|º                                                                              º|
+|º         ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿        º|
+|º         ³                                                           ³        º|
+|º         ³                                                           ³        º|
+|º         ³                                                           ³        º|
+|º         ³                                                           ³        º|
+|º         ³                                                           ³        º|
+|º         ³                                                           ³        º|
+|º         ³                                                           ³        º|
+|º         ³                                                           ³        º|
+|º         ³                                                           ³        º|
+|º         ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ        º|
+|º                                                                              º|
+|ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼|
+|                                                                                |
+|Error BASE/1002  Alias nÆo existe: CTRNF Arguments: ()CFE+SAG                   |
+|                                                                                |
+|Error at ...: DBSELECTAREA(0) in Module:                                        |
+|Called from : FN_BACKNF(35) in Module: FN_GRNF.PRG                              |
+|Called from : CFEPVEBA(92) in Module: CFEPVEBA.PRG                              |
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prg                                |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(191) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 05/11/2014
+Time...............: 11:37:25
+
+Application name...: M:\Inffhox\CFE\cfe.exe
+Workstation name...: LOJA3
+Available memory...: 3410836
+Current disk.......: M
+Current directory..: Inffhox\CFE
+Free disk space....: 235646492672
+
+Operating system...: Windows  Windows Vista Professional 6.01.7601 Service Pack 1
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/B,N/W,N/N,N/N,W+/B,W/B,N/N,W/B,N/R,W/B,N/R,W/B,N/R,W/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEPVEBA.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: BASE
+System Code .......: 1002
+Default Status ....: .F.
+Description .......: Alias nÆo existe
+Operation .........: PROD
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+DBSELECTAREA          :       0 in Module: 
+FN_CODPR              :      19 in Module: FN_CODPR.PRG
+(b)CFEPVEBAD          :     253 in Module: CFEPVEBA.PRG
+HBGETLIST:GETPOSTVALI :     721 in Module: source\rtl\tgetlist.prg
+HBGETLIST:READER      :     220 in Module: source\rtl\tgetlist.prg
+READMODAL             :     141 in Module: source\rtl\getsys.prg
+CFEPVEBAD             :     256 in Module: CFEPVEBA.PRG
+EDPRDBALCAO           :     145 in Module: CFEPVEBA.PRG
+CFEPVEBA              :     106 in Module: CFEPVEBA.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿|
+|³Nr.Pedido.: 170232    Dt.Emissao: 05/11/2014                     Vers„o 2014c7³|
+|³Cliente...:   2217-VENDA AVISTA                               Hoje: 05/11/2014³|
+|³Vendedor..:      7-LUANA                                             11:37:24 ³|
+|ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄDigita‡„o de PedidosÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄCFEPVEBAÙ|
+| ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿ |
+| ³Sq Prod.   Descricao                 Qtdade     Vlr Unit Ven Valor Total    ³ |
+| ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³ |
+| ³ 1³  24496³....................     ³     0,00 ³      0,000 ³           0,00³ |
+|Error BASE/1002  Alias nÆo existe: PROD Arguments: ()   0,000 ³           0,00³ |
+| ³ 3³      0³....................     ³     0,00 ³      0,000 ³           0,00³ |
+|Error at ...: DBSELECTAREA(0) in Module:    0,00 ³      0,000 ³           0,00³ |
+|Called from : FN_CODPR(19) in Module: FN_CODPR.PRG      0,000 ³           0,00³ |
+|Called from : (b)CFEPVEBAD(253) in Module: CFEPVEBA.PRG 0,000 ³           0,00³ |
+|Called from : HBGETLIST:GETPOSTVALIDATE(721) in Module: source\rtl\tgetlist.prg |
+|Called from : HBGETLIST:READER(220) in Module: source\rtl\tgetlist.prg    0,00³ |
+|Called from : READMODAL(141) in Module: source\rtl\getsys.prg ³           0,00³ |
+|Called from : CFEPVEBAD(256) in Module: CFEPVEBA.PRG    0,000 ³           0,00³ |
+|Called from : EDPRDBALCAO(145) in Module: CFEPVEBA.PRG  0,000 ³           0,00³ |
+|Called from : CFEPVEBA(106) in Module: CFEPVEBA.PRG     0,000 ³           0,00³ |
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg  0,000 ³           0,00³ |
+|Called from : SUBMENU(81) in Module: fazmenu.prgÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg:                               |
+|Called from : MAIN(191) in Module: CFE.PRGlinha do pedido                       |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 03/10/2014
+Time...............: 09:04:52
+
+Application name...: M:\Inffhox\CFE\cfe.exe
+Workstation name...: LOJA3
+Available memory...: 3156444
+Current disk.......: M
+Current directory..: Inffhox\CFE
+Free disk space....: 235923558400
+
+Operating system...: Windows  Windows Vista Professional 6.01.7601 Service Pack 1
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/BG,R/W,N/N,N/N,W+/BG,W/B,N/N,W/B,N/R,W/B,N/R
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEPVEBA.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: ON
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: DBFCDX
+System Code .......: 1010
+Default Status ....: .F.
+Description .......: Erro de leitura
+Operation .........: 
+Arguments .........: 
+Involved File .....: CFEAPC.dbf
+Dos Error Code ....: 64
+
+ Trace Through:
+----------------
+DBGOBOTTOM            :       0 in Module: 
+EDPRDBALCAO           :     204 in Module: CFEPVEBA.PRG
+CFEPVEBA              :     106 in Module: CFEPVEBA.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+| ³ 2³      0³....................     ³     0,00 ³      0,000 ³           0,00³ |
+| ³ 3³      0³....................     ³     0,00 ³      0,000 ³           0,00³ |
+| ³ 4³      0³....................     ³     0,00 ³      0,000 ³           0,00³ |
+| ³ 5³      0³....................     ³     0,00 ³      0,000 ³           0,00³ |
+| ³ 6³      0³....................     ³     0,00 ³      0,000 ³           0,00³ |
+| ³ 7³      0³....................     ³     0,00 ³      0,000 ³           0,00³ |
+| ³ 8³      0³.......Ú[Total da Venda]ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿|
+| ³ 9³      0³.......³ Cond.Pagamento:   0                                      ³|
+| ³10³      0³.......³ Total da Venda:           89,90                          ³|
+| ³11³      0³.......³ (-) Descontos.:            0,00       %   0,00           ³|
+| ³12³      0³.......³ Sub-Total.....:           89,90                          ³|
+| ³13³      0³.......³ Valor Entrada.:            0,00                          ³|
+| ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³ N.Parcelas....:  0                                       ³|
+| TOTAL do Pedido.:  ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ|
+| Observacao......:   PROMO‡ÆO 49,90                                             |
+|Error DBFCDX/1010  Erro de leitura: CFEAPC.dbf Arguments: () (DOS Error 64)     |
+|                                                                                |
+|Error at ...: DBGOBOTTOM(0) in Module:                                          |
+|Called from : EDPRDBALCAO(204) in Module: CFEPVEBA.PRG                          |
+|Called from : CFEPVEBA(106) in Module: CFEPVEBA.PRG                             |
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prg                                |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(191) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 13/09/2014
+Time...............: 15:53:20
+
+Application name...: M:\Inffhox\CFE\cfe.exe
+Workstation name...: LOJA3
+Available memory...: 3151620
+Current disk.......: M
+Current directory..: Inffhox\CFE
+Free disk space....: 235689558016
+
+Operating system...: Windows  Windows Vista Professional 6.01.7601 Service Pack 1
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/B,N/W,N/N,N/N,W+/B,W/B,N/N,W/B,N/R,W/B,N/R,W/B,N/R,W/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEPVEBA.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: BASE
+System Code .......: 1002
+Default Status ....: .F.
+Description .......: Alias nÆo existe
+Operation .........: PROD
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+DBSELECTAREA          :       0 in Module: 
+FN_CODPR              :      19 in Module: FN_CODPR.PRG
+(b)CFEPVEBAD          :     253 in Module: CFEPVEBA.PRG
+HBGETLIST:GETPOSTVALI :     721 in Module: source\rtl\tgetlist.prg
+HBGETLIST:READER      :     220 in Module: source\rtl\tgetlist.prg
+READMODAL             :     141 in Module: source\rtl\getsys.prg
+CFEPVEBAD             :     256 in Module: CFEPVEBA.PRG
+EDPRDBALCAO           :     145 in Module: CFEPVEBA.PRG
+CFEPVEBA              :     106 in Module: CFEPVEBA.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿|
+|³Nr.Pedido.: 166629    Dt.Emissao: 13/09/2014                     Vers„o 2014c7³|
+|³Cliente...:   1707-JAIR JOSE DE GODOY /                       Hoje: 13/09/2014³|
+|³Vendedor..:      2-CAMILA                                            15:53:20 ³|
+|ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄDigita‡„o de PedidosÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄCFEPVEBAÙ|
+| ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿ |
+| ³Sq Prod.   Descricao                 Qtdade     Vlr Unit Ven Valor Total    ³ |
+| ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³ |
+| ³ 1³  16482³....................     ³     0,00 ³      0,000 ³           0,00³ |
+|Error BASE/1002  Alias nÆo existe: PROD Arguments: ()   0,000 ³           0,00³ |
+| ³ 3³      0³....................     ³     0,00 ³      0,000 ³           0,00³ |
+|Error at ...: DBSELECTAREA(0) in Module:    0,00 ³      0,000 ³           0,00³ |
+|Called from : FN_CODPR(19) in Module: FN_CODPR.PRG      0,000 ³           0,00³ |
+|Called from : (b)CFEPVEBAD(253) in Module: CFEPVEBA.PRG 0,000 ³           0,00³ |
+|Called from : HBGETLIST:GETPOSTVALIDATE(721) in Module: source\rtl\tgetlist.prg |
+|Called from : HBGETLIST:READER(220) in Module: source\rtl\tgetlist.prg    0,00³ |
+|Called from : READMODAL(141) in Module: source\rtl\getsys.prg ³           0,00³ |
+|Called from : CFEPVEBAD(256) in Module: CFEPVEBA.PRG    0,000 ³           0,00³ |
+|Called from : EDPRDBALCAO(145) in Module: CFEPVEBA.PRG  0,000 ³           0,00³ |
+|Called from : CFEPVEBA(106) in Module: CFEPVEBA.PRG     0,000 ³           0,00³ |
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg  0,000 ³           0,00³ |
+|Called from : SUBMENU(81) in Module: fazmenu.prgÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg:                               |
+|Called from : MAIN(191) in Module: CFE.PRGlinha do pedido                       |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 21/12/2010
+Time...............: 01:44:27
+
+Application name...: Z:\Inffhox\CFE\cfe.exe
+Workstation name...: LOJA1
+Available memory...: 1692496
+Current disk.......: Z
+Current directory..: Inffhox\CFE
+Free disk space....: 235553079296
+
+Operating system...: Windows  XP Professional 5.01.2600 Service Pack 3
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: B/W,W/B,N/N,N/N,B/W,W/B,N/N,W/B,N/R,W/B,N/R,W/B,N/R,W/B,W/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 1
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEPVEBA.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: BASE
+System Code .......: 1132
+Default Status ....: .F.
+Description .......: Bound error: array access
+Operation .........: 
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+TBROWSE:DELCOLUMN     :   1,455 in Module: source\rtl\tbrowse.prg
+TBROWSE:DELCOLUMN     :   1,455 in Module: source\rtl\tbrowse.prg
+(b)ABROWSE            :      67 in Module: abrowse.prg
+ABROWSE               :      95 in Module: abrowse.prg
+FN_PARC               :      65 in Module: FN_PARC.PRG
+EDPRDBALCAO           :     189 in Module: CFEPVEBA.PRG
+CFEPVEBA              :     106 in Module: CFEPVEBA.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+| ³Sq Prod.   Descricao                 Qtdade     Vlr Unit Ven Valor Total    ³ |
+| ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³ |
+| ³ 1³  35933³CONJUNTO KAMYLUS 06094 4/³     1,00 ³     69,900 ³          69,90³ |
+| ³ 2³  32206³MEIA CENTOPE 290 AEROBICA³     1,00 ³     12,900 ³          12,90³ |
+| ³ 3³  31837³CALCA PEKAS 10152 P/GG ME³     1,00 ³     45,900 ³          45,90³ |
+| ³ 4³  30084³MEIA IMPORTADA FEMININA A³     2,00 ³      4,900 ³           9,80³ |
+| ³ 5³  34844³CONJUNTO BRANDILI 51668 1³ ÚÄÄÄÄÄÄÄÄÄÄVlr Tot:   850.80ÄÄÄÄÄÄÄÄÄÄÄ¿|
+| ³ 6³  31194³CALCA LECIMAR 20955 SARUE³ ³              Duplic                  ³|
+| ³ 7³  25968³CALCA RECHSUL 4189 SARUEL³ ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³|
+| ³ 8³  35046³SOBRETUÚ[Total da Venda]ÄÄÄ³               165226.01              ³|
+| ³ 9³  30765³CASACO ³ Cond.Pagamento:   ³               165226.02              ³|
+|Warning BASE/1132  Bound error: array access Arguments: ()5226.03              ³|
+| ³11³  30730³CONJUNT³ (-) Descontos.:   ³               165226.04              ³|
+|Error at ...: TBROWSE:DELCOLUMN(1455) in Module: source\rtl\tbrowse.prg        ³|
+|Called from : TBROWSE:DELCOLUMN(1455) in Module: source\rtl\tbrowse.prg        ³|
+|Called from : (b)ABROWSE(67) in Module: abrowse.prg                            ³|
+|Called from : ABROWSE(95) in Module: abrowse.prgÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ|
+|Called from : FN_PARC(65) in Module: FN_PARC.PRG        Saldo....:     -138,80  |
+|Called from : EDPRDBALCAO(189) in Module: CFEPVEBA.PRGncerrar <DUP>             |
+|Called from : CFEPVEBA(106) in Module: CFEPVEBA.PRG                             |
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prg                                |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(191) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 02/04/2014
+Time...............: 15:20:12
+
+Application name...: Z:\Inffhox\CFE\cfe.exe
+Workstation name...: LOJA1
+Available memory...: 1694800
+Current disk.......: Z
+Current directory..: Inffhox\CFE
+Free disk space....: 242577518592
+
+Operating system...: Windows  XP Professional 5.01.2600 Service Pack 3
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/B,N/W,N/N,N/N,W+/B,W/B,N/N,W/B,N/R,W/B,N/R,W/B,N/R,W/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 1
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEPVEBA.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: DBFCDX
+System Code .......: 1010
+Default Status ....: .F.
+Description .......: Erro de leitura
+Operation .........: 
+Arguments .........: 
+Involved File .....: CFEAPC.dbf
+Dos Error Code ....: 64
+
+ Trace Through:
+----------------
+DBGOBOTTOM            :       0 in Module: 
+EDPRDBALCAO           :     204 in Module: CFEPVEBA.PRG
+CFEPVEBA              :     106 in Module: CFEPVEBA.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+| ³ 2³      0³....................     ³     0,00 ³      0,000 ³           0,00³ |
+| ³ 3³      0³....................     ³     0,00 ³      0,000 ³           0,00³ |
+| ³ 4³      0³....................     ³     0,00 ³      0,000 ³           0,00³ |
+| ³ 5³      0³....................     ³     0,00 ³      0,000 ³           0,00³ |
+| ³ 6³      0³....................     ³     0,00 ³      0,000 ³           0,00³ |
+| ³ 7³      0³....................     ³     0,00 ³      0,000 ³           0,00³ |
+| ³ 8³      0³....................     ³     0,00 ³      0,000 ³           0,00³ |
+| ³ 9³      0³....................     ³     0,00 ³      0,000 ³           0,00³ |
+| ³10³      0³....................     ³     0,00 ³      0,000 ³           0,00³ |
+| ³11³      0³....................     ³     0,00 ³      0,000 ³           0,00³ |
+| ³12³      0³....................     ³     0,00 ³      0,000 ³           0,00³ |
+| ³13³      0³....................     ³     0,00 ³      0,000 ³           0,00³ |
+| ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ |
+| TOTAL do Pedido.:         179,90                                               |
+| Observacao......:                                                              |
+|Error DBFCDX/1010  Erro de leitura: CFEAPC.dbf Arguments: () (DOS Error 64)     |
+|                                                                                |
+|Error at ...: DBGOBOTTOM(0) in Module:                                          |
+|Called from : EDPRDBALCAO(204) in Module: CFEPVEBA.PRG                          |
+|Called from : CFEPVEBA(106) in Module: CFEPVEBA.PRG                             |
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prg                                |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(191) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+

@@ -1,0 +1,1 @@
+A   3A   2C    1EC   10Entradas  A   2C    1SC   10Saidas    A   2C    1OC   10Outros    

@@ -1,0 +1,11 @@
+ERROS/ADVERTENCIAS NA IMPORTACAO DO ARQUIVO - C:\TEMP\LEITE\897_COPERDIA_-_LACERDOPOLIS__897__050216_093029.txt
+Importado em 01/04/2016 as 20:34:00
+
+
+Reg.   2-ERRO:Rota (ROTA_LINHA	) e Tarro (IDENT_AMOSTRA	) nao encontrado no cadastro.
+
+------------------------------------------------------------------------------
+Total de registros lidos do arquivo......:        51
+Legenda: ERRO-Registro nao importado
+         ADVER-Mensagem informativa mas importado
+

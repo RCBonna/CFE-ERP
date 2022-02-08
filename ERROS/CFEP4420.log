@@ -1,0 +1,168 @@
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 21/12/2010
+Time...............: 02:29:30
+
+Application name...: Z:\Inffhox\CFE\cfe.exe
+Workstation name...: LOJA-50ED9B1BED
+Available memory...: 1699664
+Current disk.......: Z
+Current directory..: Inffhox\CFE
+Free disk space....: 232958320640
+
+Operating system...: Windows  XP Professional 5.01.2600 Service Pack 3
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/G,B/W,N/N,N/N,W+/G,W/B,N/N,W/B,N/R,W/B,N/R,W/B,N/R,W/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEP4420.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: DBFCDX
+System Code .......: 1201
+Default Status ....: .T.
+Description .......: Workarea nÆo indexada
+Operation .........: 
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+DBSEEK                :       0 in Module: 
+FN_CODPR              :      21 in Module: FN_CODPR.PRG
+(b)CFEP4421           :      71 in Module: CFEP4420.PRG
+HBGETLIST:GETPOSTVALI :     721 in Module: source\rtl\tgetlist.prg
+HBGETLIST:READER      :     220 in Module: source\rtl\tgetlist.prg
+READMODAL             :     141 in Module: source\rtl\getsys.prg
+CFEP4421              :      77 in Module: CFEP4420.PRG
+PB_DBEDIT2            :      72 in Module: pb_db.prg
+(b)DBEDIT             :     386 in Module: source\rtl\dbedit.prg
+DBE_CALLUDF           :     577 in Module: source\rtl\dbedit.prg
+DBEDIT                :     458 in Module: source\rtl\dbedit.prg
+CFEP4420              :      55 in Module: CFEP4420.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|ºS ³ 02/01/2013 ³    7583-                       ³       55555 ³         1.000 º|
+|ºS ³ 02/01/2013 ³    7583-                       ³       55568 ³         1.000 º|
+|ºS ³ 02/01/2013 ³    7583-                       ³       55571 ³         2.000 º|
+|ºS ³ 02/01/2013 ³   15301-                       ³       55560 ³         1.000 º|
+|ºS ³ 02/01/2013 ³   Ú[Informe]ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿|
+|ºE ³ 02/01/2013 ³   ³ C¢d.Produto....:   19780                                 ³|
+|Error DBFCDX/1201  Workarea nÆo indexada Arguments: ()                         ³|
+|ºS ³ 02/01/2013 ³   ³ Documento......:          0                              ³|
+|Error at ...: DBSEEK(0) in Module: ..:      0,00                               ³|
+|Called from : FN_CODPR(21) in Module: FN_CODPR.PRG                             ³|
+|Called from : (b)CFEP4421(71) in Module: CFEP4420.PRG                          ³|
+|Called from : HBGETLIST:GETPOSTVALIDATE(721) in Module: source\rtl\tgetlist.prgÙ|
+|Called from : HBGETLIST:READER(220) in Module: source\rtl\tgetlist.prg          |
+|Called from : READMODAL(141) in Module: source\rtl\getsys.prg                   |
+|Called from : CFEP4421(77) in Module: CFEP4420.PRG                              |
+|Called from : PB_DBEDIT2(72) in Module: pb_db.prg                               |
+|Called from : (b)DBEDIT(386) in Module: source\rtl\dbedit.prg                   |
+|Called from : DBE_CALLUDF(577) in Module: source\rtl\dbedit.prg                 |
+|Called from : DBEDIT(458) in Module: source\rtl\dbedit.prg                      |
+|Called from : CFEP4420(55) in Module: CFEP4420.PRG                              |
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prg                                |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(191) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 11/02/2016
+Time...............: 09:52:35
+
+Application name...: \\servidor\Inffhox\CFE\cfe.exe
+Workstation name...: CASA-3E8374E007
+Available memory...: 1585528
+Current disk.......: \
+Current directory..: \servidor\Inffhox\CFE

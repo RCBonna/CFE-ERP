@@ -1,0 +1,1 @@
+A  18N 850450548N 8  670262N 6  8874C   35CICERO MARCOS VICENSI              C   20ENGENHEIRO AGRONOMO C   10067026-2  C   40RUA SETE DE SETEMBRO, 1196              C   20CENTRO              C   20LACERDOPOLIS        C    2SCC   1102691049922C   11           C   20                    C   20,                   N 8   3.000C    3,  C    989660000 N 2 0

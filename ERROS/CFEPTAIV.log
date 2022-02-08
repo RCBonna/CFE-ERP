@@ -1,0 +1,148 @@
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 13/03/2017
+Time...............: 16:32:40
+
+Application name...: M:\Inffhox\CFE\cfe.exe
+Workstation name...: LOJA2
+Available memory...: 3027620
+Current disk.......: M
+Current directory..: Inffhox\CFE
+Free disk space....: 227970260992
+
+Operating system...: Windows  Windows Vista Professional 6.01.7601 Service Pack 1
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/B,B/W,N/N,N/N,W+/B,W/B,N/N,W/B,N/R,W/B,N/R,W/B,N/R,W/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEPTAIV.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: BASE
+System Code .......: 1132
+Default Status ....: .F.
+Description .......: Erro de limite
+Operation .........: acesso de array
+Arguments .........:  [ 1] = Type: A Val: { Array of 0 Items } [ 2] = Type: N Val:          4
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+CFEPTAIV              :     135 in Module: CFEPTAEN.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿|
+|³ C.F.E.                                                          Vers„o 2014c7³|
+|³ LOJAO DO POVO                                                Hoje: 13/03/2017³|
+|³ Inffhox Desenvolvimentos                                            16:32:40 ³|
+|ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ4-Termo Aber/Encer InvÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄCFEPTAIVÙ|
+|Error BASE/1132  Erro de limite: acesso de array Arguments: ( [ 1] = Type: A Val|
+|: { Array of 0 Items } [ 2] = Type: N Val:          4)                         º|
+|ºÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄº|
+|Error at ...: CFEPTAIV(135) in Module: CFEPTAEN.PRG                            º|
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                         º|
+|Called from : SUBMENU(81) in Module: fazmenu.prg                               º|
+|Called from : SUBMENU(85) in Module: fazmenu.prg                               º|
+|Called from : SUBMENU(85) in Module: fazmenu.prg                               º|
+|Called from : FAZMENU(29) in Module: fazmenu.prg                               º|
+|Called from : MAIN(191) in Module: CFE.PRGÄÄÄÄ¿                                º|
+|º F4 =Cons.Client³3-Eti³1-Estoque por Grupo   ³                                º|
+|º F5 =Cons.Produt³4-Mov³2-Por Tipo            ³                                º|
+|º F7 =Cons.Parcel³5-Not³3-Invent rio          ³                                º|
+|º F6 =Calculadora³6-Ped³4-Termo Aber/Encer Inv³                                º|
+|º F9 =Sel Impress³7-EstÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ                                º|
+|º F11=Calendario ³8-Itens Sem Movto ³                       Mem¢ria:   2.953 MBº|
+|º                ³9-Itens Consumo   ³                       Usuario:CREDIARIO  º|
+|ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ[C]¼|
+|                               M¢dulo de Estoques                               |
+|             Listagem do termo de abertura de Invent rio do Estoque             |
++--------------------------------------------------------------------------------+
+
+

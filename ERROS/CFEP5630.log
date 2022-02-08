@@ -1,0 +1,298 @@
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 04/06/2018
+Time...............: 15:58:46
+
+Application name...: M:\Inffhox\CFE\cfe.exe
+Workstation name...: LOJA2
+Available memory...: 3294772
+Current disk.......: M
+Current directory..: Inffhox\CFE
+Free disk space....: 218109845504
+
+Operating system...: Windows  Windows Vista Professional 6.01.7601 Service Pack 1
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/G,B/W,N/N,N/N,W+/G
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEP5630.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: LPT1
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: TERM
+System Code .......: 2014
+Default Status ....: .T.
+Description .......: Erro de cria‡Æo
+Operation .........: LPT1.prn
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 2
+
+ Trace Through:
+----------------
+SET                   :       0 in Module: 
+PB_LIGAIMP            :      78 in Module: impress.prg
+CFEP5630              :      48 in Module: CFEP5630.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     213 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|º³8-Vendedores...   ³                                                          º|
+|ºÀÄÄÄÄÄÚÄÄÄÄÄÄÄÄÄÄÄÄÄ¿                                                         º|
+|º      ³4-Comiss”es B³                                                         º|
+|º      ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÙ                                                         º|
+|º F1 =Ajuda                                                                    º|
+|º F3 =Cons.FornecedoÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿|
+|º F4 =Cons.Clientes ³ % Comiss„o < A vista : 1,00>   < A prazo : 1,00>         ³|
+|º F5 =Cons.Produtos ³ [A]nalitico [S]intetico: A                               ³|
+|º F7 =Cons.Parcelame³ Analitico [NF][PR].....: NF                              ³|
+|º F6 =Calculadora   ³ Uma P gina por Vendedor: N                               ³|
+|º F9 =Sel Impressora³ Vendedor Inicial:   1-ARALDO                             ³|
+|º F11=Calendario    ³          Final..:  10-CAROL                              ³|
+|º                   ³ Data Limite de..: 01/06/2018  ate 30/06/2018             ³|
+|ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ|
+|                             M¢dulo de Faturamento                              |
+|Error TERM/2014  Erro de cria‡Æo: LPT1.prn Arguments: () (DOS Error 2)          |
+|                                                                                |
+|Error at ...: SET(0) in Module:                                                 |
+|Called from : PB_LIGAIMP(78) in Module: impress.prg                             |
+|Called from : CFEP5630(48) in Module: CFEP5630.PRG                              |
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prg                                |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(213) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 21/12/2010
+Time...............: 03:57:56
+
+Application name...: Z:\Inffhox\CFE\cfe.exe
+Workstation name...: LOJA-50ED9B1BED
+Available memory...: 1700704
+Current disk.......: Z
+Current directory..: Inffhox\CFE
+Free disk space....: 219915874304
+
+Operating system...: Windows  XP Professional 5.01.2600 Service Pack 3
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/G,B/W,N/N,N/N,W+/G,W/B,N/N,W/B,N/R,W/B,N/R,W/B,N/R,W/B
+SET CONFIRM........: ON
+SET CONSOLE........: OFF
+SET COUNT..........: 0
+SET CURSOR.........: 1
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEP5630.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: ON
+SET PRINTERJOB.....: 
+SET PRINTFILE......: C:\TEMP\IMPRESS.TXT
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: DBFCDX
+System Code .......: 1010
+Default Status ....: .F.
+Description .......: Erro de leitura
+Operation .........: 
+Arguments .........: 
+Involved File .....: CFEAPD.dbf
+Dos Error Code ....: 38
+
+ Trace Through:
+----------------
+DBSEEK                :       0 in Module: 
+CFEP5631              :     117 in Module: CFEP5630.PRG
+CFEP5630              :      56 in Module: CFEP5630.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     213 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿|
+|³ C.F.E.                                                          Vers„o 2017J1³|
+|³ LOJAO DO POVO                                                Hoje: 21/12/2010³|
+|³ Inffhox Desenvolvimentos                                             3:57:56 ³|
+|ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄComissoes das VendasÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄCFEP5630Ù|
+|ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»|
+|º Faturamento Sistema                                                          º|
+|ºÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄº|
+|º³3-Vendas Bal‡„o...³                                                          º|
+|º³8-Vendedores...   ³                                                          º|
+|ºÀÄÄÄÄÄÚÄÄÄÄÄÄÄÄÄÄÄÄÄ¿                                                         º|
+|º      ³4-Comiss”es B³                                                         º|
+|º      ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÙ                                                         º|
+|º F1 =Ajuda                                                                    º|
+|º F3 =Cons.FornecedoÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿|
+|º F4 =Cons.Clientes ³ % Comiss„o < A vista : 1,00>   < A prazo : 1,00>         ³|
+|º F5 =Cons.Produtos ³ [A]nalitico [S]intetico: A                               ³|
+|º F7 =Cons.Parcelame³ Analitico [NF][PR].....: NF                              ³|
+|º F6 =Calculadora   ³ Uma P gina por Vendedor: N                               ³|
+|º F9 =Sel Impressora³ Vendedor Inicial:   6-NAISSARA                           ³|
+|º F11=Calendario    ³          Final..:   6-NAISSARA                           ³|
+|º                   ³ Data Limite de..: 01/02/2018  ate 28/02/2018             ³|
+|ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ|
+|                             M¢dulo de Faturamento                              |
+|  Imprimindo/Gerando Relat¢rio. <ESC> cancela a impress„o.C:\TEMP\IMPRESS.TXT   |
++--------------------------------------------------------------------------------+
+
+

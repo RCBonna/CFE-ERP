@@ -1,0 +1,15 @@
+xHarbour Compiler build 1.2.1 (SimpLex) (Rev. 6406)
+Copyright 1999-2009, http://www.xharbour.org http://www.harbour-project.org/
+Compiling 'CFEP3105.PRG'...
+100100200300400500600700100200300400100100200Lines 215, Functions/Procedures 3
+Generating C source output to 'obj\CFEP3105.c'...
+Done.
+
+Building object module for 'obj\CFEP3105.c'
+using C compiler 'BCC32' as defined in 'c:\xharbour\bin\harbour.cfg'...
+Exec: BCC32  -c -D__EXPORT__ -Ic:\xharbour\include  -d -Lc:\xharbour\lib -oobj\CFEP3105.obj obj\CFEP3105.c
+Borland C++ 5.82 for Win32 Copyright (c) 1993, 2005 Borland
+obj\CFEP3105.c:
+Done.
+Deleting: "obj\CFEP3105.c"
+Done.

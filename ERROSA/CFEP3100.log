@@ -1,0 +1,1059 @@
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 28/08/2018
+Time...............: 22:39:32
+
+Application name...: C:\PRJ\PrjxH\CFE\cfe.exe
+Workstation name...: RCBONANOMIS-PC
+Available memory...: 2097151
+Current disk.......: C
+Current directory..: PRJ\PrjxH\CFE
+Free disk space....: 41422065664
+
+Operating system...: Windows  Windows Vista Professional 6.02.9200
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/B,B/W,N/N,N/N,W+/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEP3100.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: DBFCDX
+System Code .......: 1020
+Default Status ....: .T.
+Description .......: Tipo incorreto de dado
+Operation .........: DR_DUPLI
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+FIELDPUT              :       0 in Module: 
+ADDREC                :     109 in Module: n_locks.prg
+IMPORTAR              :     510 in Module: CFEP3100.PRG
+(b)CFEP3100           :      96 in Module: CFEP3100.PRG
+DBEDIT                :     504 in Module: source\rtl\dbedit.prg
+CFEP3100              :      98 in Module: CFEP3100.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     213 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|ฺฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฟ|
+|ณ C.F.E.                                                          Verso 2017J1ณ|
+|ณ COOP.DOS SUINOCULTORES DE LACERDOPOLIS                       Hoje: 28/08/2018ณ|
+|ณ Inffhox Desenvolvimentos                                            22:39:32 ณ|
+|ภฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤ1-CadastroฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤCFEP3100ู|
+|ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป|
+|บ            Codigo   Nome                                                     บ|
+|บฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤยฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤบ|
+|บ                 0 ณ                                                          บ|
+|Error DBFCDX/1020  Tipo incorreto de dado: DR_DUPLI Arguments: ()              บ|
+|บ                   ณ                                                          บ|
+|Error at ...: FIELDPUT(0) in Module:                                           บ|
+|Called from : ADDREC(109) in Module: n_locks.prg                               บ|
+|Called from : IMPORTAR(510) in Module: CFEP3100.PRG                            บ|
+|Called from : (b)CFEP3100(96) in Module: CFEP3100.PRG                          บ|
+|Called from : DBEDIT(504) in Module: source\rtl\dbedit.prg                     บ|
+|Called from : CFEP3100(98) in Module: CFEP3100.PRG                             บ|
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                         บ|
+|Called from : SUBMENU(81) in Module: fazmenu.prg                               บ|
+|Called from : SUBMENU(85) in Module: fazmenu.prg                               บ|
+|Called from : FAZMENU(29) in Module: fazmenu.prg                               บ|
+|Called from : MAIN(213) in Module: CFE.PRG                                     บ|
+|ศอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออ[ ]ผ|
+| Fun”es:  1-Inclui 2-Altera 3-Procur 4-Exclui 5-Lista  6-Baixar 0-Fim          |
+|              Importanto Contas a Receber do Arquivo. Linha:    12              |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 28/08/2018
+Time...............: 22:25:33
+
+Application name...: C:\PRJ\PrjxH\CFE\cfe.exe
+Workstation name...: RCBONANOMIS-PC
+Available memory...: 2097151
+Current disk.......: C
+Current directory..: PRJ\PrjxH\CFE
+Free disk space....: 41385934848
+
+Operating system...: Windows  Windows Vista Professional 6.02.9200
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/B,B/W,N/N,N/N,W+/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEP3100.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: DBFCDX
+System Code .......: 1020
+Default Status ....: .T.
+Description .......: Tipo incorreto de dado
+Operation .........: DR_DUPLI
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+FIELDPUT              :       0 in Module: 
+ADDREC                :     109 in Module: n_locks.prg
+IMPORTAR              :     509 in Module: CFEP3100.PRG
+(b)CFEP3100           :      96 in Module: CFEP3100.PRG
+DBEDIT                :     504 in Module: source\rtl\dbedit.prg
+CFEP3100              :      98 in Module: CFEP3100.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     213 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|ฺฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฟ|
+|ณ C.F.E.                                                          Verso 2017J1ณ|
+|ณ COOP.DOS SUINOCULTORES DE LACERDOPOLIS                       Hoje: 28/08/2018ณ|
+|ณ Inffhox Desenvolvimentos                                            22:25:33 ณ|
+|ภฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤ1-CadastroฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤCFEP3100ู|
+|ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป|
+|บ            Codigo   Nome                                                     บ|
+|บฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤยฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤบ|
+|บ                 0 ณ                                                          บ|
+|Error DBFCDX/1020  Tipo incorreto de dado: DR_DUPLI Arguments: ()              บ|
+|บ                   ณ                                                          บ|
+|Error at ...: FIELDPUT(0) in Module:                                           บ|
+|Called from : ADDREC(109) in Module: n_locks.prg                               บ|
+|Called from : IMPORTAR(509) in Module: CFEP3100.PRG                            บ|
+|Called from : (b)CFEP3100(96) in Module: CFEP3100.PRG                          บ|
+|Called from : DBEDIT(504) in Module: source\rtl\dbedit.prg                     บ|
+|Called from : CFEP3100(98) in Module: CFEP3100.PRG                             บ|
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                         บ|
+|Called from : SUBMENU(81) in Module: fazmenu.prg                               บ|
+|Called from : SUBMENU(85) in Module: fazmenu.prg                               บ|
+|Called from : FAZMENU(29) in Module: fazmenu.prg                               บ|
+|Called from : MAIN(213) in Module: CFE.PRG                                     บ|
+|ศอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออ[ ]ผ|
+| Fun”es:  1-Inclui 2-Altera 3-Procur 4-Exclui 5-Lista  6-Baixar 0-Fim          |
+|              Importanto Contas a Receber do Arquivo. Linha:    12              |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 24/08/2018
+Time...............: 11:19:22
+
+Application name...: C:\PRJ\PrjxH\CFE\cfe.exe
+Workstation name...: RCBONANOMIS-PC
+Available memory...: 2097151
+Current disk.......: C
+Current directory..: PRJ\PrjxH\CFE
+Free disk space....: 41221095424
+
+Operating system...: Windows  Windows Vista Professional 6.02.9200
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/B,B/W,N/N,N/N,W+/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEP3100.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: BASE
+System Code .......: 1002
+Default Status ....: .F.
+Description .......: Alias nฦo existe
+Operation .........: CTRNF
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+DBSELECTAREA          :       0 in Module: 
+FN_PSNF               :      13 in Module: FN_GRNF.PRG
+IMPORTAR              :     441 in Module: CFEP3100.PRG
+(b)CFEP3100           :      94 in Module: CFEP3100.PRG
+DBEDIT                :     504 in Module: source\rtl\dbedit.prg
+CFEP3100              :      96 in Module: CFEP3100.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     213 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|ฺฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฟ|
+|ณ C.F.E.                                                          Verso 2017J1ณ|
+|ณ COOP.DOS SUINOCULTORES DE LACERDOPOLIS                       Hoje: 24/08/2018ณ|
+|ณ Inffhox Desenvolvimentos                                            11:19:22 ณ|
+|ภฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤ1-CadastroฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤCFEP3100ู|
+|ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป|
+|บ            Codigo   Nome                                                     บ|
+|บฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤยฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤบ|
+|บ              1257 ณ ABEL NUNES LEANDRO                                       บ|
+|Error BASE/1002  Alias nฦo existe: CTRNF Arguments: ()EGISTRADOTASS            บ|
+|บ              1874 ณ ABRAO DE SOUZA RODRIGUES                                 บ|
+|Error at ...: DBSELECTAREA(0) in Module:  SANTOSCP                             บ|
+|Called from : FN_PSNF(13) in Module: FN_GRNF.PRG                               บ|
+|Called from : IMPORTAR(441) in Module: CFEP3100.PRG                            บ|
+|Called from : (b)CFEP3100(94) in Module: CFEP3100.PRG                          บ|
+|Called from : DBEDIT(504) in Module: source\rtl\dbedit.prg                     บ|
+|Called from : CFEP3100(96) in Module: CFEP3100.PRG                             บ|
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                         บ|
+|Called from : SUBMENU(81) in Module: fazmenu.prgSILV                           บ|
+|Called from : SUBMENU(85) in Module: fazmenu.prg                               บ|
+|Called from : FAZMENU(29) in Module: fazmenu.prg                               บ|
+|Called from : MAIN(213) in Module: CFE.PRG                                     บ|
+|ศอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออ[ ]ผ|
+| Fun”es:  1-Inclui 2-Altera 3-Procur 4-Exclui 5-Lista  6-Baixar 0-Fim          |
+|                            Lendo Arquivo Linha:   1                            |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 21/08/2018
+Time...............: 20:24:04
+
+Application name...: C:\PRJ\PrjxH\CFE\cfe.exe
+Workstation name...: RCBONANOMIS-PC
+Available memory...: 2097151
+Current disk.......: C
+Current directory..: PRJ\PrjxH\CFE
+Free disk space....: 42710958080
+
+Operating system...: Windows  Windows Vista Professional 6.02.9200
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/B,B/W,N/N,N/N,W+/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEP3100.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: BASE
+System Code .......: 1133
+Default Status ....: .F.
+Description .......: Erro de limite
+Operation .........: array assign
+Arguments .........:  [ 1] = Type: N Val:         54
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+IMPORTAR              :     264 in Module: CFEP3100.PRG
+(b)CFEP3100           :      91 in Module: CFEP3100.PRG
+DBEDIT                :     504 in Module: source\rtl\dbedit.prg
+CFEP3100              :      93 in Module: CFEP3100.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     213 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|ฺฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฟ|
+|ณ C.F.E.                                                          Verso 2017J1ณ|
+|ณ COOP.DOS SUINOCULTORES DE LACERDOPOLIS                       Hoje: 21/08/2018ณ|
+|ณ Inffhox Desenvolvimentos                                            20:24:04 ณ|
+|ภฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤ1-CadastroฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤCFEP3100ู|
+|ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป|
+|บ            Codigo   Nome                                                     บ|
+|บฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤยฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤบ|
+|บ                 7 ณ DEJANIR SILVA DO PRADO FALTA                             บ|
+|Error BASE/1133  Erro de limite: array assign Arguments: ( [ 1] = Type: N Val:  |
+|       54)     1723 ณ JOSE NAZARENO TAVARES  DV                                บ|
+|บ                81 ณ MANOEL EDUARDO FLORENCIO                                 บ|
+|Error at ...: IMPORTAR(264) in Module: CFEP3100.PRG                            บ|
+|Called from : (b)CFEP3100(91) in Module: CFEP3100.PRG                          บ|
+|Called from : DBEDIT(504) in Module: source\rtl\dbedit.prg                     บ|
+|Called from : CFEP3100(93) in Module: CFEP3100.PRGIO                           บ|
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                         บ|
+|Called from : SUBMENU(81) in Module: fazmenu.prgAFA                            บ|
+|Called from : SUBMENU(85) in Module: fazmenu.prg                               บ|
+|Called from : FAZMENU(29) in Module: fazmenu.prg                               บ|
+|Called from : MAIN(213) in Module: CFE.PRG                                     บ|
+|บ                   ณ                                                          บ|
+|ศอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออ[ ]ผ|
+| Fun”es:  1-Inclui 2-Altera 3-Procur 4-Exclui 5-Lista  6-Baixar 0-Fim          |
+|                            Lendo Arquivo Linha: 666                            |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 21/08/2018
+Time...............: 19:35:21
+
+Application name...: C:\PRJ\PrjxH\CFE\cfe.exe
+Workstation name...: RCBONANOMIS-PC
+Available memory...: 2097151
+Current disk.......: C
+Current directory..: PRJ\PrjxH\CFE
+Free disk space....: 42711502848
+
+Operating system...: Windows  Windows Vista Professional 6.02.9200
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/B,B/W,N/N,N/N,W+/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEP3100.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: DBFCDX
+System Code .......: 1023
+Default Status ....: .F.
+Description .......: Uso exclusivo requerido
+Operation .........: 
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+__DBZAP               :       0 in Module: 
+IMPORTAR              :     251 in Module: CFEP3100.PRG
+(b)CFEP3100           :      91 in Module: CFEP3100.PRG
+DBEDIT                :     504 in Module: source\rtl\dbedit.prg
+CFEP3100              :      93 in Module: CFEP3100.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     213 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|ฺฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฟ|
+|ณ C.F.E.                                                          Verso 2017J1ณ|
+|ณ COOP.DOS SUINOCULTORES DE LACERDOPOLIS                       Hoje: 21/08/2018ณ|
+|ณ Inffhox Desenvolvimentos                                            19:35:21 ณ|
+|ภฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤ1-CadastroฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤCFEP3100ู|
+|ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป|
+|บ            Codigo   Nome                                                     บ|
+|บฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤยฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤบ|
+|บ                 1 ณ ROBERTO CARLOS BONANOMI                                  บ|
+|Error DBFCDX/1023  Uso exclusivo requerido Arguments: ()                       บ|
+|บ                   ณ                                                          บ|
+|Error at ...: __DBZAP(0) in Module:                                            บ|
+|Called from : IMPORTAR(251) in Module: CFEP3100.PRG                            บ|
+|Called from : (b)CFEP3100(91) in Module: CFEP3100.PRG                          บ|
+|Called from : DBEDIT(504) in Module: source\rtl\dbedit.prg                     บ|
+|Called from : CFEP3100(93) in Module: CFEP3100.PRG                             บ|
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                         บ|
+|Called from : SUBMENU(81) in Module: fazmenu.prg                               บ|
+|Called from : SUBMENU(85) in Module: fazmenu.prg                               บ|
+|Called from : FAZMENU(29) in Module: fazmenu.prg                               บ|
+|Called from : MAIN(213) in Module: CFE.PRG                                     บ|
+|บ                   ณ                                                          บ|
+|ศอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออ[ ]ผ|
+| Fun”es:  1-Inclui 2-Altera 3-Procur 4-Exclui 5-Lista  6-Baixar 0-Fim          |
+|                                                                                |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 21/08/2018
+Time...............: 19:32:47
+
+Application name...: C:\PRJ\PrjxH\CFE\cfe.exe
+Workstation name...: RCBONANOMIS-PC
+Available memory...: 2097151
+Current disk.......: C
+Current directory..: PRJ\PrjxH\CFE
+Free disk space....: 42707886080
+
+Operating system...: Windows  Windows Vista Professional 6.02.9200
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/B,B/W,N/N,N/N,W+/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEP3100.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: DBFCDX
+System Code .......: 1023
+Default Status ....: .F.
+Description .......: Uso exclusivo requerido
+Operation .........: 
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+__DBZAP               :       0 in Module: 
+IMPORTAR              :     250 in Module: CFEP3100.PRG
+(b)CFEP3100           :      91 in Module: CFEP3100.PRG
+DBEDIT                :     504 in Module: source\rtl\dbedit.prg
+CFEP3100              :      93 in Module: CFEP3100.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     213 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|ฺฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฟ|
+|ณ C.F.E.                                                          Verso 2017J1ณ|
+|ณ COOP.DOS SUINOCULTORES DE LACERDOPOLIS                       Hoje: 21/08/2018ณ|
+|ณ Inffhox Desenvolvimentos                                            19:32:47 ณ|
+|ภฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤ1-CadastroฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤCFEP3100ู|
+|ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป|
+|บ            Codigo   Nome                                                     บ|
+|บฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤยฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤบ|
+|บ                 1 ณ ROBERTO CARLOS BONANOMI                                  บ|
+|Error DBFCDX/1023  Uso exclusivo requerido Arguments: ()                       บ|
+|บ                   ณ                                                          บ|
+|Error at ...: __DBZAP(0) in Module:                                            บ|
+|Called from : IMPORTAR(250) in Module: CFEP3100.PRG                            บ|
+|Called from : (b)CFEP3100(91) in Module: CFEP3100.PRG                          บ|
+|Called from : DBEDIT(504) in Module: source\rtl\dbedit.prg                     บ|
+|Called from : CFEP3100(93) in Module: CFEP3100.PRG                             บ|
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                         บ|
+|Called from : SUBMENU(81) in Module: fazmenu.prg                               บ|
+|Called from : SUBMENU(85) in Module: fazmenu.prg                               บ|
+|Called from : FAZMENU(29) in Module: fazmenu.prg                               บ|
+|Called from : MAIN(213) in Module: CFE.PRG                                     บ|
+|บ                   ณ                                                          บ|
+|ศอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออ[ ]ผ|
+| Fun”es:  1-Inclui 2-Altera 3-Procur 4-Exclui 5-Lista  6-Baixar 0-Fim          |
+|                                                                                |
++--------------------------------------------------------------------------------+
+
+
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 21/08/2018
+Time...............: 19:25:57
+
+Application name...: C:\PRJ\PrjxH\CFE\cfe.exe
+Workstation name...: RCBONANOMIS-PC
+Available memory...: 2097151
+Current disk.......: C
+Current directory..: PRJ\PrjxH\CFE
+Free disk space....: 42708324352
+
+Operating system...: Windows  Windows Vista Professional 6.02.9200
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/B,B/W,N/N,N/N,W+/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: ON
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEP3100.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: DBFCDX
+System Code .......: 1023
+Default Status ....: .F.
+Description .......: Uso exclusivo requerido
+Operation .........: 
+Arguments .........: 
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+__DBZAP               :       0 in Module: 
+IMPORTAR              :     246 in Module: CFEP3100.PRG
+(b)CFEP3100           :      91 in Module: CFEP3100.PRG
+DBEDIT                :     504 in Module: source\rtl\dbedit.prg
+CFEP3100              :      93 in Module: CFEP3100.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     213 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|                                                                                |
+|Error DBFCDX/1023  Uso exclusivo requerido Arguments: ()                        |
+|                                                                                |
+|Error at ...: __DBZAP(0) in Module:                                   19:25:57  |
+|Called from : IMPORTAR(246) in Module: CFEP3100.PRG                             |
+|Called from : (b)CFEP3100(91) in Module: CFEP3100.PRG                           |
+|Called from : DBEDIT(504) in Module: source\rtl\dbedit.prg                      |
+|Called from : CFEP3100(93) in Module: CFEP3100.PRG                              |
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prg                                |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(213) in Module: CFE.PRG                                      |
+|                                                                                |
+|                                                                                |
+|                                                                                |
+|                                                                                |
+|                                                                                |
+|                                                                                |
+|                                                                                |
+|                                                                                |
+|                                                                                |
+|                                                                                |
+|                                                                                |
+|                                                                                |
++--------------------------------------------------------------------------------+
+
+

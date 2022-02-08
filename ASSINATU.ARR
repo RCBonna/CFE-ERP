@@ -1,0 +1,1 @@
+A   4C   78          ADEMIR  PRONER                           CLAUDIA PRANDO ROSSA       C   78            PRESIDENTE                         CONTADORA CRC SC-023311/0-9    C   78        CPF 518.043.339-53                         CPF 017.283.469-40         C   60COOPERATIVA DOS SUINOCULTORES DE LACERDOPOLIS               

@@ -1,0 +1,26 @@
+M
+*        C.F.E.        *                         Coolacer                        *Dt:28/12/2004*
+*      CFEPEXTR2       *     Extrato do Periodo de 01/12/2004 ate 31/12/2004     *Fol.:      1 *
+------------------------------------------------------------------------------------------------
+Cliente...: 00131-ADILIO NATALINO BONAMIGO E/OU IVONETE S. BONA
+
+  Data   Document Historico                                                   Venda       Compra
+------------------------------------------------------------------------------------------------
+01/12/04    89801 Compra de 1.000 UN MOCHADOR ELETRICO                                     73,80
+09/12/04    90198 Compra de 20.000 UN ROLDONA PLASTICA 24 X 24                              1,40
+                  Compra de 20.000 UN ROLDANA PLASTICA 36 X 36                              3,00
+                  Compra de 3.000 RL ARAME GALVANIZADO 18                                  23,40
+                  Compra de 1.000 FR CEVAMEC -100ML                                        16,45
+                  Compra de 1.000 KG HERBICIDA ROUNDUP WG 1 KG                             29,00
+                  Compra de 1.000 UN JOELHO 45 ESGOTO   75                                  3,00
+                  Compra de 2.000 KG SEMENTE FISC. BRACHIARIA BRIZANTA -MG-5               10,50
+            90199 Compra de 4.000 SC ADUBO (09-33-12) 50 KG                               184,00
+                  Compra de 1.000 SC UREIA 50 KG                                           51,00
+17/12/04    90609 Compra de 1.000 PAR BOTA BOR.INFANTIL(DE 23 A 32)                        10,60
+            90620 Compra de 6.000 UN BEBEDOURO SUINOS ENGORDA GIRAFER                     118,50
+                  Compra de 12.000 UN PAR.FR. 3/8 X 6"                                      7,80
+                  Compra de 12.000 UN ARRUELA LISA 3/8                                      0,84
+23/12/04    90862 Compra de 1.000 UN CAPA CHUVA S/ FORRO EXTRA GRANDE                      12,00
+------------------------------------------------------------------------------------------------
+TOTAIS DO CLIENTE...................................................           0,00       545,29
+------------------------------------------------------------------------------------------------P

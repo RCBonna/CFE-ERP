@@ -1,0 +1,1 @@
+A   4A   2N10         1C   38Operacoes com credito de impostos     A   2N10         2C   38Oper. sem cred impostos-isent/nao tribA   2N10         3C   38Oper. sem cred impostos-Outros        A   2N10         4C   38Oper. especial com Credito de Icms    

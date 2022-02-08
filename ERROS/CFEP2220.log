@@ -1,0 +1,151 @@
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 03/02/2016
+Time...............: 12:06:00
+
+Application name...: Z:\Inffhox\CFE\cfe.exe
+Workstation name...: LOJA1
+Available memory...: 1687804
+Current disk.......: Z
+Current directory..: Inffhox\CFE
+Free disk space....: 233568661504
+
+Operating system...: Windows  XP Professional 5.01.2600 Service Pack 3
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 6406)
+xHarbour built on..: Mar 26 2009 15:15:51
+C/C++ compiler.....: Borland C++ 5.8.2 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: OFF
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .F.
+SET CANCEL.........: OFF
+SET CENTURY........: ON
+SET COLOR..........: W+/B,B/W,N/N,N/N,W+/B,W/B,N/R,W/B,N/R,W/B,N/R,W/B,N/R,W/B
+SET CONFIRM........: ON
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 0
+SET DATE FORMAT....: DD/MM/YYYY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: OFF
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: OFF
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1980
+SET ERRORLOG.......: ERROS\CFEP2220.LOG,.T.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: PT
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: ON
+SET MESSAGE........: 24
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: OFF
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: ON
+
+---------------------------Detailed Work Area Items----------------------------
+
+
+-------------------- Internal Error Handling Information  ---------------------
+
+Subsystem Call ....: DBFCDX
+System Code .......: 1010
+Default Status ....: .F.
+Description .......: Erro de leitura
+Operation .........: 
+Arguments .........: 
+Involved File .....: CFEADR.dbf
+Dos Error Code ....: 64
+
+ Trace Through:
+----------------
+DELETED               :       0 in Module: 
+DBE_SYNCPOS           :     803 in Module: source\rtl\dbedit.prg
+DBE_CALLUDF           :     618 in Module: source\rtl\dbedit.prg
+DBEDIT                :     458 in Module: source\rtl\dbedit.prg
+CFEP2220              :      64 in Module: CFEP2220.PRG
+(b)GETPROMPTS         :      48 in Module: edimenu.prg
+SUBMENU               :      81 in Module: fazmenu.prg
+SUBMENU               :      85 in Module: fazmenu.prg
+FAZMENU               :      29 in Module: fazmenu.prg
+MAIN                  :     191 in Module: CFE.PRG
+
+
+############################## Video Screen Dump ##############################
+
++--------------------------------------------------------------------------------+
+|บ     137893.02 ณ 01171-MARCIO ELONIR DOS SANTOS/ ณ        60,90 ณ 10/09/2013  บ|
+|บ     139702.01 ณ 01171-MARCIO ELONIR DOS SANTOS/ ณ        18,23 ณ 06/10/2013  บ|
+|บ     137893.03 ณ 01171-MARCIO ELONIR DOS SANTOS/ ณ        60,90 ณ 10/10/2013  บ|
+|บ     139884.01 ณ 01171-MARCIO ELONIR DOS SANTOS/ ณ        42,40 ณ 10/10/2013  บ|
+|บ     139702.02 ณ 01171-MARCIO ELONIR DOS SANTOS/ ณ        18,23 ณ 06/11/2013  บ|
+|บ     137893.04 ณ 01171-MARCIO ELONIR DOS SANTOS/ ณ        60,90 ณ 09/11/2013  บ|
+|บ     139884.02 ณ 01171-MARCIO ELONIR DOS SANTOS/ ณ        42,40 ณ 10/11/2013  บ|
+|บ     139702.03 ณ 01171-MARCIO ELONIR DOS SANTOS/ ณ        18,23 ณ 06/12/2013  บ|
+|บ     137893.05 ณ 01171-MARCIO ELONIR DOS SANTOS/ ณ        60,90 ณ 09/12/2013  บ|
+|บ     139702.04 ณ 01171-MARCIO ELONIR DOS SANTOS/ ณ        18,21 ณ 06/01/2014  บ|
+|บ     137893.06 ณ 01171-MARCIO ELONIR DOS SANTOS/ ณ        60,90 ณ 08/01/2014  บ|
+|ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ|
+| Fun”es:  1-Inclui 2-Altera 3-Procur 4-Exclui 5-Ordem  6-Protes 0-Fim          |
+|Error DBFCDX/1010  Erro de leitura: CFEADR.dbf Arguments: () (DOS Error 64)     |
+|                                                                                |
+|Error at ...: DELETED(0) in Module:                                             |
+|Called from : DBE_SYNCPOS(803) in Module: source\rtl\dbedit.prg                 |
+|Called from : DBE_CALLUDF(618) in Module: source\rtl\dbedit.prg                 |
+|Called from : DBEDIT(458) in Module: source\rtl\dbedit.prg                      |
+|Called from : CFEP2220(64) in Module: CFEP2220.PRG                              |
+|Called from : (b)GETPROMPTS(48) in Module: edimenu.prg                          |
+|Called from : SUBMENU(81) in Module: fazmenu.prg                                |
+|Called from : SUBMENU(85) in Module: fazmenu.prg                                |
+|Called from : FAZMENU(29) in Module: fazmenu.prg                                |
+|Called from : MAIN(191) in Module: CFE.PRG                                      |
++--------------------------------------------------------------------------------+
+
+
